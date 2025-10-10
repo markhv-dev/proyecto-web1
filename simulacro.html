@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulacro MTC</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Simulacro MTC</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="simulacro.html" class="active">Simulacro</a></li>
+                <li><a href="preguntas.html">Preguntas rápidas</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenido">
+        <section class="instrucciones">
+            <h2>Simulacro oficial del examen MTC</h2>
+            <p>Responde todas las preguntas antes de que termine el tiempo. Al finalizar, podrás ver tus resultados.</p>
+            <button id="btn-iniciar">Iniciar simulacro</button>
+        </section>
+
+        <section class="contenedor-pregunta oculto" id="contenedor-pregunta">
+            <div class="pregunta">
+                <h3 id="texto-pregunta">Pregunta 1: ¿Cuál es la velocidad máxima en zona urbana?</h3>
+                <ul class="opciones">
+                    <li><input type="radio" name="respuesta" id="op1"><label for="op1">a) 50 km/h</label></li>
+                    <li><input type="radio" name="respuesta" id="op2"><label for="op2">b) 60 km/h</label></li>
+                    <li><input type="radio" name="respuesta" id="op3"><label for="op3">c) 80 km/h</label></li>
+                    <li><input type="radio" name="respuesta" id="op4"><label for="op4">d) 100 km/h</label></li>
+                </ul>
+            </div>
+
+            <div class="acciones">
+                <button id="btn-siguiente">Siguiente</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Simulacro MTC | Proyecto académico</p>
+    </footer>
+</body>
+</html>
