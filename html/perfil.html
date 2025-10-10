@@ -21,9 +21,48 @@
     </header>
 
     <main class="contenido">
-        <section class="perfil">
-            <h2>Perfil de Usuario</h2>
-            <p>Contenido pendiente de desarrollo...</p>
+        <section class="perfil-usuario">
+            <h2>Mi Perfil</h2>
+
+            <div class="datos-usuario">
+                <p><strong>Nombre:</strong> <span id="nombre-usuario">Usuario MTC</span></p>
+                <p><strong>Correo:</strong> <span id="correo-usuario">usuario@correo.com</span></p>
+                <p><strong>Último intento:</strong> <span id="ultimo-intento">--</span></p>
+                <p><strong>Puntaje promedio:</strong> <span id="promedio">--</span></p>
+            </div>
+
+            <div class="historial">
+                <h3>Historial de simulacros</h3>
+                <table class="tabla-historial">
+                    <thead>
+                        <tr>
+                            <th>#####</th>
+                            <th>Fecha</th>
+                            <th>Puntaje</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista-intentos">
+                        <tr>
+                            <td>1</td>
+                            <td>05/10/2025</td>
+                            <td>18/20</td>
+                            <td>Aprobado</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>07/10/2025</td>
+                            <td>15/20</td>
+                            <td>Aprobado</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="acciones">
+                <button id="btn-editar">Editar perfil</button>
+                <button id="btn-cerrar-sesion">Cerrar sesión</button>
+            </div>
         </section>
     </main>
 
