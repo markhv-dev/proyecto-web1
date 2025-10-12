@@ -1,6 +1,6 @@
 # Proyecto Web 1
 
-Proyecto de desarrollo web.
+ MTC
 
 ## Estructura del proyecto
 
