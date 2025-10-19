@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulacro MTC</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="logo">Simulacro MTC</h1>
-        <nav class="menu">
-            <ul>
+    <header>
+        <h1>Simulacro MTC</h1>
+    </header>
+
+    <nav>
+        <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="simulacro.html" class="active">Simulacro</a></li>
                 <li><a href="preguntas.html">Preguntas rápidas</a></li>
                 <li><a href="resultados.html">Resultados</a></li>
                 <li><a href="perfil.html">Perfil</a></li>
             </ul>
-        </nav>
-    </header>
+    </nav>
 
-    <main class="contenido">
-        <section class="instrucciones">
+    <main>
+        <section>
             <h2>Simulacro oficial del examen MTC</h2>
             <p>Responde todas las preguntas antes de que termine el tiempo. Al finalizar, podrás ver tus resultados.</p>
-            <button id="btn-iniciar">Iniciar simulacro</button>
+            <a href="#" class="boton-inicio" id="btn-iniciar">Iniciar simulacro</a>
         </section>
 
-        <section class="contenedor-pregunta oculto" id="contenedor-pregunta">
+        <section class="oculto" id="contenedor-pregunta">
             <div class="pregunta">
                 <h3 id="texto-pregunta">Pregunta 1: ¿Cuál es la velocidad máxima en zona urbana?</h3>
                 <ul class="opciones">
@@ -39,12 +40,12 @@
             </div>
 
             <div class="acciones">
-                <button id="btn-siguiente">Siguiente</button>
+                <a href="#" class="boton-inicio" id="btn-siguiente">Siguiente</a>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <p>© 2025 Simulacro MTC | Proyecto académico</p>
     </footer>
 

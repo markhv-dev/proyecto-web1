@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados - MTC</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <main class="contenido">
-        <section class="resumen-resultados">
+    <header>
+        <h1>Simulacro MTC</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="simulacro.html">Simulacro</a></li>
+            <li><a href="preguntas.html">Preguntas rápidas</a></li>
+            <li><a href="resultados.html" class="active">Resultados</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
             <h2>Resultados del simulacro</h2>
             <p id="mensaje-final">¡Buen trabajo!. A continuación tus resultados.</p>
 
@@ -19,13 +33,14 @@
                 <p><strong>Tiempo total:</strong> <span id="tiempo">00:00</span></p>
             </div>
 
-            <div class="accciones">
-                <a href="simulacro.html" class="boton">Reintentar simulacro</a>
-                <a href="index.html" class="boton-secundario">Volver al inicio</a>
+            <div class="acciones">
+                <a href="simulacro.html" class="boton-inicio">Reintentar simulacro</a>
+                <a href="../index.html" class="boton-inicio">Volver al inicio</a>
             </div>
         </section>
     </main>
-    <footer class="footer">
+
+    <footer>
         <p>© 2025 Simulacro MTC | Proyecto académico</p>
     </footer>
 </body>

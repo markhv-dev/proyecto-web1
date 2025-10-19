@@ -110,6 +110,50 @@ a.boton-inicio:hover {
   border-color: #875642; /* cambio de color en hover */
 }
 
+/* OPCIONES DE PREGUNTAS */
+.opciones {
+  list-style: none;
+  text-align: left;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.opciones li {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* BOTONES */
+.acciones {
+  margin-top: 20px;
+}
+
+.acciones a {
+  margin: 0 10px;
+}
+
+/* OCULTAR SECCIONES */
+.oculto {
+  display: none;
+}
+
+/* TABLA */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: #cdb4db;
+  color: #3a1c4a;
+}
+
 /* FOOTER */
 footer {
   background-color: #3a1c4a;
