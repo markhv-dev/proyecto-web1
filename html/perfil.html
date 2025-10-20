@@ -7,36 +7,56 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="logo">Simulacro MTC</h1>
-        <nav class="menu">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="simulacro.html">Simulacro</a></li>
-                <li><a href="preguntas.html">Preguntas rápidas</a></li>
-                <li><a href="resultados.html">Resultados</a></li>
-                <li><a href="perfil.html" class="active">Perfil</a></li>
-            </ul>
-        </nav>
+    <header>
+        <h1>Simulacro MTC</h1>
     </header>
 
-    <main class="contenido">
-        <section class="perfil-usuario">
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="simulacro.html">Simulacro</a></li>
+            <li><a href="preguntas.html">Preguntas rápidas</a></li>
+            <li><a href="resultados.html">Resultados</a></li>
+            <li><a href="perfil.html" class="active">Perfil</a></li>
+        </ul>
+    </nav>
+
+    <main class="perfil-container">
+        <section>
             <h2>Mi Perfil</h2>
 
-            <div class="datos-usuario">
+            <section class="datos-usuario">
                 <p><strong>Nombre:</strong> <span id="nombre-usuario">Usuario MTC</span></p>
-                <p><strong>Correo:</strong> <span id="correo-usuario">usuario@correo.com</span></p>
-                <p><strong>Último intento:</strong> <span id="ultimo-intento">--</span></p>
+                <p><strong>Correo:</strong> <span id="categoria-usuario">usuario@correo.com</span></p>
+                <p><strong>Categoría actual:</strong> <span id="ultimo-intento">A-I</span></p>
                 <p><strong>Puntaje promedio:</strong> <span id="promedio">--</span></p>
-            </div>
+            </section>
 
-            <div class="historial">
+            <section class="cambiar-categoria">
+                <h3>Cambiar categoría de licencia</h3>
+                <form id="form-cambiar-categoria">
+                    <label for="nueva-categoria">Selecciona nueva categoría:</label>
+                    <select id="nueva-categoria" required>
+                        <option value="A-I">Categoría A-I</option>
+                        <option value="AII-A">Categoría AII-A</option>
+                        <option value="AII-B">Categoría AII-B</option>
+                        <option value="AIII-A">Categoría AIII-A</option>
+                        <option value="AIII-B">Categoría AIII-B</option>
+                        <option value="AIII-C">Categoría AIII-C</option>
+                        <option value="BII-A">Categoría BII-A</option>
+                        <option value="BII-B">Categoría BII-B</option>
+                        <option value="BII-C">Categoría BII-C</option>
+                    </select>
+                    <button type="submit">Guardar cambios</button>
+                </form>
+            </section>
+
+            <section class="historial">
                 <h3>Historial de simulacros</h3>
                 <table class="tabla-historial">
                     <thead>
                         <tr>
-                            <th>#####</th>
+                            <th>#</th>
                             <th>Fecha</th>
                             <th>Puntaje</th>
                             <th>Resultado</th>
@@ -57,7 +77,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </section>
 
             <div class="acciones">
                 <button id="btn-editar">Editar perfil</button>
