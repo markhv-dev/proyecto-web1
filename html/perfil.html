@@ -28,8 +28,23 @@
             <div class="datos-usuario">
                 <p><strong>Nombre:</strong> <span id="nombre-usuario">Usuario MTC</span></p>
                 <p><strong>Correo:</strong> <span id="correo-usuario">usuario@correo.com</span></p>
-                <p><strong>Último intento:</strong> <span id="ultimo-intento">--</span></p>
-                <p><strong>Puntaje promedio:</strong> <span id="promedio">--</span></p>
+                <p><strong>Categoría seleccionada:</strong> <span id="categoria-actual">No seleccionada</span></p>
+                <p><strong>Último puntaje:</strong> <span id="ultimo-puntaje">--</span></p>
+            </div>
+
+            <div class="cambiar-categoria" style="margin: 20px 0;">
+                <h3>Cambiar categoría</h3>
+                <div class="categorias">
+                    <button class="btn-categoria" data-categoria="AI">A-I</button>
+                    <button class="btn-categoria" data-categoria="AII-A">A-II-A</button>
+                    <button class="btn-categoria" data-categoria="AII-B">A-II-B</button>
+                    <button class="btn-categoria" data-categoria="AIII-A">A-III-A</button>
+                    <button class="btn-categoria" data-categoria="AIII-B">A-III-B</button>
+                    <button class="btn-categoria" data-categoria="AIII-C">A-III-C</button>
+                    <button class="btn-categoria" data-categoria="BII-A">B-II-A</button>
+                    <button class="btn-categoria" data-categoria="BII-B">B-II-B</button>
+                    <button class="btn-categoria" data-categoria="BII-C">B-II-C</button>
+                </div>
             </div>
 
             <div class="historial">
@@ -37,7 +52,7 @@
                 <table class="tabla-historial">
                     <thead>
                         <tr>
-                            <th>#####</th>
+                            <th>N°</th>
                             <th>Fecha</th>
                             <th>Puntaje</th>
                             <th>Resultado</th>
@@ -70,5 +85,29 @@
     <footer>
         <p>© 2025 Simulacro MTC | Proyecto académico</p>
     </footer>
+
+    <script>
+        // Cargar categoría actual desde localStorage
+        let categoriaActual = localStorage.getItem('categoria');
+        if (categoriaActual) {
+            document.getElementById('categoria-actual').textContent = categoriaActual;
+        }
+
+        // Cargar último puntaje
+        let ultimoPuntaje = localStorage.getItem('puntaje');
+        if (ultimoPuntaje) {
+            document.getElementById('ultimo-puntaje').textContent = ultimoPuntaje + '/40';
+        }
+
+        // Botones para cambiar categoría
+        document.querySelectorAll('.btn-categoria').forEach(boton => {
+            boton.addEventListener('click', function() {
+                let nuevaCategoria = this.getAttribute('data-categoria');
+                localStorage.setItem('categoria', nuevaCategoria);
+                document.getElementById('categoria-actual').textContent = nuevaCategoria;
+                alert('Categoría cambiada a: ' + nuevaCategoria);
+            });
+        });
+    </script>
 </body>
 </html>

@@ -22,25 +22,54 @@
     </nav>
 
     <main>
-        <section>
-            <h2>Simulacro oficial del examen MTC</h2>
-            <p>Responde todas las preguntas antes de que termine el tiempo. Al finalizar, podrás ver tus resultados.</p>
-            <a href="#" class="boton-inicio" id="btn-iniciar">Iniciar simulacro</a>
+        <!-- Pantalla de selección de categoría -->
+        <section id="seleccion-categoria">
+            <h2>SIMULACRO DE PREGUNTAS PARA LA EVALUACIÓN DE CONOCIMIENTOS EN LA CONDUCCIÓN PARA POSTULANTES A LICENCIAS DE CONDUCIR</h2>
+
+            <div style="text-align: left; max-width: 900px; margin: 20px auto;">
+                <p><strong>Estimados Usuarios:</strong></p>
+                <p>Ante todo felicitarlos por ingresar a nuestro simulador de entrenamiento. El examen contiene 40 preguntas y tiene una duración de 40 minutos, y para su aprobación, el postulante deberá de acertar por lo menos treinta y cinco (35) respuestas de las cuarenta (40) preguntas. Es importante realizar este examen en completo silencio para evitar distracciones.</p>
+                <p>Los componentes de este examen son temas de: Obligaciones del Conductor en materia de tránsito, Inspección Técnica Vehicular, Reglamento Nacional de Vehículos, Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito, Reglamento de Placa Única Nacional de Rodaje y Primeros Auxilios, en caso de accidentes de tránsito.</p>
+                <p>Acabada la prueba, deseamos que lean los comentarios de todos e identifiquen el tema que les falta reforzar, con miras a estar aptos para el examen de Licencia de Conducir.</p>
+                <p>El examen estará activo las 24 horas para que puedan resolver la prueba de conocimientos, según la categoría a la que postulan. Acabada la prueba, los resultados se podrán visualizar.</p>
+            </div>
+
+            <h3>Selecciona la categoría a la que postula:</h3>
+            <div class="categorias">
+                <button class="btn-categoria" data-categoria="AI">A-I</button>
+                <button class="btn-categoria" data-categoria="AII-A">A-II-A</button>
+                <button class="btn-categoria" data-categoria="AII-B">A-II-B</button>
+                <button class="btn-categoria" data-categoria="AIII-A">A-III-A</button>
+                <button class="btn-categoria" data-categoria="AIII-B">A-III-B</button>
+                <button class="btn-categoria" data-categoria="AIII-C">A-III-C</button>
+                <button class="btn-categoria" data-categoria="BII-A">B-II-A</button>
+                <button class="btn-categoria" data-categoria="BII-B">B-II-B</button>
+                <button class="btn-categoria" data-categoria="BII-C">B-II-C</button>
+            </div>
         </section>
 
+        <!-- Contenedor de preguntas (oculto al inicio) -->
         <section class="oculto" id="contenedor-pregunta">
+            <div class="info-examen">
+                <p>Pregunta <span id="numero-actual">1</span> de 40 | Tiempo: <span id="tiempo">40:00</span></p>
+            </div>
+
             <div class="pregunta">
-                <h3 id="texto-pregunta">Pregunta 1: ¿Cuál es la velocidad máxima en zona urbana?</h3>
+                <h3 id="texto-pregunta"></h3>
+                <div id="imagen-pregunta" class="oculto">
+                    <img id="img-pregunta" src="" alt="Imagen de la pregunta">
+                </div>
                 <ul class="opciones">
-                    <li><input type="radio" name="respuesta" id="op1"><label for="op1">a) 50 km/h</label></li>
-                    <li><input type="radio" name="respuesta" id="op2"><label for="op2">b) 60 km/h</label></li>
-                    <li><input type="radio" name="respuesta" id="op3"><label for="op3">c) 80 km/h</label></li>
-                    <li><input type="radio" name="respuesta" id="op4"><label for="op4">d) 100 km/h</label></li>
+                    <li><input type="radio" name="respuesta" value="a" id="op1"><label for="op1" id="label-a"></label></li>
+                    <li><input type="radio" name="respuesta" value="b" id="op2"><label for="op2" id="label-b"></label></li>
+                    <li><input type="radio" name="respuesta" value="c" id="op3"><label for="op3" id="label-c"></label></li>
+                    <li><input type="radio" name="respuesta" value="d" id="op4"><label for="op4" id="label-d"></label></li>
                 </ul>
             </div>
 
             <div class="acciones">
                 <a href="#" class="boton-inicio" id="btn-siguiente">Siguiente</a>
+                <a href="#" class="boton-inicio" id="btn-finalizar" style="display:none;">Finalizar</a>
             </div>
         </section>
     </main>

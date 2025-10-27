@@ -1,35 +1,210 @@
-// Evento al hacer clic en "Iniciar simulacro"
-document.getElementById('btn-iniciar').addEventListener('click', function() {
-    // Ocultar las instrucciones
-    document.querySelector('.instrucciones').style.display = 'none';
-    
-    // Mostrar las preguntas
-    const contenedor = document.getElementById('contenedor-pregunta');
-    contenedor.classList.remove('oculto');
-    contenedor.style.display = 'block';
+// Variables globales
+let categoriaSeleccionada = '';
+let preguntasDelExamen = [];
+let preguntaActual = 0;
+let respuestasUsuario = [];
+let tiempoRestante = 40 * 60; // 40 minutos en segundos
+
+// Cuando se hace clic en un botón de categoría
+document.querySelectorAll('.btn-categoria').forEach(boton => {
+    boton.addEventListener('click', function() {
+        categoriaSeleccionada = this.getAttribute('data-categoria');
+        localStorage.setItem('categoria', categoriaSeleccionada); // Guardar en localStorage
+        cargarPreguntas();
+    });
 });
 
-// Contador de preguntas
-let numeroPregunta = 1;
+// Función para cargar las preguntas según la categoría
+function cargarPreguntas() {
+    // Mostrar mensaje de carga
+    document.getElementById('seleccion-categoria').innerHTML = '<h2>Cargando preguntas...</h2>';
 
-// Evento al hacer clic en "Siguiente"
-document.getElementById('btn-siguiente').addEventListener('click', function() {
-    // Incrementar el número de pregunta
-    numeroPregunta++;
-    
-    // Actualizar el texto de la pregunta
-    const textoPregunta = document.getElementById('texto-pregunta');
-    textoPregunta.textContent = `Pregunta ${numeroPregunta}: Esta es una pregunta de ejemplo`;
-    
-    // Limpiar la selección de respuestas
+    // Determinar qué archivos JSON cargar según la categoría
+    if (categoriaSeleccionada === 'AI') {
+        // A-I: 40 preguntas aleatorias de AI.json
+        fetch('../PREGUNTAS_mtc/json/AI.json')
+            .then(response => response.json())
+            .then(data => {
+                preguntasDelExamen = seleccionarAleatorias(data, 40);
+                iniciarExamen();
+            });
+    }
+    else if (categoriaSeleccionada === 'BII-A' || categoriaSeleccionada === 'BII-B') {
+        // B-II-A y B-II-B: Mezclar todas las preguntas de ambos
+        Promise.all([
+            fetch('../PREGUNTAS_mtc/json/BII-A.json').then(r => r.json()),
+            fetch('../PREGUNTAS_mtc/json/BII-B.json').then(r => r.json())
+        ]).then(([dataA, dataB]) => {
+            let todasLasPreguntas = [...dataA, ...dataB];
+            preguntasDelExamen = seleccionarAleatorias(todasLasPreguntas, 40);
+            iniciarExamen();
+        });
+    }
+    else if (categoriaSeleccionada === 'BII-C') {
+        // B-II-C: 20 generales + 20 específicas
+        fetch('../PREGUNTAS_mtc/json/BII-C.json')
+            .then(response => response.json())
+            .then(data => {
+                let generales = data.filter(p => p.tipo === 'Materias generales');
+                let especificas = data.filter(p => p.tipo !== 'Materias generales');
+                let generalesSeleccionadas = seleccionarAleatorias(generales, 20);
+                let especificasSeleccionadas = seleccionarAleatorias(especificas, 20);
+                preguntasDelExamen = [...generalesSeleccionadas, ...especificasSeleccionadas];
+                mezclarArray(preguntasDelExamen); // Mezclar el orden
+                iniciarExamen();
+            });
+    }
+    else {
+        // Resto de categorías: 20 generales + 20 específicas
+        fetch(`../PREGUNTAS_mtc/json/${categoriaSeleccionada}.json`)
+            .then(response => response.json())
+            .then(data => {
+                let generales = data.filter(p => p.tipo === 'Materias generales');
+                let especificas = data.filter(p => p.tipo !== 'Materias generales');
+                let generalesSeleccionadas = seleccionarAleatorias(generales, 20);
+                let especificasSeleccionadas = seleccionarAleatorias(especificas, 20);
+                preguntasDelExamen = [...generalesSeleccionadas, ...especificasSeleccionadas];
+                mezclarArray(preguntasDelExamen); // Mezclar el orden
+                iniciarExamen();
+            });
+    }
+}
+
+// Función para seleccionar preguntas aleatorias
+function seleccionarAleatorias(array, cantidad) {
+    let copia = [...array];
+    mezclarArray(copia);
+    return copia.slice(0, cantidad);
+}
+
+// Función para mezclar un array
+function mezclarArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+// Función para iniciar el examen
+function iniciarExamen() {
+    // Ocultar selección de categoría y mostrar preguntas
+    document.getElementById('seleccion-categoria').classList.add('oculto');
+    document.getElementById('contenedor-pregunta').classList.remove('oculto');
+
+    // Iniciar temporizador
+    iniciarTemporizador();
+
+    // Mostrar primera pregunta
+    mostrarPregunta();
+}
+
+// Función para mostrar una pregunta
+function mostrarPregunta() {
+    let pregunta = preguntasDelExamen[preguntaActual];
+
+    // Actualizar número de pregunta
+    document.getElementById('numero-actual').textContent = preguntaActual + 1;
+
+    // Mostrar texto de la pregunta
+    document.getElementById('texto-pregunta').textContent = pregunta.descripcion;
+
+    // Mostrar imagen si tiene
+    if (pregunta.hasImage) {
+        document.getElementById('imagen-pregunta').classList.remove('oculto');
+        let rutaImagen = `../PREGUNTAS_mtc/imagenes/${pregunta.carpetaImagenes}/${pregunta.imageFile}`;
+        document.getElementById('img-pregunta').src = rutaImagen;
+    } else {
+        document.getElementById('imagen-pregunta').classList.add('oculto');
+    }
+
+    // Mostrar opciones
+    document.getElementById('label-a').textContent = 'a) ' + pregunta.alternativas.a;
+    document.getElementById('label-b').textContent = 'b) ' + pregunta.alternativas.b;
+    document.getElementById('label-c').textContent = 'c) ' + pregunta.alternativas.c;
+    document.getElementById('label-d').textContent = 'd) ' + pregunta.alternativas.d;
+
+    // Limpiar selección anterior
     document.querySelectorAll('input[name="respuesta"]').forEach(input => {
         input.checked = false;
     });
-    
-    // Si llega a 5 preguntas, mostrar mensaje final
-    if (numeroPregunta > 5) {
-        alert('¡Simulacro completado! Has respondido 5 preguntas.');
-        // Recargar la página para empezar de nuevo
-        location.reload();
+
+    // Mostrar botón finalizar en la última pregunta
+    if (preguntaActual === 39) {
+        document.getElementById('btn-siguiente').style.display = 'none';
+        document.getElementById('btn-finalizar').style.display = 'inline-block';
     }
+}
+
+// Botón siguiente
+document.getElementById('btn-siguiente').addEventListener('click', function(e) {
+    e.preventDefault();
+
+    // Guardar respuesta del usuario
+    let respuestaSeleccionada = document.querySelector('input[name="respuesta"]:checked');
+    if (respuestaSeleccionada) {
+        respuestasUsuario[preguntaActual] = respuestaSeleccionada.value;
+    } else {
+        respuestasUsuario[preguntaActual] = null; // No respondió
+    }
+
+    // Pasar a la siguiente pregunta
+    preguntaActual++;
+    mostrarPregunta();
 });
+
+// Botón finalizar
+document.getElementById('btn-finalizar').addEventListener('click', function(e) {
+    e.preventDefault();
+
+    // Guardar última respuesta
+    let respuestaSeleccionada = document.querySelector('input[name="respuesta"]:checked');
+    if (respuestaSeleccionada) {
+        respuestasUsuario[preguntaActual] = respuestaSeleccionada.value;
+    } else {
+        respuestasUsuario[preguntaActual] = null;
+    }
+
+    // Calcular resultados
+    calcularResultados();
+});
+
+// Función para iniciar el temporizador
+function iniciarTemporizador() {
+    let intervalo = setInterval(function() {
+        tiempoRestante--;
+
+        let minutos = Math.floor(tiempoRestante / 60);
+        let segundos = tiempoRestante % 60;
+
+        document.getElementById('tiempo').textContent =
+            minutos.toString().padStart(2, '0') + ':' + segundos.toString().padStart(2, '0');
+
+        // Si se acaba el tiempo
+        if (tiempoRestante <= 0) {
+            clearInterval(intervalo);
+            alert('¡Tiempo terminado!');
+            calcularResultados();
+        }
+    }, 1000);
+}
+
+// Función para calcular resultados
+function calcularResultados() {
+    let correctas = 0;
+
+    for (let i = 0; i < preguntasDelExamen.length; i++) {
+        if (respuestasUsuario[i] === preguntasDelExamen[i].respuesta) {
+            correctas++;
+        }
+    }
+
+    let incorrectas = 40 - correctas;
+
+    // Guardar resultados en localStorage
+    localStorage.setItem('puntaje', correctas);
+    localStorage.setItem('correctas', correctas);
+    localStorage.setItem('incorrectas', incorrectas);
+
+    // Redirigir a resultados
+    window.location.href = 'resultados.html';
+}

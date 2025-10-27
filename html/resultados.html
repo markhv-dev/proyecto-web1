@@ -43,5 +43,24 @@
     <footer>
         <p>© 2025 Simulacro MTC | Proyecto académico</p>
     </footer>
+
+    <script>
+        // Cargar resultados desde localStorage
+        let puntaje = localStorage.getItem('puntaje') || 0;
+        let correctas = localStorage.getItem('correctas') || 0;
+        let incorrectas = localStorage.getItem('incorrectas') || 0;
+
+        // Mostrar resultados
+        document.getElementById('puntaje').textContent = puntaje;
+        document.getElementById('correctas').textContent = correctas;
+        document.getElementById('incorrectas').textContent = incorrectas;
+
+        // Mensaje según el puntaje
+        if (puntaje >= 35) {
+            document.getElementById('mensaje-final').textContent = '¡Felicitaciones! Has aprobado el examen.';
+        } else {
+            document.getElementById('mensaje-final').textContent = 'No has alcanzado el puntaje mínimo. ¡Sigue practicando!';
+        }
+    </script>
 </body>
 </html>

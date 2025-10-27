@@ -154,6 +154,56 @@ table th {
   color: #3a1c4a;
 }
 
+/* BOTONES DE CATEGORÍA */
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.btn-categoria {
+  background-color: #cdb4db;
+  color: #3a1c4a;
+  border: 2px solid #b08968;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-categoria:hover {
+  background-color: #b08968;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* IMAGEN DE PREGUNTA */
+#imagen-pregunta {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#imagen-pregunta img {
+  max-width: 100%;
+  max-height: 400px;
+  border: 2px solid #cdb4db;
+  border-radius: 8px;
+}
+
+.info-examen {
+  background-color: #e3c4f0;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #3a1c4a;
+}
+
 /* FOOTER */
 footer {
   background-color: #3a1c4a;
