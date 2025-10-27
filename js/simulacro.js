@@ -28,6 +28,7 @@ function cargarPreguntas() {
                 preguntasDelExamen = seleccionarAleatorias(data, 40);
                 iniciarExamen();
             });
+   // corregir esta seccion que combina 2 categorias - mark
     }
     else if (categoriaSeleccionada === 'BII-A' || categoriaSeleccionada === 'BII-B') {
         // B-II-A y B-II-B: Mezclar todas las preguntas de ambos

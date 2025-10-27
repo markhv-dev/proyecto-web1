@@ -105,7 +105,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito Los colores del semáforo tienen el siguiente significado: rojo: _____  ; ámbar o amarillo:   _____; verde:   ____.",
-    "descripcion": "",
+    "descripcion": "Los colores del semáforo tienen el siguiente significado: rojo: _____  ; ámbar o amarillo:   _____; verde:   ____.",
     "alternativas": {
       "a": "Detención - prevención - paso.",
       "b": "Detención - paso con prevención - circulación rápida.",
@@ -632,7 +632,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito El sobrepaso o adelantamiento de un vehículo en movimiento se efectúa, salvo excepciones, por la _________ retornando el vehículo después de la maniobra a su carril original.",
-    "descripcion": "",
+    "descripcion": "El sobrepaso o adelantamiento de un vehículo en movimiento se efectúa, salvo excepciones, por la _________ retornando el vehículo después de la maniobra a su carril original.",
     "alternativas": {
       "a": "Derecha.",
       "b": "Izquierda.",
@@ -1209,7 +1209,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito En señalética vial, el color __________ en el pavimento es utilizado para carriles de tráfico en sentido opuesto y el color __________ en el pavimento es utilizado como separador de carriles de tráfico en el mismo sentido.",
-    "descripcion": "",
+    "descripcion": "En señalética vial, el color __________ en el pavimento es utilizado para carriles de tráfico en sentido opuesto y el color __________ en el pavimento es utilizado como separador de carriles de tráfico en el mismo sentido.",
     "alternativas": {
       "a": "Amarillo - blanco.",
       "b": "Blanco - Amarillo.",
@@ -1260,7 +1260,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito Tienen  el  objetivo  de  notificar  a  los  usuarios  las  limitaciones, prohibiciones o restricciones en el uso de la vía.",
-    "descripcion": "",
+    "descripcion": "Tienen  el  objetivo  de  notificar  a  los  usuarios  las  limitaciones, prohibiciones o restricciones en el uso de la vía.",
     "alternativas": {
       "a": "Señales reguladoras o de reglamentación.",
       "b": "Señales preventivas.",
@@ -1277,7 +1277,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito Tienen el propósito de advertir a los usuarios sobre la existencia y naturaleza de un peligro en la vía.",
-    "descripcion": "",
+    "descripcion": "Tienen el propósito de advertir a los usuarios sobre la existencia y naturaleza de un peligro en la vía.",
     "alternativas": {
       "a": "Señales reguladoras o de reglamentación.",
       "b": "Señales preventivas.",
@@ -1379,7 +1379,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito Si en una vía de dos carriles con tránsito en un mismo sentido usted se desplaza lentamente en su vehículo, debe circular por el carril de la _________ y los vehículos que circulen a mayor velocidad deben hacerlo por el carril de la ___________",
-    "descripcion": "",
+    "descripcion": "Si en una vía de dos carriles con tránsito en un mismo sentido usted se desplaza lentamente en su vehículo, debe circular por el carril de la _________ y los vehículos que circulen a mayor velocidad deben hacerlo por el carril de la ___________",
     "alternativas": {
       "a": "Izquierda / Derecha.",
       "b": "Derecha / Derecha.",
@@ -1532,7 +1532,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito Las marcas en el  pavimento  de color __________ complementan  las señales informativas, como por ejemplo las zonas de estacionamiento para personas con movilidad reducida.",
-    "descripcion": "",
+    "descripcion": "Las marcas en el  pavimento  de color __________ complementan  las señales informativas, como por ejemplo las zonas de estacionamiento para personas con movilidad reducida.",
     "alternativas": {
       "a": "Blanco.",
       "b": "Azul.",
@@ -2603,7 +2603,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito El conductor está ________ a ___________ a las pruebas que le solicite el Efectivo de la Policía Nacional del Perú, asignado al control del tránsito, para determinar su estado de intoxicación por alcohol, drogas, estupefacientes u otros tóxicos",
-    "descripcion": "",
+    "descripcion": "El conductor está ________ a ___________ a las pruebas que le solicite el Efectivo de la Policía Nacional del Perú, asignado al control del tránsito, para determinar su estado de intoxicación por alcohol, drogas, estupefacientes u otros tóxicos",
     "alternativas": {
       "a": "En su derecho - negarse.",
       "b": "Facultado - Rechazar.",
@@ -2671,7 +2671,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito Es una obligación general de tránsito que, los ____________ circulen respetando los mensajes de _______________, las instrucciones de los Efectivos de la Policía de Tránsito y el mandato de las normas legales y reglamentarias correspondientes.",
-    "descripcion": "",
+    "descripcion": "Es una obligación general de tránsito que, los ____________ circulen respetando los mensajes de _______________, las instrucciones de los Efectivos de la Policía de Tránsito y el mandato de las normas legales y reglamentarias correspondientes. ",
     "alternativas": {
       "a": "Peatones - los letreros instalados en las vías públicas.",
       "b": "Los usuarios de la vía pública - los dispositivos de control de tránsito.",
@@ -2739,7 +2739,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito El uso de la luz ___________ es obligatorio en __________ , debiendo cambiar por luz ____________ momentos previos al cruce con otro vehículo que circule en sentido contrario.",
-    "descripcion": "",
+    "descripcion": "El uso de la luz ___________ es obligatorio en __________ , debiendo cambiar por luz ____________ momentos previos al cruce con otro vehículo que circule en sentido contrario.",
     "alternativas": {
       "a": "Baja - carreteras - alta.",
       "b": "Alta - vías urbanas - baja.",
@@ -2824,7 +2824,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito La autoridad competente, ______________ puede prohibir o restringir _____________________ en determinadas vías públicas.",
-    "descripcion": "",
+    "descripcion": "La autoridad competente, ______________ puede prohibir o restringir _____________________ en determinadas vías públicas.",
     "alternativas": {
       "a": "Cuando  la  situación  lo  justifique  -  la  circulación  o  estacionamiento  de vehículos.",
       "b": "Aun cuando la situación lo justifique no - circulación o estacionamiento de vehículos.",
@@ -2909,7 +2909,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito La                             faculta y autoriza la circulación del vehículo por la vía pública, identifica el bien, y, por ende, al titular responsable de las acciones que deriven de su propiedad.",
-    "descripcion": "",
+    "descripcion": "La                             faculta y autoriza la circulación del vehículo por la vía pública, identifica el bien, y, por ende, al titular responsable de las acciones que deriven de su propiedad.",
     "alternativas": {
       "a": "Tarjeta de identificación vehicular.",
       "b": "Municipalidad provincial.",
@@ -2994,7 +2994,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito Las __________________ tienen por función informar a los usuarios sobre los servicios generales existentes próximos a la vía, tales como teléfono, hospedaje, restaurante, primeros auxilios, estación de combustibles, talleres, y otros.",
-    "descripcion": "",
+    "descripcion": "Las __________________ tienen por función informar a los usuarios sobre los servicios generales existentes próximos a la vía, tales como teléfono, hospedaje, restaurante, primeros auxilios, estación de combustibles, talleres, y otros.",
     "alternativas": {
       "a": "Señales de localización.",
       "b": "Señales de salida inmediata.",
@@ -3198,7 +3198,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito La __________ es la parte de una carretera o camino contigua a la calzada, no habilitada para la circulación de vehículos y destinada eventualmente a la detención de vehículos en emergencia y circulación de peatones.",
-    "descripcion": "",
+    "descripcion": "La __________ es la parte de una carretera o camino contigua a la calzada, no habilitada para la circulación de vehículos y destinada eventualmente a la detención de vehículos en emergencia y circulación de peatones.",
     "alternativas": {
       "a": "Berma.",
       "b": "Autopista.",
@@ -3215,7 +3215,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito Es una parte de la vía destinada a la circulación de vehículos y eventualmente al cruce de peatones y animales.",
-    "descripcion": "",
+    "descripcion": "Es una parte de la vía destinada a la circulación de vehículos y eventualmente al cruce de peatones y animales.",
     "alternativas": {
       "a": "La calzada.",
       "b": "La acera.",
@@ -3232,7 +3232,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito Es una parte de la vía destinada al uso de peatones",
-    "descripcion": "",
+    "descripcion": "Es una parte de la vía destinada al uso de peatones",
     "alternativas": {
       "a": "La acera.",
       "b": "La calzada.",
@@ -3351,7 +3351,7 @@
     "tipo": "Materias generales",
     "categoria": "AI",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito Las __________canalizadoras, tiene por función conformar las islas canalizadoras del tránsito automotor en una _________.",
-    "descripcion": "",
+    "descripcion": "Las __________canalizadoras, tiene por función conformar las islas canalizadoras del tránsito automotor en una _________.",
     "alternativas": {
       "a": "Islas canalizadoras - vía.",
       "b": "Líneas - intersección.",
