@@ -15,7 +15,7 @@ body {
 
 /* HEADER */
 header {
-  background-color: #cdb4db;
+  background-color: rgba(184, 250, 255, 0.993); /* Cambiamos el color para un ejor contraste*/
   color: #3a1c4a;
   text-align: center;
   padding: 25px; /* Aumentar el espacio */
@@ -56,7 +56,7 @@ nav ul li a:hover {
 }
 
 nav ul li a.active {
-  background-color: #e3c4f0; /* tono más suave */
+  background-color: #fae5fffd; /* tono más suave */
   color: #3a1c4a;
   border: 1px solid #3a1c4a; /* Resaltar el enlace activo */
 }
@@ -213,4 +213,201 @@ footer {
   font-size: 0.9rem;
   margin-top: 40px;
   border-top: 3px solid #b08968; /* de forma análoga que el header */
+}
+/* CAMBIOS EN PERFIL */
+
+/* Agregar  bloque de los datos de usuario*/
+.datos-usuario {
+  background-color: #f8f4fc;
+  border: 2px solid #cdb4db;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.datos-usuario p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.datos-usuario strong {
+  color: #5c3c92;
+}
+
+/* Mejorar aspecto de la tabla historial*/ 
+.tabla-historial {
+  border-collapse: collapse;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.tabla-historial th, .tabla-historial td {
+  text-align: center;
+  padding: 12px;
+}
+
+.tabla-historial tr:nth-child(even) {
+  background-color: #f3eef7;
+}
+
+.tabla-historial tr:hover {
+  background-color: #e5d4f1;
+  transition: background 0.2s;
+}
+
+/* Aregar transicion a los botones*/
+.boton-inicio {
+  display: inline-block;
+  transition: all 0.25s ease;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.boton-inicio:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Login*/
+.form-login {
+  background-color: #ffffff;
+  border: 2px solid #b08968;
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 500px;
+  margin: 30px auto;
+  text-align: left;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-login h3 {
+  text-align: center;
+  color: #5c3c92;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.form-login label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #3a1c4a;
+}
+
+.form-login input,
+.form-login select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cdb4db;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #f8f4fc;
+  transition: all 0.2s ease;
+}
+
+.form-login input:focus,
+.form-login select:focus {
+  outline: none;
+  border-color: #5c3c92;
+  box-shadow: 0 0 6px rgba(92, 60, 146, 0.3);
+}
+
+/* Botones*/
+button.boton-entrar,
+button.boton-empezar {
+  display: block;
+  background-color: #a2e2e2;
+  color: #2f2f2f;
+  font-weight: bold;
+  border: 2px solid #3a1c4a;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: all 0.25s ease;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+button.boton-entrar:hover,
+button.boton-empezar:hover {
+  background-color: #7ed0d9;
+  transform: scale(1.05);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Mensaje de Bienvenida*/
+.mensaje-bienvenida {
+  text-align: center;
+  margin-top: 15px;
+  font-style: italic;
+  color: #333;
+}
+
+/*Perfil: Cambiar de categoría*/
+.cambiar-categoria {
+  background-color: #ffffff;
+  border: 2px solid #b08968;
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cambiar-categoria h3 {
+  color: #5c3c92;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #cdb4db;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.cambiar-categoria form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.cambiar-categoria label {
+  font-weight: bold;
+  color: #3a1c4a;
+}
+
+.cambiar-categoria select {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #cdb4db;
+  border-radius: 8px;
+  background-color: #f8f4fc;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.cambiar-categoria select:focus {
+  outline: none;
+  border-color: #5c3c92;
+  box-shadow: 0 0 5px rgba(92, 60, 146, 0.3);
+}
+
+.cambiar-categoria button {
+  background-color: #b08968;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.cambiar-categoria button:hover {
+  background-color: #875642;
+  transform: scale(1.05);
 }

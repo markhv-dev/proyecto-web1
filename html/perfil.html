@@ -13,19 +13,19 @@
 
     <nav>
         <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="simulacro.html">Simulacro</a></li>
-                <li><a href="preguntas.html">Preguntas rápidas</a></li>
-                <li><a href="resultados.html">Resultados</a></li>
-                <li><a href="perfil.html" class="active">Perfil</a></li>
-            </ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="simulacro.html">Simulacro</a></li>
+            <li><a href="preguntas.html">Preguntas rápidas</a></li>
+            <li><a href="resultados.html">Resultados</a></li>
+            <li><a href="perfil.html" class="active">Perfil</a></li>
+        </ul>
     </nav>
 
-    <main>
+    <main class="perfil-container">
         <section>
             <h2>Mi Perfil</h2>
 
-            <div class="datos-usuario">
+            <section class="datos-usuario">
                 <p><strong>Nombre:</strong> <span id="nombre-usuario">Usuario MTC</span></p>
                 <p><strong>Correo:</strong> <span id="correo-usuario">usuario@correo.com</span></p>
                 <p><strong>Categoría seleccionada:</strong> <span id="categoria-actual">No seleccionada</span></p>
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="historial">
+            <section class="historial">
                 <h3>Historial de simulacros</h3>
                 <table class="tabla-historial">
                     <thead>
@@ -73,7 +73,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </section>
 
             <div class="acciones">
                 <a href="#" class="boton-inicio" id="btn-editar">Editar perfil</a>
