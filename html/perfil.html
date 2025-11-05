@@ -33,17 +33,24 @@
             </div>
 
             <div class="cambiar-categoria" style="margin: 20px 0;">
-                <h3>Cambiar categoría</h3>
-                <div class="categorias">
-                    <button class="btn-categoria" data-categoria="AI">A-I</button>
-                    <button class="btn-categoria" data-categoria="AII-A">A-II-A</button>
-                    <button class="btn-categoria" data-categoria="AII-B">A-II-B</button>
-                    <button class="btn-categoria" data-categoria="AIII-A">A-III-A</button>
-                    <button class="btn-categoria" data-categoria="AIII-B">A-III-B</button>
-                    <button class="btn-categoria" data-categoria="AIII-C">A-III-C</button>
-                    <button class="btn-categoria" data-categoria="BII-A">B-II-A</button>
-                    <button class="btn-categoria" data-categoria="BII-B">B-II-B</button>
-                    <button class="btn-categoria" data-categoria="BII-C">B-II-C</button>
+                <button class="boton-inicio" id="btn-cambiar-categoria">
+                    <span>Cambiar categoría</span>
+                    <span id="flecha" style="margin-left: 10px;">▼</span>
+                </button>
+
+                <div id="panel-categorias" class="panel-categorias" style="display: none; margin-top: 15px;">
+                    <h4 style="margin-bottom: 15px; color: #3a1c4a;">Seleccionar categoría:</h4>
+                    <div class="categorias">
+                        <button class="btn-categoria" data-categoria="AI">A-I</button>
+                        <button class="btn-categoria" data-categoria="AII-A">A-II-A</button>
+                        <button class="btn-categoria" data-categoria="AII-B">A-II-B</button>
+                        <button class="btn-categoria" data-categoria="AIII-A">A-III-A</button>
+                        <button class="btn-categoria" data-categoria="AIII-B">A-III-B</button>
+                        <button class="btn-categoria" data-categoria="AIII-C">A-III-C</button>
+                        <button class="btn-categoria" data-categoria="BII-A">B-II-A</button>
+                        <button class="btn-categoria" data-categoria="BII-B">B-II-B</button>
+                        <button class="btn-categoria" data-categoria="BII-C">B-II-C</button>
+                    </div>
                 </div>
             </div>
 
@@ -99,12 +106,31 @@
             document.getElementById('ultimo-puntaje').textContent = ultimoPuntaje + '/40';
         }
 
+        // Toggle panel de categorías
+        document.getElementById('btn-cambiar-categoria').addEventListener('click', function() {
+            const panel = document.getElementById('panel-categorias');
+            const flecha = document.getElementById('flecha');
+
+            if (panel.style.display === 'none') {
+                panel.style.display = 'block';
+                flecha.textContent = '▲';
+            } else {
+                panel.style.display = 'none';
+                flecha.textContent = '▼';
+            }
+        });
+
         // Botones para cambiar categoría
         document.querySelectorAll('.btn-categoria').forEach(boton => {
             boton.addEventListener('click', function() {
                 let nuevaCategoria = this.getAttribute('data-categoria');
                 localStorage.setItem('categoria', nuevaCategoria);
                 document.getElementById('categoria-actual').textContent = nuevaCategoria;
+
+                // Cerrar panel después de seleccionar
+                document.getElementById('panel-categorias').style.display = 'none';
+                document.getElementById('flecha').textContent = '▼';
+
                 alert('Categoría cambiada a: ' + nuevaCategoria);
             });
         });

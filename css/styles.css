@@ -5,6 +5,32 @@
   box-sizing: border-box;
 }
 
+/* PANEL COLAPSABLE DE CATEGORÍAS */
+.panel-categorias {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.panel-categorias h4 {
+  margin-bottom: 15px;
+  color: #3a1c4a;
+  font-size: 16px;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #eaf7f4; /* Cambiar color de fondo */
@@ -94,7 +120,7 @@ main p {
 }
 
 /* BOTÓN PRINCIPAL */
-a.boton-inicio {
+a.boton-inicio, button.boton-inicio {
   background-color: #a2e2e2; /* tono más equilibrado */
   color: #2f2f2f;
   text-decoration: none;
@@ -103,9 +129,14 @@ a.boton-inicio {
   border-radius: 8px;
   border: 2px solid #3a1c4a; /* marco para contraste */
   transition: background 0.2s;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
-a.boton-inicio:hover {
+a.boton-inicio:hover, button.boton-inicio:hover {
   background-color: #7ed0d9;
   border-color: #875642; /* cambio de color en hover */
 }

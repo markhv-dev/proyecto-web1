@@ -1,35 +1,48 @@
-// Banco de preguntas simple
-const preguntas = [
-    {
-        pregunta: "¿Qué debe hacer si un semáforo está en amarillo intermitente?",
-        opciones: [
-            "a) Detenerse completamente.",
-            "b) Avanzar con precaución.",
-            "c) Ignorar la señal.",
-            "d) Acelerar para pasar."
-        ]
-    },
-    {
-        pregunta: "¿Cuál es la velocidad máxima en zona urbana?",
-        opciones: [
-            "a) 40 km/h",
-            "b) 50 km/h",
-            "c) 60 km/h",
-            "d) 80 km/h"
-        ]
-    },
-    {
-        pregunta: "¿Qué significa una línea amarilla continua en la pista?",
-        opciones: [
-            "a) Puede adelantar",
-            "b) No puede adelantar",
-            "c) Puede estacionar",
-            "d) Zona escolar"
-        ]
-    }
-];
-
+// Variables globales
+let preguntas = [];
 let indicePreguntaActual = 0;
+let categoriaActual = localStorage.getItem('categoria') || 'AI';
+
+// Cargar preguntas desde JSON según categoría
+async function cargarPreguntasDeCategoria(categoria) {
+    try {
+        const response = await fetch(`../PREGUNTAS_mtc/json/${categoria}.json`);
+        if (!response.ok) {
+            throw new Error('No se pudo cargar el archivo de preguntas');
+        }
+        const data = await response.json();
+
+        // Convertir formato de preguntas
+        preguntas = data.map(pregunta => ({
+            pregunta: pregunta.descripcion,
+            opciones: [
+                `a) ${pregunta.alternativas.a}`,
+                `b) ${pregunta.alternativas.b}`,
+                `c) ${pregunta.alternativas.c}`,
+                `d) ${pregunta.alternativas.d}`
+            ]
+        }));
+
+        indicePreguntaActual = 0;
+        cargarPregunta();
+        actualizarIndicadorCategoria();
+    } catch (error) {
+        console.error('Error al cargar preguntas:', error);
+        // Fallback a preguntas predeterminadas
+        preguntas = [
+            {
+                pregunta: "¿Qué debe hacer si un semáforo está en amarillo intermitente?",
+                opciones: [
+                    "a) Detenerse completamente.",
+                    "b) Avanzar con precaución.",
+                    "c) Ignorar la señal.",
+                    "d) Acelerar para pasar."
+                ]
+            }
+        ];
+        cargarPregunta();
+    }
+}
 
 // Cargar pregunta en la página
 function cargarPregunta() {
@@ -63,5 +76,33 @@ document.getElementById('btn-siguiente').addEventListener('click', function() {
     cargarPregunta();
 });
 
-// Cargar la primera pregunta al inicio
-cargarPregunta();
+// Función para actualizar el indicador de categoría
+function actualizarIndicadorCategoria() {
+    const indicador = document.getElementById('indicador-categoria');
+    if (indicador) {
+        indicador.textContent = `Categoría: ${categoriaActual}`;
+    }
+}
+
+// Detectar cambios en localStorage para actualizar categoría
+window.addEventListener('storage', function(e) {
+    if (e.key === 'categoria') {
+        categoriaActual = e.newValue || 'AI';
+        cargarPreguntasDeCategoria(categoriaActual);
+    }
+});
+
+// También detectar cambios dentro de la misma pestaña
+let intervalCheck = setInterval(() => {
+    const nuevaCategoria = localStorage.getItem('categoria') || 'AI';
+    if (nuevaCategoria !== categoriaActual) {
+        categoriaActual = nuevaCategoria;
+        cargarPreguntasDeCategoria(categoriaActual);
+    }
+}, 1000);
+
+// Inicializar al cargar la página
+document.addEventListener('DOMContentLoaded', function() {
+    categoriaActual = localStorage.getItem('categoria') || 'AI';
+    cargarPreguntasDeCategoria(categoriaActual);
+});
