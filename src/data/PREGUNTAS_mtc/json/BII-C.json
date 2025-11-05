@@ -1,0 +1,4150 @@
+[
+  {
+    "numero": 1,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Con respecto a las definiciones de acera y/o de calzada marque la respuesta correcta.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Ambas son una parte de la vía y están destinadas a la circulación de vehículos",
+      "b": "La\tcalzada\tes\tuna parte de la vía destinada a la circulación de vehículos\ty eventualmente al cruce de peatones y animales.",
+      "c": "Por lo general en la acera circulan vehículos",
+      "d": "La acera es parte de la vía en la cual excepcionalmente pueden\tcircular personas."
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 2,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Es una prerrogativa de un peatón o conductor de un vehículo para proseguir su marcha en precedencia a otro peatón o vehículo.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Paso a desnivel a) Paso a nivel",
+      "b": "",
+      "c": "Paso Peatonal",
+      "d": "Derecho de paso."
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 3,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En una intersección y ante la señal correspondiente,________ es un límite para que el vehículo se detenga",
+    "descripcion": "",
+    "alternativas": {
+      "a": "La Línea Transversal marcada en la calzada",
+      "b": "La isla",
+      "c": "La Línea de Parada",
+      "d": "La\ta\ty\tla\tc\tson correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 4,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Es\tel\tReglamento\tque\testablece\tla clasificación\ty nomenclatura\tde las vías",
+    "descripcion": "",
+    "alternativas": {
+      "a": "El TUO de Tránsito",
+      "b": "Reglamento Nacional de\tGestión\tde Infraestructura Vial.",
+      "c": "El\tReglamento Nacional\tde Jerarquización Vial",
+      "d": "a y b son correctas"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 5,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre La calzada,\tla acera y la berma son algunos\tde\tlos\telementos\tque conforman",
+    "descripcion": "",
+    "alternativas": {
+      "a": "El estacionamiento",
+      "b": "El\tequipamiento\tde servicios necesarios",
+      "c": "El Carril",
+      "d": "La vía"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 6,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre No está Prohibido en la vía",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Recoger o dejar pasajeros o carga en lugares no autorizados.",
+      "b": "Destinar las calzadas a otro uso que no sea el tránsito y el estacionamiento",
+      "c": "Recoger\to\tdejar pasajeros\ten\tlugares autorizados.",
+      "d": "Ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 7,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Con\trespecto\tal\tManual\tde Dispositivos de Control del Tránsito Automotor para Calles y Carreteras marque la respuesta correcta",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Establece el modo de empleo de los diferentes dispositivos\tde control del\ttránsito, clasificación, funcionalidad,\tcolor, tamaño",
+      "b": "Fue actualizado por última vez en el año 2016",
+      "c": "Ninguna\tde\tlas anteriores",
+      "d": "a y b son correctas."
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 8,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Son algunos\tde los\tdispositivos\tde control\tde tránsito\tautomotor para calles y carreteras",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Señales Verticales, Marcas en el Pavimento, Espejos.",
+      "b": "Señales Verticales, Marcas en el Pavimento, Radios.",
+      "c": "Señales Verticales y Horizontales (Marcas en el\tPavimento), Semáforos",
+      "d": "Espejos,\tradios\ty semáforos"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 9,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Señale la respuesta correcta respecto de la obediencia a los dispositivos de control o regulación del tránsito.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Los conductores y los peatones están obligados a su obediencia solo cuando la Policía Nacional asignada al Tránsito lo indique.",
+      "b": "Los conductores y los peatones están obligados a su obediencia,\tsalvo instrucción en contrario de la Policía Nacional asignada al Tránsito.",
+      "c": "Solo los conductores están\tobligados\ta\tsu obediencia c) Los conductores están obligados a su obediencia, sin excepción alguna.",
+      "d": ""
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 10,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Las señalares verticales se clasifican:",
+    "alternativas": {
+      "a": "i. Reguladoras, ii. De reglamentación y iii. De advertencia",
+      "b": "i. Informativas, ii. De reglamentación y iii. Preventivas",
+      "c": "i. Reguladoras, ii. De advertencia y iii. Preventivas",
+      "d": "Ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 11,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las señales verticales de tránsito que tienen por finalidad indicar prohibición, restricción o limitación en el uso de la vía son denominadas",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Reguladoras",
+      "b": "Informativas",
+      "c": "Preventivas",
+      "d": "Ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 12,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las señales verticales de tránsito que tienen por finalidad advertir a los usuarios de la existencia y naturaleza de un peligro en la vía son denominadas",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Informativas",
+      "b": "Preventivas",
+      "c": "Reguladoras",
+      "d": ""
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 13,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Cuál de la siguiente señal vertical es informativa:",
+    "alternativas": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "respuesta": "a",
+    "hasImage": true,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 14,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Cuál de la siguiente señal vertical es preventiva:",
+    "alternativas": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "La a y c son correctas."
+    },
+    "respuesta": "d",
+    "hasImage": true,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 15,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Cuál de la siguiente señal vertical es reguladora o de reglamentación:",
+    "alternativas": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": "Solo la b es incorrecta"
+    },
+    "respuesta": "d",
+    "hasImage": true,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 16,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Las señales verticales preventivas tienen, por lo general, la siguiente forma:",
+    "alternativas": {
+      "a": "Rectangular",
+      "b": "Romboidal",
+      "c": "Triangulo\ttipo banderola",
+      "d": ""
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 17,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las______________________ tienen, por lo general, forma circular inscrita dentro de una placa rectangular en la que también esté contenida la leyenda explicativa del símbolo.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Señales\tverticales reguladoras",
+      "b": "Señales verticales de información",
+      "c": "Señales\tverticales preventivas",
+      "d": ""
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 18,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "La señal vertical preventiva \"Cruz de San Andrés\" significa:",
+    "alternativas": {
+      "a": "Paso a\tdesnivel\tde autopista",
+      "b": "Paso\ta\tnivel\tde autopista",
+      "c": "Paso a nivel de línea férrea",
+      "d": ""
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 19,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "La señal vertical reglamentaria R-6 Prohibido voltear a la izquierda significa que: b) Está prohibido voltear a la izquierda, y por tanto también el giro en U b) Está prohibido voltear a la izquierda, sin embargo, esta permitido el giro en U c) No está permitido el giro a la izquierda con luz roja. d)\tNinguna\tde\tlas anteriores. a Numeral\t2.10.1\tdel\tManual\tde dispositivos Control\tde Tránsito\t(Descripción de Señales Señales de reguladoras) y -",
+    "alternativas": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "respuesta": "",
+    "hasImage": true,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 20,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "La señal vertical reglamentaria R-3 significa que:",
+    "alternativas": {
+      "a": "Nos acercamos a una zona restringida al tránsito.",
+      "b": "Nos aproximamos a un tramo de circulación unidireccional en el sentido indicado por la fecha.",
+      "c": "Debemos circular sólo en la dirección y sentido indicado por la flecha.",
+      "d": "Ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "c",
+    "hasImage": true,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 21,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Las señales verticales informativas tienen por objeto:",
+    "alternativas": {
+      "a": "Notificar a los usuarios de la vía de la existencia de un peligro y la naturaleza de éste.",
+      "b": "Advertir a los usuarios de la vía de la existencia de un peligro y la naturaleza de éste.",
+      "c": "Identificar las vías y guiar al usuario proporcionándole la información que pueda necesitar.",
+      "d": ""
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 22,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "En las vías, cuál es la finalidad si las marcas de pavimento son del tipo central discontinua y de color amarillo:",
+    "alternativas": {
+      "a": "Separa vías en carriles bidireccionales, en los que está permitido cruzar al otro carril para adelantar.",
+      "b": "Separa vías en carriles bidireccionales, en los que no está permitido cruzar al otro carril para adelantar.",
+      "c": "Separa vías en dos carriles del mismo sentido.",
+      "d": "a y b son correctas."
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 23,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Los semáforos de acuerdo a su objetivo se clasifican en:",
+    "alternativas": {
+      "a": "Vehiculares\ty/o peatonales",
+      "b": "Vehiculares y/o peatonales y/o especiales",
+      "c": "Especiales",
+      "d": ""
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 24,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "En una vía, los colores del semáforo son:",
+    "alternativas": {
+      "a": "Rojo,\tAmarillo\ty Verde.",
+      "b": "Verde,\tAmarillo\ty Anaranjado.",
+      "c": "Verde,\tRosado\ty Anaranjado.",
+      "d": ""
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 25,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "En una vía, los colores del semáforo están ubicados de la siguiente forma:",
+    "alternativas": {
+      "a": "Horizontalmente en el siguiente orden: Arriba el Rojo, en el medio Amarillo y en la parte inferior Verde.",
+      "b": "Horizontalmente en el siguiente orden: Rojo, Amarillo y Verde.",
+      "c": "Horizontalmente en el siguiente orden: Arriba el Verde, al medio Amarillo y en la parte inferior Rojo.",
+      "d": "a y b son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 26,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre El color del semáforo ámbar tiene el siguiente significado",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Es\tuna\tseñal\tque indica prevención y los vehículos que la enfrentan deben avanzar",
+      "b": "Los vehículos que enfrenten esta señal deben detenerse antes de\tentrar\ta\tla intersección.",
+      "c": "Los vehículos que han sido sorprendidos tan próximos al cruce de la intersección que ya no pueden detenerse con suficiente seguridad, deben\tcontinuar\tcon precaución",
+      "d": "b y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 27,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre El color\tdel semáforo rojo\ttiene el siguiente significado",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Los vehículos que enfrenten esta señal deben detenerse después de la línea de parada y antes\tdel\tcrucero peatonal",
+      "b": "Indica prevención",
+      "c": "Si\tno\thay\tcrucero peatonal,\tlos\tvehículos deben\tdetenerse\tantes de\tllegar\ta\tla intersección",
+      "d": "Los vehículos pueden detenerse\tencima\tdel crucero peatonal"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 28,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Señale la respuesta correcta respecto a los cruces a nivel con vías férreas",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Los vehículos que transitan por la vía férrea tienen preferencia de paso",
+      "b": "Los que transitan por la vía que cruza la vía férrea tienen preferencia de paso",
+      "c": "Los vehículos pueden cruzar por lugares distintos a los cruces a nivel establecidos",
+      "d": "b y c son correctas"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 29,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Ante la señal de color rojo del semáforo y la indicación del efectivo de la PNP asignado al control del tránsito de continuar la marcha, corresponde:",
+    "alternativas": {
+      "a": "Detenerse hasta\tque cambie a luz verde",
+      "b": "Continuar la marcha",
+      "c": "Verificar si existe otra señal vertical que indique PARE, si es así, corresponde detenerse",
+      "d": "Todas son correctas."
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 30,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las señales luminosas o semáforos se imponen o prevalecen sobre",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Las indicaciones del efectivo de la PNP asignado\tal control del Tránsito",
+      "b": "Las\tseñales horizontales",
+      "c": "Las señales verticales",
+      "d": "b y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 31,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Tramitar y obtener el duplicado de una licencia de conducir que se encuentre cancelada causará:",
+    "alternativas": {
+      "a": "La suspensión de la licencia de conducir por un (1) año.",
+      "b": "La suspensión\tde la licencia de conducir por tres (3) años",
+      "c": "La\tinhabilitación definitiva del conductor",
+      "d": "La inhabilitación por tres (3) años del conductor"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 32,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre La infracción por conducir un vehículo automotor sin licencia de conducir está sancionada con una multa de 50% UIT y sanción no pecuniaria de",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Inhabilitación obtener licencia conducir por 3 años para de",
+      "b": "Cancelación licencia de conducir de",
+      "c": "Inhabilitación para obtener licencia de conducir por 2 años",
+      "d": "Inhabilitación definitiva para obtener una licencia de conducir."
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 33,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Aumentar la velocidad cuando es alcanzado por otro vehículo que tiene la intención de sobrepasarlo o adelantarlo es una falta",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Leve",
+      "b": "Grave",
+      "c": "Muy Grave",
+      "d": "No\tse tipificado infracción encuentra como"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 34,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "No respetar los límites máximos o mínimos de velocidad establecidos es una falta:",
+    "alternativas": {
+      "a": "Leve",
+      "b": "Grave",
+      "c": "Muy Grave",
+      "d": "No\tse tipificado infracción encuentra como"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 35,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Los conductores de vehículos que circulan de noche en las vías públicas",
+    "descripcion": "urbanas,\t¿Con\tqué\tluces\tdeben circular?",
+    "alternativas": {
+      "a": "Bajas.",
+      "b": "Altas.",
+      "c": "Ninguna\tde\tlas anteriores.",
+      "d": "Con las luces altas  en las intersecciones y las luces bajas en las avenidas"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 36,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En caso\tde accidente, la\tpóliza\tdel Seguro Obligatorio\tde Accidentes de Tránsito cubre los gastos médicos de",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Máximo personas cinco",
+      "b": "A la tripulación y pasajeros ocupantes y terceros no ocupantes de un vehículo automotor que se vieron afectados",
+      "c": "Sólo\tal\tnúmero\tde ocupantes del vehículo",
+      "d": "a y b son correctas"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 37,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Señale la respuesta correcta respecto a la circulación de un vehículo sin SOAT o CAT",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Constituye una falta muy grave",
+      "b": "Constituye una falta grave",
+      "c": "Puede imponerse, además de la papeleta de infracción, una medida preventiva de retención del vehículo.",
+      "d": "a y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 38,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Según\tel\tCódigo\tde\tTránsito,\tlos conductores de vehículos,\tdeben dar preferencia de paso a",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Los\tvehículos\tde emergencia y vehículos oficiales cuando éstos emitan\tlas\tseñales audibles",
+      "b": "A los usuarios que circulan por la vía preferencial.",
+      "c": "El reglamento no regula la preferencia de paso",
+      "d": "Sola la c es incorrecta"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 39,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Si conduciendo en la vía pública te aproximas a un vehículo de transporte escolar que se encuentra detenido recogiendo o dejando escolares ¿Cuál sería la acción a seguir?",
+    "alternativas": {
+      "a": "Detener el vehículo y no continuar la marcha hasta que haya culminado el ascenso o descenso\tde\tlos escolares",
+      "b": "Adelantar por el lado izquierdo",
+      "c": "Tocar el claxon\tcon precaución",
+      "d": "Ninguna anteriores de\tlas"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 40,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "¿Qué significa un triángulo rojo de seguridad colocado en la calzada?",
+    "alternativas": {
+      "a": "La presencia de un vehículo inmovilizado en la\tvía\tpública\tpor alguna emergencia",
+      "b": "Zonas\tde obras\tpor reparación en la calzada",
+      "c": "Que el vehículo que la enfrenta debe detenerse",
+      "d": "Ninguna anteriores de\tlas"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 41,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre La\ttramitación\ty\tobtención\tdel duplicado de una Licencia de Conducir que ha sido objeto de suspensión, causara una suspensión del",
+    "descripcion": "___________ en\tque\tse\tencontraba suspendida.",
+    "alternativas": {
+      "a": "Doble de tiempo",
+      "b": "Triple de tiempo",
+      "c": "Ambas son correctas",
+      "d": "No\tse regulado encuentra"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 42,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las luces intermitentes de emergencia del vehículo deben utilizarse ______",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Para girar en las intersecciones y para advertir los cambios de carril",
+      "b": "Para indicar la detención, parada o estacionamiento en zona peligrosa o la ejecución de maniobras riesgosas",
+      "c": "Cuando se cambia de luz alta a luz baja",
+      "d": "En cada inte rsección"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 43,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las vías de doble sentido tienen prioridad de paso en las intersecciones,\trespecto a las vías de un solo sentido de igual clasificación",
+    "descripcion": "",
+    "alternativas": {
+      "a": "No",
+      "b": "Si",
+      "c": "Depende\tde\tla intersección",
+      "d": "No\tse regulado reglamento encuentra en\tel"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 44,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "¿Qué otra denominación tienen las señales \"Prohibitivas o restrictivas?",
+    "alternativas": {
+      "a": "Reguladoras",
+      "b": "Preventivas",
+      "c": "Informativas",
+      "d": "Ninguna anteriores de\tlas"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 45,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Está prohibido estacionar frente a entradas de garajes, a la salida de una vía privada, en las curvas, puentes túneles, zonas estrechas de la vía y",
+    "descripcion": "",
+    "alternativas": {
+      "a": "En cualquier lugar que afecte la seguridad, visibilidad o fluidez del tránsito o impida observar la señalización",
+      "b": "Dentro\tde\tuna intersección;",
+      "c": "Frente\ta\trecintos militares y policiales",
+      "d": "Todas son correctas."
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 46,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "¿Qué señal debe utilizar el conductor para disminuir la velocidad del vehículo cuando está en marcha?",
+    "alternativas": {
+      "a": "Luces intermitentes, como regla general",
+      "b": "Antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo, en caso de fuerza mayor",
+      "c": "Luces intermitentes o antebrazo izquierdo y mano extendidos hacia abajo fuera del vehículo, indistintamente.",
+      "d": "a y b son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 47,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Los vehículos que hayan sufrido un desperfecto o que por un accidente resulten dañados o destruidos, no deben permanecer en la vía pública, entorpeciendo el tránsito, deben ser retirados por el conductor:",
+    "alternativas": {
+      "a": "A la brevedad posible, caso contrario serán retirados, por disposición de la autoridad\tcompetente, por\tcuenta\tdel propietario",
+      "b": "En un tiempo de hasta 12 horas.",
+      "c": "Con un plazo máximo de hasta 24 horas",
+      "d": "En\tun plazo\tde 18 horas."
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 48,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "De dos vehículos que se aproximen simultáneamente a una intersección no regulada, procedentes de dos vías diferentes, ¿Quién tiene preferencia de paso?",
+    "alternativas": {
+      "a": "Cualquiera de los dos",
+      "b": "El que se aproxime por la derecha del otro",
+      "c": "El que\tse aproxime por la izquierda del otro",
+      "d": "El que primero toca el claxon"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 49,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "En una intersección no regulada tiene preferencia de paso:",
+    "alternativas": {
+      "a": "El\tvehículo\tque ingresó\tprimero\ta\tla intersección",
+      "b": "El vehículo que toque la bocina primero",
+      "c": "El vehículo que haga cambio de luces primero",
+      "d": "Cualquiera de los dos"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 50,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En una\tRotonda\ttiene prioridad\tde paso, el vehículo que",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Circula fuera de ella",
+      "b": "Circula por ella",
+      "c": "Intenta ingresar\ta la rotonda",
+      "d": "El que toca el claxon."
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 51,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Las señales Reguladoras, ¿Qué significan para los usuarios de las vías?",
+    "alternativas": {
+      "a": "Información\tde guía para su desplazamiento",
+      "b": "Los\tpeligros existentes en la vía",
+      "c": "Las\tprohibiciones\to restricciones,\ten\tsu utilización",
+      "d": "Ninguna anteriores de los"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 52,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre El sobrepaso o adelantamiento de un vehículo en movimiento, se efectúa, salvo excepciones, por la _____ retornando el vehículo después de la maniobra a su carril original",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Derecha",
+      "b": "Izquierda",
+      "c": "Berma",
+      "d": "Por\tla izquierda derecha o"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 53,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Si un conductor está tomando medicamentos y por ello, siente cansancio, o sueño ¿qué debe hacer?",
+    "alternativas": {
+      "a": "Manejar normalmente",
+      "b": "Manejar despacio",
+      "c": "Abstenerse\tde manejar",
+      "d": "Manejar copiloto con un"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 54,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Son documentos que deben portarse obligatoriamente, durante la conducción del vehículo, y exhibirse cuando la autoridad competente lo solicite:",
+    "alternativas": {
+      "a": "D.N.I, SOAT o CAT según corresponda-, y tarjeta de identificación vehicular",
+      "b": "Certificado de Inspección Técnica Vehicular vigente, licencias\tde\tconducir vigente",
+      "c": "Contrato\tde compraventa\tdel vehículo",
+      "d": "Solo\tla\tc) incorrecta. es"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 55,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "El conductor de un vehículo que es alcanzado por otro, que hizo conocer su Intención de adelantarlo o sobrepasarlo ¿Qué debe hacer?",
+    "alternativas": {
+      "a": "Mantener su posición y no aumentar su velocidad, hasta que el otro vehículo haya finalizado la maniobra.",
+      "b": "Detenerse, para facilitar\tel adelantamiento",
+      "c": "Aumentar la velocidad para facilitar la maniobra",
+      "d": "Estacionarse\ten lado derecho de la vía el"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 56,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las\tseñales\tpreventivas\ttienen\tpor finalidad",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Advertir",
+      "b": "Indicar",
+      "c": "Guiar",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 57,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre El peatón tiene derecho de paso",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Sobre cualquier vehículo en las intersecciones de las calles no señalizadas con dispositivos de control o por la PNP",
+      "b": "Respecto a los vehículos que cruzan la acera para ingresar o salir de áreas de estacionamiento.",
+      "c": "a y b son correctas",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 58,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Responder verdadero o falso respecto de lo siguiente: \"El conductor de un vehículo debe dar preferencia de paso a los peatones que estén concluyendo el\tcruce\ten\tlas\tintersecciones reguladas\"",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Verdadero",
+      "b": "Falso",
+      "c": "Depende del tipo de vehículo",
+      "d": "No\tse regulado reglamento encuentra en\tel"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 59,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Brazo y antebrazo izquierdo y mano extendidos hacia fuera del vehículo horizontalmente es la señal reglamentaria que debe hacer el conductor, en casos de fuerza mayor, para voltear",
+    "descripcion": "",
+    "alternativas": {
+      "a": "A la derecha",
+      "b": "A la izquierda",
+      "c": "En U.",
+      "d": "Para adelantar"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 60,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "¿Qué acción debe efectuar el conductor que se aproxime a otro vehículo que circula en sentido contrario? A) Seguir su marcha con normalidad b) Reducir la velocidad c) Aumentar la velocidad d)\tNinguna\tde\tlas anteriores b Artículo 161 del Código de Tránsito.",
+    "alternativas": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "respuesta": "",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 61,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre El uso de la luz _____, es obligatorio en carreteras",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Baja",
+      "b": "Alta",
+      "c": "De posición",
+      "d": "De emergencia"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 62,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Deben\tusarse\tpara\tindicar\tla detención, parada\to estacionamiento en Zonas peligrosas",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Las luces de Posición",
+      "b": "Las\tluces Direccionales",
+      "c": "Las\tluces Intermitentes",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 63,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En\tlos\ttramos\tde\tuna\tvía\tcon pendiente pronunciada que permita la circulación de un solo vehículo, el vehículo\tque\tasciende\trespecto\tal",
+    "descripcion": "vehículo que desciende",
+    "alternativas": {
+      "a": "No tiene preferencia de paso.",
+      "b": "Tiene preferencia\tde paso.",
+      "c": "Debe detenerse",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 64,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre La detención de la marcha de un vehículo en caso de emergencia, implica que el conductor hará uso de ____, y antes de reiniciar la marcha, deberá cerciorarse que puede hacerlo sin riesgo.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Las luces de posición",
+      "b": "Las\tluces intermitentes",
+      "c": "Las luces de freno",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 65,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "¿Cuál de las siguientes alternativas corresponde asumir al conductor de un vehículo que llega a una vía preferencial?",
+    "alternativas": {
+      "a": "Tiene derecho de paso para su incorporación\ta la vía preferencial",
+      "b": "Debe ceder el paso e incorporarse cuando la vía esté despejada.",
+      "c": "Debe\tmantener velocidad. su",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 66,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Al cambiar de dirección, un conductor debe: A)\tSeñalizar\ttoda\tla maniobra. b) Ceder el derecho de paso\ta\tlos\tdemás vehículos\ty\ta\tlos peatones c) a y b son correctas. d) Solo la b) es correcta c Artículos 195 y 196 del Código de Tránsito.",
+    "alternativas": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "respuesta": "",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 67,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "¿Se puede conducir un vehículo con el motor en punto neutro?",
+    "alternativas": {
+      "a": "Algunas veces",
+      "b": "No, está prohibido",
+      "c": "Si, está permitido",
+      "d": "No\tse regulado reglamento encue en ntra el"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 68,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Según\tel\tReglamento\tNacional\tde",
+    "descripcion": "Tránsito, en los cruces de ferrocarril a nivel sin barreras ni semáforos: El conductor del vehículo debe asegurarse que no se aproxime un tren y la velocidad precautoria debe ser:",
+    "alternativas": {
+      "a": "Mayor a 70 Km/h",
+      "b": "Menor o igual\ta 20 Km/h",
+      "c": "Mayor\to\tigual 50Km/h",
+      "d": ""
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 69,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Para girar a la izquierda, en caso de",
+    "descripcion": "un imprevisto, debe hacerse la siguiente señal:",
+    "alternativas": {
+      "a": "Brazo,\tantebrazo izquierdo\ty\tmano extendidos horizontalmente\thacia afuera del vehículo",
+      "b": "Antebrazo izquierdo y mano extendidos hacia arriba fuera del vehículo, haciendo ángulo recto con el brazo.",
+      "c": "Brazo, antebrazo derecho y mano extendidos hacia afuera del vehículo.",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "a",
+    "hasImage": true,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 70,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Antebrazo izquierdo y mano extendidos hacia arriba fuera del vehículo, haciendo un ángulo recto con el brazo, significa que el vehículo",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Volteará\ta\tla izquierda",
+      "b": "Volteará a la derecha",
+      "c": "Disminuirá\tla velocidad",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 71,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "La señal reguladora de \"PARE\" tiene la forma de un:",
+    "alternativas": {
+      "a": "Octágono",
+      "b": "Circulo",
+      "c": "Hexágono",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 72,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Para girar a la derecha, en caso de un imprevisto, el conductor debe hacer la siguiente señal:",
+    "alternativas": {
+      "a": "Brazo, antebrazo izquierdo y mano extendidos hacia afuera del vehículo.",
+      "b": "Antebrazo izquierdo y mano extendidos hacia arriba fuera del vehículo, formando un ángulo recto con el brazo.",
+      "c": "Brazo, antebrazo derecho y mano extendidos hacia afuera del vehículo.",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "b",
+    "hasImage": true,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 73,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre A cuál de las alternativas corresponde la definición: “ Es la vía fuera del ámbito Urbano, destinada a la circulación de vehículos y eventualmente peatones y animales”",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Camino",
+      "b": "Carretera",
+      "c": "Berma",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 74,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En las intersecciones semaforizada o controladas por efectivos de la PNP o por señales oficiales",
+    "descripcion": "",
+    "alternativas": {
+      "a": "El peatón tiene derecho de paso respecto a los vehículos que giren a la derecha o a la izquierda, con la luz verde",
+      "b": "El vehículo siempre tiene derecho de paso.",
+      "c": "a y b son correctas",
+      "d": "Ninguna\tde anteriores las"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 75,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Cuál de las alternativas corresponde la definición: “Es el área común de calzadas que se cruzan o convergen”.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Intersección",
+      "b": "Calle.",
+      "c": "Cruce a nivel",
+      "d": "Ninguna\tde anteriores las"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 76,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En caso de accidente de tránsito con daños personales a terceros, la Policía Nacional del Perú retendrá la licencia de conducir del conductor por el plazo máximo de______________________,a fin de determinar la inobservancia de las normas de tránsito.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "48 horas",
+      "b": "72 horas",
+      "c": "24 horas",
+      "d": "7 días"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 77,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Corresponde\tla\tretención\tde\tla licencia de conducir cuando",
+    "descripcion": "",
+    "alternativas": {
+      "a": "En caso de accidente de tránsito con daños personales a terceros.",
+      "b": "Cuando el conductor haya llegado al tope máximo de doscientos (200) o más puntos firmes",
+      "c": "Por la comisión de infracción sobre la que deba recaer la sanción de suspensión, cancelación\tdefinitiva e inhabilitación del titular de\tla\tLicencia\tde Conducir.",
+      "d": "a y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 78,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Respecto a las medidas preventivas establecidas en el T.U.O de Tránsito marque  la respuesta correcta",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Tiene como objeto salvaguardar la seguridad y la vida de los usuarios de la vía",
+      "b": "Es\tuna\tmedida impuesta junto con la papeleta de tránsito, cuando corresponda",
+      "c": "La retención de la licencia de conducir y el internamiento del vehículo\tson\tmedidas preventivas",
+      "d": "Todas son correctas."
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 79,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "¿Cómo se denomina la medida preventiva, mediante el cual un vehículo es retirado de su ubicación en caso constituya un peligro o un obstáculo para el tránsito y la seguridad pública?",
+    "alternativas": {
+      "a": "Retención del vehículo",
+      "b": "Remoción del vehículo",
+      "c": "Internamiento\tdel vehículo",
+      "d": "Traslado\tdel vehículo hacia\tel\tdomicilio\tdel propietario"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 80,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Es el acto de inmovilización del vehículo en la Comisaría de la jurisdicción dispuesto por la Policía Nacional del Perú",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Retención del vehículo",
+      "b": "Remoción del vehículo",
+      "c": "Internamiento\tdel vehículo",
+      "d": "Traslado\tdel vehículo hacia\tel\tdomicilio\tdel propietario"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 81,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre La medida preventiva de retención del vehículo\tse\taplica\tpor\tun\tplazo máximo de",
+    "descripcion": "",
+    "alternativas": {
+      "a": "12 horas",
+      "b": "24 horas",
+      "c": "48 horas",
+      "d": "36 horas"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 82,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "La medida preventiva de internamiento del vehículo se aplica:",
+    "alternativas": {
+      "a": "Por la comisión de una infracción sobre la que expresamente recaiga esta medida en el Cuadro de Tipificación, Sanciones y Medidas Preventivas aplicables a las Infracciones al Tránsito Terrestre.",
+      "b": "Cuando el conductor se fuga abandonando el vehículo.",
+      "c": "Cuando no se hayan superado las faltas o deficiencias que motivaron la medida preventiva de retención del vehículo dentro del plazo máximo de veinticuatro (24) horas.",
+      "d": "Todas las anteriores"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 83,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre La\tmedida\tpreventiva\tde",
+    "descripcion": "internamiento de un vehículo en el depósito vehicular culmina cuando:",
+    "alternativas": {
+      "a": "Se\tsubsane\to\tse supere la deficiencia que la motivó, cuando corresponda.",
+      "b": "Cuando se cancele la multa en los casos que de acuerdo con la norma, la sanción a imponer así lo prevea.",
+      "c": "Se pague los  derechos por permanencia en el depósito vehicular y remolque del vehículo.",
+      "d": "Todas las anteriores"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 84,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre El conductor será sancionado con la suspensión de su licencia de conducir por__________________, si acumula 100 puntos en un período de 24 meses, contados a partir de la fecha en que quedó firme en sede administrativa, la sanción vigente más antigua",
+    "descripcion": "",
+    "alternativas": {
+      "a": "12 meses",
+      "b": "6 meses",
+      "c": "24 meses",
+      "d": "18 meses"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 85,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las infracciones leves que se encuentran tipificadas en el Texto Único Ordenado del Reglamento",
+    "descripcion": "Nacional\tde Tránsito, cuántos puntos generan:",
+    "alternativas": {
+      "a": "De 1 a 40 puntos",
+      "b": "De 1 a 20 puntos",
+      "c": "De 1 a 15 puntos",
+      "d": "De 1 a 25 puntos"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 86,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las infracciones graves que se encuentran tipificadas en el Texto Único Ordenado del Reglamento",
+    "descripcion": "Nacional\tde Tránsito, cuántos puntos generan:",
+    "alternativas": {
+      "a": "De 20 a 50 puntos",
+      "b": "De 16 a 50 puntos",
+      "c": "De 15 a 30 puntos",
+      "d": "De 1 a 20 puntos"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 87,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las infracciones muy graves que se encuentran tipificadas en el Texto Único Ordenado del Reglamento",
+    "descripcion": "Nacional de Tránsito, generan de:",
+    "alternativas": {
+      "a": "De 20 a 50 puntos",
+      "b": "De 1 a 30 puntos",
+      "c": "De 50 a 100 puntos",
+      "d": "Ninguna\tde anteriores las"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 88,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Los puntos generados por cada infracción tendrán una vigencia de ____________________c,ontados desde la fecha en que quede firme la sanción en sede administrativa.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "12 meses",
+      "b": "24 meses",
+      "c": "36 meses",
+      "d": "48 meses"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 89,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre El Texto Único Ordenado del Reglamento Nacional de Tránsito regula",
+    "descripcion": "",
+    "alternativas": {
+      "a": "El\tuso\tde las\tvías privadas\tterrestres,\ten cuanto\tse\trelacionan con el tránsito",
+      "b": "El\tuso\tde las\tvías públicas\tterrestres,\ten cuanto\tse\trelacionan con el tránsito",
+      "c": "El\tuso\tde las\tvías públicas\ty privadas,\ten cuanto\tse\trelacionan con el tránsito",
+      "d": "El servicio de transporte terrestre de personas y mercancías en los diferentes ámbitos."
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 90,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Es parte de la vía destinada al uso de peatones:",
+    "alternativas": {
+      "a": "Berma",
+      "b": "Calzada",
+      "c": "Acera",
+      "d": "Cuneta"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 91,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre es parte de la vía destinada a la circulación de vehículos y eventualmente al cruce de peatones y animales",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Berma",
+      "b": "Calzada",
+      "c": "Acera",
+      "d": "Cuneta"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 92,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Es parte de una carretera o camino contigua a la calzada no habilitada para la circulación de vehículo.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Berma",
+      "b": "Calzada",
+      "c": "Acera",
+      "d": "Cuneta"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 93,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Es una Zanja\tal lado\tdel camino o carretera\tdestinada\ta recibir\taguas pluviales",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Berma",
+      "b": "Calzada",
+      "c": "Acera",
+      "d": "Cuneta"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 94,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Se entiende por carril a la:",
+    "alternativas": {
+      "a": "Parte de la destinada a circulación\tde vehículos eventualmente al de los peatones vía la los y cruce",
+      "b": "Parte de la calzada destinada al tránsito de una fila de vehículos.",
+      "c": "Vía rural destinada a la circulación de vehículos, peatones y animales",
+      "d": "Parte de una carretera o camino contigua a la calzada"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 95,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Se entiende por carretera a la:",
+    "alternativas": {
+      "a": "Vías principales\tque se encuentran dentro del ámbito urbano destinadas a la circulación de vehículos.",
+      "b": "Vía fuera del ámbito urbano, destinada a la circulación de vehículos.",
+      "c": "Vías urbanas.",
+      "d": "todas las anteriores"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 96,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Se entiende por línea de parada a la:",
+    "alternativas": {
+      "a": "Línea transversal marcada en la calzada antes de la intersección que indica al conductor el límite para detener el vehículo acatando la señal correspondiente.",
+      "b": "Líneas que se encuentran en los lugares\tdel estacionamiento",
+      "c": "Líneas que los vehículos utilizan para embarcar y desembarcar pasajeros",
+      "d": "todas las anteriores"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 97,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Se define como zona rígida al:",
+    "alternativas": {
+      "a": "Área donde se prohíbe la circulación de vehículos",
+      "b": "Área donde se prohíbe la circulación de peatones",
+      "c": "Área de la vía en la que se prohíbe el estacionamiento de vehículos las 24 horas del día.",
+      "d": "Todas las anteriores"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 98,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre ¿Cuál es la autoridad competente para aplicar\tlas\tsanciones\tpor",
+    "descripcion": "acumulación\tde puntos en el ámbito urbano?",
+    "alternativas": {
+      "a": "Ministerio\tde Transportes\ty Comunicaciones",
+      "b": "Policía\tNacional\tdel Perú",
+      "c": "SUTRAN",
+      "d": "Municipalidades Provinciales"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 99,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "¿Cuál es la autoridad que garantiza y controla la libre circulación en las vías públicas del territorio nacional?",
+    "alternativas": {
+      "a": "Los\tinspectores\tde transportes\tde\tla SUTRAN",
+      "b": "Los\tinspectores\tde transportes\tde\tlas Municipalidades Provinciales",
+      "c": "La\tPolicía\tNacional del Perú",
+      "d": "Las Municipalidades distritales"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 100,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Son elementos de la vía:",
+    "alternativas": {
+      "a": "La calzada, la acera y la berma",
+      "b": "La\tcuneta\ty\tel estacionamiento",
+      "c": "El separador central, el jardín y el equipamiento de servicios necesarios para su utilización.",
+      "d": "todas las anteriores"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 101,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "Está prohibido en la vía:",
+    "alternativas": {
+      "a": "Ejercer\tel\tcomercio ambulatorio\to estacionario.",
+      "b": "Destinar las calzadas a otro uso que no sea el tránsito.",
+      "c": "Recoger o dejar pasajeros en lugares no autorizados.",
+      "d": "Todas las anteriores."
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 102,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "¿Cuál es la señal que tienen por finalidad guiar a los usuarios, proporcionándoles indicaciones que puedan necesitar durante su desplazamiento por la vía?",
+    "alternativas": {
+      "a": "Reglamentación",
+      "b": "Advertencia",
+      "c": "Información",
+      "d": "Ninguna anteriores. de las"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 103,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre ____________________________tienen por lo general, forma rectangular, con su mayor dimensión horizontal. ,",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Las\tseñales reguladoras",
+      "b": "Las\tseñales preventivas",
+      "c": "Las\tseñales informativas",
+      "d": "Ninguna anteriores. de las"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 104,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "La posición de frente ejecutada por el efectivo de la Policía Nacional del Perú, asignado al control de tránsito significa:",
+    "alternativas": {
+      "a": "Obligación\tde detenerse de quien así lo enfrente.",
+      "b": "Continuar la marcha por el carril izquierdo de la calzada.",
+      "c": "Continuar la marcha.",
+      "d": "Ninguna anteriores. de las"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 105,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre Las sanciones pecuniarias impuestas por la comisión de infracciones de tránsito pueden ser inscritas en las Centrales Privadas de Información de",
+    "descripcion": "Riesgos, en los siguientes casos:",
+    "alternativas": {
+      "a": "Cuando no se paguen en el plazo establecido desde que la resolución de sanción adquirió firmeza",
+      "b": "Cuando la sanción sea firme, es decir, no haya sido impugnada por\tel\tconductor infractor",
+      "c": "Cuando no se paguen al día siguiente a partir del cual la resolución de sanción\tadquirió firmeza",
+      "d": "a y b"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 106,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En zonas urbanas, el límite máximo de velocidad en calles y jirones es de",
+    "descripcion": "",
+    "alternativas": {
+      "a": "30km/h",
+      "b": "40 km/h",
+      "c": "60 km/h",
+      "d": "80 km/h"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 107,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En zonas urbanas, el límite máximo de velocidad en avenidas es de",
+    "descripcion": "",
+    "alternativas": {
+      "a": "30km/h",
+      "b": "40 km/h",
+      "c": "60 km/h",
+      "d": "80 km/h"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 108,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En zonas urbanas, el límite máximo de velocidad en vías expresas es de",
+    "descripcion": "",
+    "alternativas": {
+      "a": "30km/h",
+      "b": "40 km/h",
+      "c": "60 km/h",
+      "d": "80 km/h"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 109,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En zonas urbanas, el límite máximo de velocidad en zona escolar es de",
+    "descripcion": "",
+    "alternativas": {
+      "a": "30km/h",
+      "b": "40 km/h",
+      "c": "60 km/h",
+      "d": "80 km/h"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 110,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En zonas urbanas, el límite máximo de velocidad en zona de hospital es de",
+    "descripcion": "",
+    "alternativas": {
+      "a": "30km/h",
+      "b": "40 km/h",
+      "c": "60 km/h",
+      "d": "80 km/h"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 111,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "En carreteras, el límite máximo de velocidad para automóviles, camionetas y motocicletas es de:",
+    "alternativas": {
+      "a": "100km/h",
+      "b": "120 km/h",
+      "c": "60 km/h",
+      "d": "80 km/h"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 112,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En caminos rurales, el límite máximo de velocidad es de",
+    "descripcion": "",
+    "alternativas": {
+      "a": "30km/h",
+      "b": "40 km/h",
+      "c": "60 km/h",
+      "d": "80 km/h"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 113,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre En\tlas\tintersecciones\turbanas\tno semaforizadas,\tel límite\tmáximo de velocidad es de",
+    "descripcion": "",
+    "alternativas": {
+      "a": "30km/h",
+      "b": "40 km/h",
+      "c": "60 km/h",
+      "d": "80 km/h"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 114,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "El límite mínimo de velocidad en zona urbana y carreteras es de:",
+    "alternativas": {
+      "a": "30km/h",
+      "b": "La mitad del máximo fijado para cada tipo de vía",
+      "c": "20 km/h",
+      "d": "15 km/h"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 115,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre La sanción por conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, o bajo los efectos de",
+    "descripcion": "estupefacientes, narcóticos y/o alucinógenos comprobado con el examen respectivo o por negarse al mismo y que haya participado en un accidente de tránsito es:",
+    "alternativas": {
+      "a": "Inhabilitación para obtener una licencia de conducir por 3 años",
+      "b": "Cancelación de licencia de conducir e inhabilitación definitiva para obtener una licencia de conducir",
+      "c": "Multa de 100 % de la UIT (S/. 4,050.00)",
+      "d": "b y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 116,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre La sanción por conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, bajo los efectos de",
+    "descripcion": "estupefacientes, narcóticos y/o alucinógenos comprobada con el examen respectivo o por negarse al mismo es:",
+    "alternativas": {
+      "a": "Inhabilitación para obtener una licencia de conducir por 3 años",
+      "b": "Suspensión de la licencia de conducir por 1 año y multa de 50 % de la UIT (S/. 2,025.00)",
+      "c": "Suspensión de la licencia de conducir por 3 años y multa de 50 % de la UIT (S/. 2,025.00)",
+      "d": "Ninguna es correcta"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 117,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "La sanción por conducir un vehículo automotor sin tener licencia de conducir o permiso provisional es:",
+    "alternativas": {
+      "a": "Inhabilitación para obtener una licencia de conducir por 3 años",
+      "b": "Multa de 50 % de la UIT (S/. 2,025.00)",
+      "c": "Inhabilitación para obtener una licencia de conducir por 1 año y multa del 50 % de la UIT (S/. 2,025.00)",
+      "d": "a y b"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 118,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Obligaciones del conductor en materia de tránsito terrestre",
+    "descripcion": "La sanción por conducir vehículos estando la licencia de conducir retenida, suspendida o estando inhabilitado para obtener licencia de conducir es:",
+    "alternativas": {
+      "a": "Suspensión de la licencia de conducir por 3 años, si ésta estuviese retenida y cancelación definitiva de la licencia de conducir, si la licencia estuviere suspendida.",
+      "b": "Suspensión de la licencia de conducir por 1 año, si ésta estuviese retenida y multa de 50 % de la UIT (S/. 2,025.00)",
+      "c": "Multa de 100 % de la UIT (S/. 4,050.00)",
+      "d": "a y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 119,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Inspección Técnica Vehicular Las inspecciones\ttécnicas vehiculares se realizan según el_____ dígito de la placa única nacional de rodaje",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Primer",
+      "b": "Último",
+      "c": "Penúltimo",
+      "d": "Primer y último."
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 120,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Inspección Técnica Vehicular Señale la respuesta correcta respecto a la frecuencia, antigüedad y vigencia de las inspecciones técnicas vehiculares",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Varia dependiendo la categoría del vehículo",
+      "b": "La\tmayoría\tde vehículos deben pasar la inspección técnica a partir del noveno año de antigüedad",
+      "c": "La vigencia del certificado de inspección técnica puede ser 6 o 12 meses dependiendo la categoría del vehículo",
+      "d": "a y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 121,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Inspección Técnica Vehicular Las Inspecciones Técnicas Vehiculares se realizan de acuerdo a los siguientes factores",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Categoría de los vehículos",
+      "b": "Función\tde\tlos vehículos",
+      "c": "Antigüedad\tde\tlos vehículos",
+      "d": "Todas las anteriores"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 122,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Inspección Técnica Vehicular Una observación _______ en la inspección técnica vehicular, es aquella de carácter documentario y/o técnico que no exige una nueva inspección técnica vehicular, debiendo subsanarse las observaciones efectuadas antes de la siguiente Inspección Técnica Vehicular.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Grave",
+      "b": "Muy grave",
+      "c": "Leve.",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 123,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Inspección Técnica Vehicular Una observación ______ en la inspección técnica vehicular, es aquella\tque\tocasiona\tla desaprobación de la Inspección Técnica Vehicular, exigiendo su subsanación mediante una reinspección sobre las deficiencias consignadas dentro del plazo máximo de 30 días.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Grave",
+      "b": "Muy grave",
+      "c": "Leve.",
+      "d": "Ninguna anteriores. de las"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 124,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Inspección Técnica Vehicular Una observación ______, en la inspección técnica vehicular, es aquella\tque\tocasionan\tla desaprobación de la Inspección Técnica Vehicular, debiéndose trasladar el vehículo al taller de mantenimiento mecánico, que",
+    "descripcion": "determine el propietario o conductor, para la subsanación de la misma.",
+    "alternativas": {
+      "a": "Grave",
+      "b": "Muy grave",
+      "c": "Leve.",
+      "d": "Ninguna anteriores. de las"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 125,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Inspección Técnica Vehicular ¿A\tque\tse\tdenomina\tInspección",
+    "descripcion": "Técnica Ordinaria?",
+    "alternativas": {
+      "a": "Es la que se exige para la inmatriculación.",
+      "b": "Es\tla\tque\tdebe cumplir todo vehículo que circula por las vías.",
+      "c": "Ninguna anteriores de las",
+      "d": "Sólo\ta) correctas y\tb) son"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 126,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos ¿Por\tcuantos\tcaracteres\testa constituido\tel\tNúmero\tde",
+    "descripcion": "Identificación Vehicular?",
+    "alternativas": {
+      "a": "13",
+      "b": "15",
+      "c": "16",
+      "d": "17"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 127,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos",
+    "descripcion": "El Reglamento Nacional de Vehículos, señala que el parachoques delantero y posterior:",
+    "alternativas": {
+      "a": "Puede contar con filos angulares cortantes",
+      "b": "No debe exceder el ancho del vehículo",
+      "c": "Puede o no exceder el ancho del vehículo",
+      "d": "Puede exceder ancho del vehículo sin\tfilos\tangula cortantes el pero res"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 128,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos ¿Qué definición corresponde a luz alta en\tel\tReglamento\tNacional\tde",
+    "descripcion": "Vehículos?",
+    "alternativas": {
+      "a": "Luz utilizada para alumbrar una mayor distancia de la vía por delante del vehículo, también denominada de carretera.",
+      "b": "Luz utilizada para alumbrar una mayor distancia de la vía, también denominada luz complementaria.",
+      "c": "Haz de luz abierto y de corto alcance ubicado en la parte delantera del vehículo para alumbrar la carretera en condiciones de neblina.",
+      "d": "Ninguna\tde anteriores las"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 129,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos",
+    "descripcion": "El Reglamento Nacional de Vehículos define a los frenos como:",
+    "alternativas": {
+      "a": "Conjunto\tde elementos del vehículo que permite reducir la velocidad, detener o asegurar la parada del vehículo.",
+      "b": "Conjunto\tde elementos del vehículo que permite reducir la velocidad para detener el vehículo, sin que ello signifique asegurar la parada del vehículo.",
+      "c": "Conjunto\tde elementos del vehículo que sirve solo para detener completamente el vehículo.",
+      "d": "Ninguna\tde anteriores las"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 130,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos",
+    "descripcion": "¿Cuáles son los códigos de identificación vehicular?",
+    "alternativas": {
+      "a": "Número de identificación vehicular, número de serie, número de motor.",
+      "b": "Número de chasis, placa de rodaje, numero de motor.",
+      "c": "VIN, número de chasis, placa de rodaje.",
+      "d": "Solo\tnúmero chasis y VIN. de"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 131,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos Todos los vehículos deben tener la configuración original de fábrica para el tránsito por el lado ____ de la vía.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Izquierdo",
+      "b": "Derecho",
+      "c": "Derecho o izquierdo según su configuración de fábrica",
+      "d": "ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 132,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos Los vehículos que circulan por las vías del SNTT, deben contar con carrocería diseñada para evitar salpicaduras de las ruedas y/o protegida por guardafangos",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Si.",
+      "b": "No.",
+      "c": "Depende del tamaño del vehículo.",
+      "d": "No\tse\tencuentra regulado si debe contar o no."
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 133,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos Los vehículos podrán contar con accesorios (defensas especiales delanteras, barras antivuelco, parrillas de techo, alerones, spoilers, viseras, estribos, etc.) siempre y cuando estos tengan bordes ______.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Redondeados ángulos salientes su visibilidad y con para",
+      "b": "Redondeados ciertas aristas y con",
+      "c": "Redondeados",
+      "d": "Cuadrados o rectos, sin ángulos que sobre salgan del vehículo"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 134,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos Los vehículos podrán contar con accesorios (defensas especiales delanteras, barras antivuelco, parrillas de techo, alerones, spoilers, viseras, estribos, etc.) siempre y cuando estos no excedan más de ______ de los extremos delantero y posterior del vehículo.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "250 mm.",
+      "b": "200 mm",
+      "c": "100 mm",
+      "d": "150 mm"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 135,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos",
+    "descripcion": "Sobre\tel\tlimpiaparabrisas\ty lavaparabrisas es correcto:",
+    "alternativas": {
+      "a": "Como mínimo deben cubrir solo el área frente al piloto.",
+      "b": "Como mínimo deben cubrir el área frente al piloto y copiloto.",
+      "c": "El limpiaparabrisas debe cubrir el área del piloto y copiloto, y el lavabrisas solo el área frente al piloto.",
+      "d": "No esta regulado en el área mínima, solo la exigibilidad de tener un solo limpiaparabrisas para el piloto."
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 136,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos ¿Cuales son las herramientas como mínimo que debe tener un vehículo para\tcambiar\tla\trueda?,\tsegún\tel Reglamento Nacional de Vehículos",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Gata completa que soporte al menos el 30% del peso bruto del vehículo\ty\tllave\tde ruedas",
+      "b": "Solo se exige la gata completa que soporte al menos el 40% del peso bruto del vehículo.",
+      "c": "Gata\tcompleta\tque soporte el peso bruto del vehículo, llave de ruedas y seguro de las ruedas.",
+      "d": "Set de llaves hexagonales y gata completa que soporte al menos el 30% del peso neto del vehículo."
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 137,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Vehículos ¿A qué se consideran Vías Terrestres según el Reglamento Nacional de",
+    "descripcion": "Vehículos?",
+    "alternativas": {
+      "a": "Sistema\tde\tvías públicas incluyendo las concesionadas, así como las privadas, por donde circulan los vehículos, a excepción de las vías férreas.",
+      "b": "Vía\ten\tque\tlos vehículos y las personas sólo tienen oportunidad a ingresar o salir de ella, por los lugares y bajo las condiciones fijadas por la Autoridad competente",
+      "c": "Sistema\tde\tvías públicas, incluyendo las vías férreas, sin considerar las concesionadas y las privadas.",
+      "d": "Vía dentro del ámbito urbano, destinada a la circulación de vehículos y peatones y\teventualmente\tde animales"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 138,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito Quedan excluidos de la cobertura del Seguro Obligatorio de Accidentes de",
+    "descripcion": "Tránsito, los accidentes:",
+    "alternativas": {
+      "a": "Causados en carreras de automóviles y otras competencias de vehículos motorizados",
+      "b": "En lugares\tfuera del territorio nacional",
+      "c": "En intersecciones sin señalización apropiada.",
+      "d": "a y b son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 139,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
+    "descripcion": "¿Que obligación tiene el conductor o propietario del vehículo de producirse un accidente con un vehículo coberturado con SOAT?",
+    "alternativas": {
+      "a": "Dar aviso a los bomberos",
+      "b": "Dar aviso\tsolo\ta la compañía de seguros",
+      "c": "Dar aviso a la compañía de seguros y dejar constancia en la delegación\tde\tla\tPNP más cercana",
+      "d": "Dar aviso\tsolo\ta la PNP"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 140,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
+    "descripcion": "¿Qué vehículos se encuentran obligados a contratar un SOAT?",
+    "alternativas": {
+      "a": "Motorizados y no motorizados",
+      "b": "Vehículos automotores\tcon excepción\tde\tlos vehículos\tautomotores de 2 ruedas, de hasta  50 cm3",
+      "c": "Todo\tvehículo automotor que circule por el territorio nacional",
+      "d": "Todo\tvehículo automotor excepción\tde vehículos oficiales con los"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 141,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
+    "descripcion": "¿Cuál\tes\tel\tplazo\tde vigencia\tdel SOAT?",
+    "alternativas": {
+      "a": "1 año",
+      "b": "6 meses",
+      "c": "4 años",
+      "d": "2 años"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 142,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
+    "descripcion": "¿Es requisito que se investigue previamente el accidente para que se brinde la cobertura del SOAT o CAT?",
+    "alternativas": {
+      "a": "No",
+      "b": "Solo si\thay víctimas mortales",
+      "c": "Solo si el conductor se encontraba en presunto estado de ebriedad",
+      "d": "Si"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 143,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
+    "descripcion": "¿Cuál es los plazos que cuenta la compañía de seguros o la AFOCAT para pagar los gastos o indemnizaciones?",
+    "alternativas": {
+      "a": "15 días",
+      "b": "10 días",
+      "c": "5 días",
+      "d": "30 días"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 144,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
+    "descripcion": "¿Ante quién denuncio la falta de pago de coberturas por parte de la compañía de seguros?",
+    "alternativas": {
+      "a": "Ante el MTC",
+      "b": "Ante la SBS",
+      "c": "Ante el INDECOPI",
+      "d": "b y c son correctas"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 145,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Nacional de Responsabilidad Civil y Seguros Obligatorios de Accidentes de Tránsito",
+    "descripcion": "Si usted contrata un SOAT en la \"Región A\" y realiza un viaje con su vehículo a la \"Región B\", en la cual tiene un accidente de tránsito. ¿Se encuentra coberturado por el SOAT?",
+    "alternativas": {
+      "a": "No, porque el SOAT solo tiene validez para la Región en donde fue contratado.",
+      "b": "Es válida la cobertura solo en Regiones continuas.",
+      "c": "Sí,\tporque\tla cobertura del SOAT es de alcance nacional.",
+      "d": "Depende de condiciones en cuales se contrató SOAT las las el"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 146,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento de Placa Única Nacional de Rodaje",
+    "descripcion": "¿Qué vehículos se encuentran obligados a exhibir la Placa Única de Rodaje?",
+    "alternativas": {
+      "a": "Todos los vehículos automotores",
+      "b": "Vehículos\tde transporte terrestre con excepción de los remolques\ty semiremolques",
+      "c": "Todo vehículo que circule por las vías públicas, con excepción a los semiremolques",
+      "d": "Todo vehículo motorizado y no motorizado\tque circule en\tlas\tvías\tpúblicas terrestre"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 147,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento de Placa Única Nacional de Rodaje Los remolques y semiremolques llevan la placa del vehículo automotor que los hala.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "En ningún caso",
+      "b": "Si.",
+      "c": "Depende del tipo de estructura que se remolca.",
+      "d": "Solo\tlos\tremolques con un peso bruto menor de 750 Kg."
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 148,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento de Placa Única Nacional de Rodaje",
+    "descripcion": "¿Se puede añadir elementos adicionales a la placa única de rodaje?",
+    "alternativas": {
+      "a": "No",
+      "b": "Si",
+      "c": "Sí, previa autorización de la autoridad competente",
+      "d": "Sí, siempre que sea de un color distinto a los elementos obligatorios de\tla\tplaca\túnica\tde rodaje"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 149,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento de Placa Única Nacional de Rodaje",
+    "descripcion": "¿Qué tiempo de vigencia tiene la placa única de rodaje?",
+    "alternativas": {
+      "a": "15 años",
+      "b": "20 años",
+      "c": "Ilimitada",
+      "d": "15\taños\tcon renovación automática"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 150,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento de Placa Única Nacional de Rodaje",
+    "descripcion": "¿Qué entidad realiza la entrega de la placa única de rodaje?",
+    "alternativas": {
+      "a": "SUNARP",
+      "b": "SUNARP y MTC",
+      "c": "MTC, a través de una Entidad Concesionaria",
+      "d": "a y c son correctas"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 151,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento de Placa Única Nacional de Rodaje",
+    "descripcion": "¿En qué lugar del vehículo deber ser colocada la placa única de rodaje?",
+    "alternativas": {
+      "a": "en la parte delantera y posterior del vehículo",
+      "b": "las\tplanchas metálicas en la parte delantera y posterior del vehículo,\ty\tla calcomanía holográfica (tercera placa) en la parte superior derecha del parabrisas delantero",
+      "c": "las\tplanchas metálicas en la parte delantera y posterior del vehículo,\ty\tla calcomanía holográfica (tercera placa) en la parte inferior derecha del parabrisas delantero",
+      "d": "las\tplanchas metálicas en la parte delantera y posterior del vehículo,\ty\tla calcomanía holográfica (tercera placa) en la parte inferior derecha del parabrisas trasero"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 152,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Primeros Auxilios en caso de accidentes de tránsito",
+    "descripcion": "¿Cuál es la primera acción a realizar en caso de un accidente de tránsito?",
+    "alternativas": {
+      "a": "Examinar a las víctimas",
+      "b": "Inmovilizar\ta\tlas víctimas",
+      "c": "Llamar a los números de emergencia (116 Bomberos; 105 Policía)",
+      "d": "Todas las anteriores"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 153,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Primeros Auxilios en caso de accidentes de tránsito",
+    "descripcion": "¿Cómo mantener el estado de conciencia de una persona herida en un accidente de tránsito?",
+    "alternativas": {
+      "a": "Aplicando paños de agua fría en la nuca",
+      "b": "Realizando constantes preguntas; tales como: ¿Cómo te llamas?, ¿Dónde estás?, etc.",
+      "c": "Aplicando\tpaños\tde agua fría en la frente",
+      "d": "Tomando su pulso"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 154,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Primeros Auxilios en caso de accidentes de tránsito",
+    "descripcion": "¿Una vez contacatdo al nùmero de emergencia, qué acciones debe realizar con una persona herida en un accidente de tránsito?",
+    "alternativas": {
+      "a": "Girar su torso hacia la derecha",
+      "b": "Inmovilizar al herido",
+      "c": "Aflojar sus ropas, correas y/o corbatas que puedan estar oprimiendo el cuello y vías respiratorias",
+      "d": "b y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 155,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Primeros Auxilios en caso de accidentes de tránsito",
+    "descripcion": "¿Cuál es la manera correcta de verificar el pulso de una persona herida?",
+    "alternativas": {
+      "a": "Colando los dedos índice y medio sobre un lado del cuello, presionando ligeramente las arterias carótidas",
+      "b": "Realizando una leve presión con la palma de la mano en la parte central del pecho del herido",
+      "c": "Colocando uno de las orejas en el pecho de la víctima para escuchar los latidos del corazón",
+      "d": "N.A"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 156,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Primeros Auxilios en caso de accidentes de tránsito",
+    "descripcion": "Para detener una hemorragia profusa se debe:",
+    "alternativas": {
+      "a": "Poner una venda en la zona afectada del cuerpo",
+      "b": "Lavar con agua la zona afectada del cuerpo para quitar cualquier residuo que pueda infectar la herida",
+      "c": "Hacer compresión en la zona afectada",
+      "d": "Todas las anteriores"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 157,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir Es una licencia\tde conducir\tque se obtiene por otorgamiento directo",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Clase A Categoría II A",
+      "b": "Clase A Categoría III C",
+      "c": "Clase A Categoría II B",
+      "d": "Clase A Categoría I"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 158,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir Es una licencia\tde conducir obtiene por recategorización",
+    "descripcion": "que se",
+    "alternativas": {
+      "a": "Clase A Categoría I",
+      "b": "Clase A Categoría III C",
+      "c": "Clase B Categoría II B.",
+      "d": "Clase B Categoría I"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 159,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir Es una licencia\tde conducir obtiene por recategorización",
+    "descripcion": "que se",
+    "alternativas": {
+      "a": "Clase A Categoría I",
+      "b": "Clase A Categoría II A",
+      "c": "Clase B Categoría II B.",
+      "d": "Clase B Categoría I"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 160,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir Es una licencia\tde conducir obtiene por recategorización",
+    "descripcion": "que se",
+    "alternativas": {
+      "a": "Clase A Categoría I",
+      "b": "Clase A Categoría II B",
+      "c": "Clase B Categoría II B.",
+      "d": "Clase B Categoría I"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 161,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir Es una licencia\tde conducir obtiene por recategorización",
+    "descripcion": "que se",
+    "alternativas": {
+      "a": "Clase A Categoría I",
+      "b": "Clase A Categoría III A",
+      "c": "Clase B Categoría II B.",
+      "d": "Clase B Categoría I"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 162,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir Es una licencia\tde conducir obtiene por recategorización",
+    "descripcion": "que se",
+    "alternativas": {
+      "a": "Clase A Categoría I",
+      "b": "Clase A Categoría III B",
+      "c": "Clase B Categoría II B.",
+      "d": "Clase B Categoría I"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 163,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir No es un requisito para la revalidación de la licencia de conducir",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Aprobación\tdel examen de habilidades en la conducción",
+      "b": "No contar con multas pendientes de pago por infracciones de tránsito",
+      "c": "Aprobación del examen\tde conocimientos",
+      "d": "No estar suspendido o inhabilitado, según la información del Registro Nacional de Sanciones"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 164,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir Es un requisito\tpara la revalidación de la licencia de conducir",
+    "descripcion": "",
+    "alternativas": {
+      "a": "No contar con multas pendientes de pago por infracciones de tránsito",
+      "b": "Presentar constancia de estudios",
+      "c": "Presentar certificado de antecedentes penales o judiciales",
+      "d": "Acreditar experiencia previa en la conducción"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 165,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir No es un requisito para la revalidación de la licencia de conducir",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Acreditar experiencia previa en la conducción",
+      "b": "No contar con multas pendientes de pago",
+      "c": "Aprobación del examen\tde conocimientos",
+      "d": "No estar suspendido o inhabilitado, según la información del Registro Nacional de Sanciones"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 166,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir Es un requisito\tpara la revalidación de la licencia de conducir",
+    "descripcion": "",
+    "alternativas": {
+      "a": "No estar suspendido o inhabilitado, según la información del Registro Nacional de Sanciones",
+      "b": "Presentar récord del conductor",
+      "c": "Presentar certificado de antecedentes penales o judiciales",
+      "d": "Acreditar experiencia previa en la conducción"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 167,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir No es un requisito para la revalidación de la licencia de conducir",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Presentar constancia de estudios",
+      "b": "No contar con multas pendientes de pago por infracciones de tránsito",
+      "c": "Aprobación del examen\tde conocimientos",
+      "d": "No estar suspendido o inhabilitado, según la información del Registro Nacional de Sanciones"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 168,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir Es un requisito\tpara la revalidación de la licencia de conducir",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Certificado de Salud para licencias de conducir",
+      "b": "Presentar récord del conductor",
+      "c": "Presentar certificado de antecedentes penales o judiciales",
+      "d": "Acreditar experiencia previa en la conducción"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 169,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir La vigencia del certificado de salud para licencias de conducir es de ____ para que el postulante concluya satisfactoriamente la obtención de todos los demás requisitos establecidos en el presente reglamento.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "3 meses",
+      "b": "6 meses",
+      "c": "9 meses",
+      "d": "1 año"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 170,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir La solicitud de revalidación de la licencia de conducir puede presentarse dentro de los ______días calendario anteriores a la fecha de revalidación consignada en la licencia de conducir o en cualquier momento después de culminado su plazo de vigencia, sin perjuicio de la prohibición de conducción con una licencia vencida.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "15",
+      "b": "60",
+      "c": "90",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 171,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
+    "descripcion": "Como consecuencia del diagnóstico efectuado en la evaluación médica y psicológica, se pueden consignar restricciones en la licencia de conducir como las siguientes:",
+    "alternativas": {
+      "a": "Con lentes correctores externos o de contacto",
+      "b": "Vehículos automotores especialmente acondicionados",
+      "c": "Todas las anteriores",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 172,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento del Sistema Nacional de Emisión de Licencias de Conducir",
+    "descripcion": "Como consecuencia del diagnóstico efectuado en la evaluación médica y psicológica, se pueden consignar restricciones en la licencia de conducir como las siguientes:",
+    "alternativas": {
+      "a": "Con dos espejos retrovisores laterales y espejo con ángulo de 180 grados.",
+      "b": "Con audífonos",
+      "c": "Todas las anteriores",
+      "d": "Ninguna anteriores de las"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 173,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente Es\tun\tbeneficio\tde\tla\tconducción eficiente",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Reducir el consumo de combustible",
+      "b": "Reducir la emisión de gases contaminantes",
+      "c": "Reducir\tla\ttasa\tde accidentes",
+      "d": "Todas las anteriores"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 174,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente",
+    "descripcion": "Según la técnica de conducción eficiente, ¿cuando se enciende el motor del vehículo?",
+    "alternativas": {
+      "a": "Antes de colocarse el cinturón de seguridad",
+      "b": "Al mismo tiempo que se regula el retrovisor",
+      "c": "Cuando todo este listo para partir",
+      "d": "Antes de alistarte para partir."
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 175,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente",
+    "descripcion": "¿Como se debe arrancar un vehículo?",
+    "alternativas": {
+      "a": "Pisando el acelerador un poco",
+      "b": "Sin\tpisar\tel acelerador",
+      "c": "Es\tigual\tporque\tlo hace la electrónica",
+      "d": "En ralentí"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 176,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente Tener un neumático (llanta) con una presión por debajo de la que indica el fabricante __________ un __________ consumo de combustible.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Ocasiona/Menor",
+      "b": "Ocasiona/mayor",
+      "c": "No ocasiona/mayor",
+      "d": "Ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 177,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente Tener un neumático (llanta) con una presión por encima de la que indica el fabricante ________ la amortiguación propia del neumático.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Aumenta",
+      "b": "Mantiene",
+      "c": "Reduce",
+      "d": "Ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 178,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente Un uso excesivo del freno, ______ el consumo de combustible.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Optimiza",
+      "b": "Disminuye.",
+      "c": "Incrementa",
+      "d": "Ninguno\tde\tlos anteriores"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 179,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente",
+    "descripcion": "¿A\tqué\tse\tdenomina\tconducción agresiva?",
+    "alternativas": {
+      "a": "Imprudencia al conducir",
+      "b": "Continuas aceleraciones y frenadas bruscas.",
+      "c": "Conducir\ten estricto cumplimiento\tde normativa la",
+      "d": "a y b son correctas"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 180,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente Tener un neumático (llanta) con una presión por debajo de la que indica el fabricante ______ un __________ desgaste.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Ocasiona/mayor",
+      "b": "Ocasiona/menor",
+      "c": "No ocasiona/mayor",
+      "d": "Ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 181,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente Marque la respuesta correcta respecto del Tacómetro de un vehículo",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Indica la velocidad del giro del motor en revoluciones por minuto (RPM) y refleja su funcionamiento.",
+      "b": "Su vigilancia permite que el conductor realice los cambios de marcha en los rangos recomendados",
+      "c": "Ayuda\ta\treducir consumo de combustible. el",
+      "d": "Todas las anteriores"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 182,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente Según el proyecto Planificación ante el Cambio Climático del Perú, el sector transportes es la fuente más importante de ______,específicamente el_______.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Emisiones de CO2/Transporte Terrestre",
+      "b": "Ingresos\tde divisas para\tel país/Transporte Acuático",
+      "c": "Emisiones CO2/Transporte Acuático de",
+      "d": "Ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 183,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente",
+    "descripcion": "Es\tuna\ttécnica\tde\tconducción eficiente:",
+    "alternativas": {
+      "a": "Evitar circular en neutro, sobre todo en bajadas",
+      "b": "Pisar\ta\tfondo\tel acelerador",
+      "c": "Mantener una velocidad constante evitando aceleraciones fuertes\ty\tfrenadas bruscas.",
+      "d": "Solo la b es incorrecta"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 184,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente Marque la respuesta correcta respecto a las siguientes premisas",
+    "descripcion": "",
+    "alternativas": {
+      "a": "La seguridad de las personas es más importante que la conducción eficiente",
+      "b": "Debe mantenerse la velocidad constante aunque esto implique avanzar rápidamente en esquinas y ante el cruce de peatones.",
+      "c": "Siempre\tse\tdebe priorizar\tla\tseguridad antes\tque la economía del combustible",
+      "d": "a y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 185,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Conducción eficiente Si se encuentra detenido por más de 1 minuto se recomienda",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Apagar el motor del vehículo",
+      "b": "Poner el\tmotor del vehículo en neutro",
+      "c": "Poner\ten ralentí\tel vehículo.",
+      "d": "Ninguna\tde\tlos anteriores"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 186,
+    "tipo": "Materias generales",
+    "categoria": "BII-C",
+    "tema": "Todas Mecánica Básica para la conducción",
+    "descripcion": "La baja presión de los neumáticos de un vehículo:",
+    "alternativas": {
+      "a": "Disminuirá el rozamiento y el calentamiento de los neumáticos.",
+      "b": "Aumentará el rozamiento y el calentamiento\tde\tlos neumáticos.",
+      "c": "Disminuirá\tel rozamiento y aumentará el enfriamiento de los neumáticos.",
+      "d": "Reducirá la velocidad"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 187,
+    "tipo": "Materias generales",
+    "categoria": "BII-C",
+    "tema": "Todas Mecánica Básica para la conducción",
+    "descripcion": "¿Qué es importante para un correcto mantenimiento básico del vehículo?",
+    "alternativas": {
+      "a": "Llevar frecuentemente el vehículo al taller.",
+      "b": "Que el conductor sepa realizar ciertas reparaciones\tdel vehículo.",
+      "c": "Realizar una inspección visual y controles\tbásicos diarios",
+      "d": "Llevar\tal\ttaller\tdel concesionario autorizado"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 188,
+    "tipo": "Materias generales",
+    "categoria": "BII-C",
+    "tema": "Todas Mecánica Básica para la conducción",
+    "descripcion": "¿Qué\tindica\tla\tviscosidad\tde\tun aceite?",
+    "alternativas": {
+      "a": "La capacidad de pegarse sobre las superficies a lubricar.",
+      "b": "La\tmayor\to\tmenor facilidad para pasar por las canalizaciones.",
+      "c": "La capacidad de no descomponerse y permanecer inalterable con el tiempo.",
+      "d": "Su\tcapacidad higroscópica"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 189,
+    "tipo": "Materias generales",
+    "categoria": "BII-C",
+    "tema": "Todas Mecánica Básica para la conducción",
+    "descripcion": "¿Qué es un cuenta revoluciones en el panel de instrumentos?",
+    "alternativas": {
+      "a": "Un indicador del número de vueltas que da el motor por una unidad de tiempo",
+      "b": "Un indicador del número de vueltas que da el neumático por una unidad de tiempo",
+      "c": "Un indicador del número de vueltas que da el diferencial por una unidad de tiempo",
+      "d": "Un indicador del número de vueltas que da la caja de cambios por\tuna\tunidad\tde tiempo"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 190,
+    "tipo": "Materias generales",
+    "categoria": "BII-C",
+    "tema": "Todas Mecánica Básica para la conducción",
+    "descripcion": "¿Cómo se deben ajustar las tuercas de las ruedas?",
+    "alternativas": {
+      "a": "No tiene orden",
+      "b": "De forma cruzada",
+      "c": "En secuencia",
+      "d": "De\tatrás\thacia delante"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 191,
+    "tipo": "Materias generales",
+    "categoria": "BII-C",
+    "tema": "Todas Mecánica Básica para la conducción Con el vehículo\ten funcionamiento, que indica\tla luz roja\ten forma de batería",
+    "descripcion": "",
+    "alternativas": {
+      "a": "Que la batería esta descargada",
+      "b": "El alternador dejo de funcionar C) Que la\tbatería esta desconectada",
+      "c": "",
+      "d": "Que\tla\tba encuentra\tcon carga tería\tse mucha"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 192,
+    "tipo": "Materias generales",
+    "categoria": "BII-C",
+    "tema": "Todas Mecánica Básica para la conducción",
+    "descripcion": "El refrigerante circula a través del motor impulsado por:",
+    "alternativas": {
+      "a": "Bomba de agua",
+      "b": "Presión de aire",
+      "c": "Pistón de vacío",
+      "d": "Bomba alimentación de"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 193,
+    "tipo": "Materias generales",
+    "categoria": "BII-C",
+    "tema": "Todas Mecánica Básica para la conducción",
+    "descripcion": "¿Qué\tentiende\tpor\tpanel\tde instrumentos?",
+    "alternativas": {
+      "a": "Señales de control en el tablero.",
+      "b": "Indicadores luminosos al alcance de la vista.",
+      "c": "Todas las anteriores.",
+      "d": "Ninguna anteriores de\tlas"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 194,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Vehículos Nacional de ¿Los vehículos de categoría L deben contar con dispositivos para",
+    "descripcion": "descansar los pies del conductor y de las personas transportadas ?",
+    "alternativas": {
+      "a": "Si",
+      "b": "No",
+      "c": "Depende\tde\tla carrocería\tdel vehículo de categoría L",
+      "d": "Solo deben contar con dispositivos para descansar los pies del conductor, no siendo obligatorio para las personas transportadas."
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 195,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿La Luz baja de un vehículo de categoría L debe ser de color?",
+    "alternativas": {
+      "a": "Solo Blanco",
+      "b": "Solo Amarillo",
+      "c": "Cualquier\tcolor siempre\tque\tno\tsean centellantes c) Blanco o Amarillo",
+      "d": ""
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 196,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "Según la clasificación vehicular, un vehículo automotor de tres ruedas se clasifica en la(s) categoría(s):",
+    "alternativas": {
+      "a": "L1, L2 y L3.",
+      "b": "L2, L4 y L5",
+      "c": "L3 y L5",
+      "d": "L2, L3 y L5"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 197,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿A qué distancia como mínimo debe ser audible el sonido de la bocina para los vehículos de categoría L?",
+    "alternativas": {
+      "a": "100 metros",
+      "b": "50 metros",
+      "c": "30 metros",
+      "d": "No existe mínimo siempre que estén dentro de los límites máximos permisibles para emisiones sonoras"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 198,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿ Qué color esta permitido para la luz alta adicional en un vehículo de categoría L?",
+    "alternativas": {
+      "a": "Solo Blanco",
+      "b": "Blanco o Amarillo",
+      "c": "Blanco,\tAmarillo\to Azul",
+      "d": "Solo Amarillo"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 199,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento Nacional\tde Licencias de Conducir del\tSistema",
+    "descripcion": "Emisión\tde La licencia de conducir clase B categoría II C permite conducir vehículos señalados en la categoría",
+    "alternativas": {
+      "a": "B II a",
+      "b": "B II b",
+      "c": "A I",
+      "d": "Sólo a) y b)"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 200,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir La licencia de conducir clase B categoría II B autoriza a conducir vehículos de la categoría.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "L3",
+      "b": "L4.",
+      "c": "L5",
+      "d": "Sólo a) y b)"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 201,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir La licencia de conducir Clase B categoría II A, autoriza conducir vehículos de la categoría.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "L1.",
+      "b": "L2.",
+      "c": "L5",
+      "d": "Sólo a) y b)"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 202,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir Las licencias\tde conducir de Clase B",
+    "descripcion": "tienen una vigencia de…",
+    "alternativas": {
+      "a": "3 años",
+      "b": "5 años",
+      "c": "8 años",
+      "d": "2 años"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 203,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir",
+    "descripcion": "El grado de instrucción requerido para obtener una licencia de conducir B-II A es:",
+    "alternativas": {
+      "a": "Primaria incompleta",
+      "b": "Primaria completa",
+      "c": "Secundaria incompleta",
+      "d": "Secundaria completa"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 204,
+    "tipo": "Materias generales",
+    "categoria": "BIIA",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir Es un requisito\tpara la obtención de",
+    "descripcion": "una licencia de conducir B-II A",
+    "alternativas": {
+      "a": "Tener\tuna mínima de 18 años edad",
+      "b": "Presentar constancia de estudios que acredite que el postulante culminó la secundaria.",
+      "c": "Presentar una declaración jurada de no tener antecedentes penales ni judiciales",
+      "d": "Presentar certificado de no tener antecedentes penales ni judiciales"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 1,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de ¿Es obligatorio que un vehículo de categoría L5 cuente con luz de",
+    "descripcion": "posición\tdelantera y luz de posición posterior?",
+    "alternativas": {
+      "a": "No, es opcional",
+      "b": "Si.",
+      "c": "Solo es obligatoria\ta la\tLuz\tde\tposición posterior.",
+      "d": "No se encuentra regulado si es obligatorio o opcional."
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 2,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿A qué distancia como mínimo debe ser audible el sonido de la bocina para los vehículos de categoría L?",
+    "alternativas": {
+      "a": "100 metros",
+      "b": "50 metros",
+      "c": "30 metros",
+      "d": "No existe mínimo siempre que estén dentro de los límites máximos permisibles para emisiones sonoras"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 3,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "Los vehículos menores destinados al servicio de transporte público especial de pasajeros deben cumplir con lo siguiente:",
+    "alternativas": {
+      "a": "Ser de la categoría L5, contar con parachoques posterior\ty\tláminas retroflectivas.",
+      "b": "Ser de la categoría L3 y contar con parachoque posterior",
+      "c": "Ser de la categoría L y contar\tcon\tláminas retroflectivas",
+      "d": "Solo\tser\tde\tla categoría L5"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 4,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿Cuál definición corresponde a un vehículo de categoría L5?",
+    "alternativas": {
+      "a": "Vehículos de tres ruedas asimétricas al eje longitudinal del vehículo, de mas de 50 cm3 o una velocidad mayor de 50 km/h.",
+      "b": "Vehículos de tres ruedas, de hasta 50 cm3 y velocidad\tmáxima de 50 km/h",
+      "c": "Vehículos de dos ruedas, de mas de 50 cm3 o velocidad mayor a 50 km/h.",
+      "d": "Vehículos de tres ruedas simétricas al eje longitudinal del vehículo, de mas de 50 cm3 o velocidad mayor a 50 km/h y cuyo peso bruto vehicular no exceda de una tonelada."
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 5,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿ Qué color esta permitido para la luz alta adicional en un vehículo de categoría L?",
+    "alternativas": {
+      "a": "Solo Blanco",
+      "b": "Blanco o Amarillo",
+      "c": "Blanco,\tAmarillo\to Azul",
+      "d": "Solo Amarillo"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 6,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿ Qué color esta permitido para la luz direccional posterior en un vehículo de categoría L5?",
+    "alternativas": {
+      "a": "Amarillo o Rojo",
+      "b": "Amarillo o Naranja",
+      "c": "Solo Amarillo",
+      "d": "Blanco,\tAmarillo\to Naranja"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 7,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿ Es obligatoria la luz de placa posterior para los vehículos de categoría L?",
+    "alternativas": {
+      "a": "Si",
+      "b": "No, es opcional",
+      "c": "No\taplica\tpara vehículos menores",
+      "d": "Ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 8,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿Es obligatorio contar con el sistema de freno de estacionamiento para los vehículos de categoría L5?",
+    "alternativas": {
+      "a": "Si",
+      "b": "No, es opcional",
+      "c": "No\taplica\tpara vehículos menores",
+      "d": "Ninguna\tde\tlas anteriores"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 9,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "Cuáles son los instrumentos e indicadores de luz que deben contar vehículos de categoría L de forma obligatoria?",
+    "alternativas": {
+      "a": "Luz de testigo de luz alta,\tluz\tde testigo de direccionales, velocímetro y odómetro e indicador\tde nivel de combustible.",
+      "b": "Luz\tde\ttestigo\tde direccionales, velocímetro, odómetro y Tacógrafo",
+      "c": "Luz de testigo de luz alta,\tluz\tde testigo de direccionales, velocímetro y odómetro.",
+      "d": "indicador de nivel de combustible, Luz de testigo de luz alta y velocímetro"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 10,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿Dónde debe ubicarse el depósito de combustible para un vehículo de categoría L2 y L5?",
+    "alternativas": {
+      "a": "De acuerdo al Diseño del fabricante. Si el vehículo no es completamente cerrado podrá ubicarse como en los vehículos de las categorías L1 y L3.",
+      "b": "En la parte externa del vehículo. Si\tel\tvehículo\tno\tes completamente cerrado podrá ubicarse como en los vehículos de las categorías L1 y L3.",
+      "c": "En la parte externa de la cabina",
+      "d": "Ninguna\tde anteriores las"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 11,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿Cuál es la ubicación que debe tener el tubo de escape de un vehículo categoría L5?",
+    "alternativas": {
+      "a": "La salida del tubo de escape debe descargar las emisiones del motor hacia atrás del vehículo",
+      "b": "La salida del tubo de escape debe estar ubicada a 300mm como máximo del extremo posterior\tdel compartimiento de pasajeros y descargar las emisiones del motor hacia atrás del vehículo",
+      "c": "El extremo del tubo de escape no debe sobresalir del vehículo y debe descargar las emisiones del motor por la parte posterior o lateral\tizquierda\tdel vehículo",
+      "d": "Ninguna\tde anteriores las"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 12,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "Las láminas de retroreflectivas deben estar compuestas por:",
+    "alternativas": {
+      "a": "Blanca y Anaranjada",
+      "b": "Amarilla y Roja",
+      "c": "Blanca y Amarilla",
+      "d": "Blanca y Roja"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 13,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de Las láminas deben colocarse a no menos de ____mm y no más de ____m sobre la superficie de la carretera.",
+    "descripcion": "",
+    "alternativas": {
+      "a": "300 y 1,60",
+      "b": "200 y 1,60",
+      "c": "300 y 1,40",
+      "d": "350 y 1,50"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 14,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Reglamento Vehículos Nacional de",
+    "descripcion": "¿Qué porcentaje como máximo de oscurecimiento debe tener los parabrisas de vidrio de seguridad para los vehículos menores?",
+    "alternativas": {
+      "a": "40%",
+      "b": "20%.",
+      "c": "30%.",
+      "d": "50%"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 15,
+    "tipo": "Materias generales",
+    "categoria": "BIIC",
+    "tema": "Funcionamiento Nacional\tde Licencias de Conducir del\tSistema",
+    "descripcion": "Emisión\tde La licencia de conducir clase B categoría II C permite conducir vehículos señalados en la categoría",
+    "alternativas": {
+      "a": "B II a",
+      "b": "B II b",
+      "c": "A I",
+      "d": "Sólo a) y b)"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 16,
+    "tipo": "Materias generales",
+    "categoria": "BIIC",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir La licencia de conducir categoría II B autoriza a vehículos de la categoría.",
+    "descripcion": "clase\tB conducir",
+    "alternativas": {
+      "a": "L3",
+      "b": "L4.",
+      "c": "L5",
+      "d": "Sólo a) y b)"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 17,
+    "tipo": "Materias generales",
+    "categoria": "BIIC",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir La licencia de conducir categoría II A, autoriza vehículos de la categoría.",
+    "descripcion": "Clase\tB conducir",
+    "alternativas": {
+      "a": "L1.",
+      "b": "L2.",
+      "c": "L5",
+      "d": "Sólo a) y b)"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 18,
+    "tipo": "Materias generales",
+    "categoria": "BIIC",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir Las licencias\tde conducir de Clase B",
+    "descripcion": "tienen una vigencia de…",
+    "alternativas": {
+      "a": "3 años",
+      "b": "5 años",
+      "c": "8 años",
+      "d": "2 años"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 19,
+    "tipo": "Materias generales",
+    "categoria": "BIIC",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir Es una licencia\tde conducir\tque se",
+    "descripcion": "obtiene por otorgamiento directo",
+    "alternativas": {
+      "a": "Clase A Categoría II A",
+      "b": "Clase A Categoría III C",
+      "c": "Clase A Categoría II B",
+      "d": "Clase B Categoría I"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 20,
+    "tipo": "Materias generales",
+    "categoria": "BIIC",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir Es una licencia\tde conducir\tque se",
+    "descripcion": "obtiene por otorgamiento directo",
+    "alternativas": {
+      "a": "Clase A Categoría II A",
+      "b": "Clase A Categoría III C",
+      "c": "Clase A Categoría II B",
+      "d": "Clase B Categoría II C"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 21,
+    "tipo": "Materias generales",
+    "categoria": "BIIC",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir Es una licencia\tde conducir\tque se",
+    "descripcion": "obtiene por otorgamiento directo",
+    "alternativas": {
+      "a": "Clase A Categoría II A",
+      "b": "Clase A Categoría III C",
+      "c": "Clase A Categoría II B",
+      "d": "Clase B Categoría II B"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 22,
+    "tipo": "Materias generales",
+    "categoria": "BIIC",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir Es un requisito\tpara la obtención de",
+    "descripcion": "una licencia de conducir B-II C",
+    "alternativas": {
+      "a": "Presentar una Constancia de Finalización\tdel Programa de Formación de Conductores - COFIPRO expedida por una Escuela de Conductores",
+      "b": "Presentar constancia de estudios que acredite que el postulante culminó la secundaria.",
+      "c": "Presentar una declaración jurada de no tener antecedentes penales ni judiciales",
+      "d": "Presentar certificado de no tener antecedentes penales ni judiciales"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 23,
+    "tipo": "Materias generales",
+    "categoria": "BIIC",
+    "tema": "Funcionamiento\tdel\tSistema Nacional\tde\tEmisión\tde Licencias de Conducir La licencia de conducir clase B categoría II C permite conducir vehículos de las siguientes",
+    "descripcion": "categorías……",
+    "alternativas": {
+      "a": "L1 y L2",
+      "b": "L3 y L4",
+      "c": "L5",
+      "d": "Todas las anteriores"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 24,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte ¿Cuál es el seguro obligatorio para prestar el servicio de transporte en vehículos menores? (i) AFOCAT o SOAT;",
+    "descripcion": "",
+    "alternativas": {
+      "a": "AFOCAT o SOAT;",
+      "b": "Seguro Complementario\tde Riesgo;",
+      "c": "Póliza\tde Responsabilidad Civil frente a Terceros.",
+      "d": "Ninguna\tde anteriores las"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 25,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte",
+    "descripcion": "¿Cuál es el organismo competente para autorizar y fiscalizar el servicio?",
+    "alternativas": {
+      "a": "Gobiernos Regionales",
+      "b": "Ministerio\tde Transportes\ty Comunicaciones",
+      "c": "Municipalidades Distritales.",
+      "d": "Ninguna\tde anteriores las"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 26,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte",
+    "descripcion": "¿En qué lugares se encuentra permitida la prestación del servicio de vehículos menores?",
+    "alternativas": {
+      "a": "Vías arteriales",
+      "b": "En las vías urbanas que determine la Municipalidad Distrital competente, donde no exista o sea deficiente el servicio de transporte público urbano masivo.",
+      "c": "En las vías alimentadoras de rutas consideradas en el plan Regulador\tde\tcada Municipalidad Provincial, donde no exista o sea deficiente el servicio de transporte público urbano masivo.",
+      "d": "b y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 27,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte La velocidad máxima de circulación de un vehículo menor empleado para el Servicio Especial no excederá los",
+    "descripcion": "",
+    "alternativas": {
+      "a": "30\tkilómetros\tpor hora",
+      "b": "50\tkilómetros\tpor hora",
+      "c": "70\tkilómetros\tpor hora.",
+      "d": "Ninguna\tde anteriores las"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 28,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte Periodicidad\tde la\tcapacitación\ten materia de seguridad vial",
+    "descripcion": "",
+    "alternativas": {
+      "a": "cada dos años",
+      "b": "anualmente",
+      "c": "cada tres años. Literal c) del artículo 19º del Reglamento Nacional de Vehículos Menores.",
+      "d": ""
+    },
+    "respuesta": "",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 29,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte En caso de accidentes de tránsito cómo debe proceder un transportista autorizado",
+    "descripcion": "",
+    "alternativas": {
+      "a": "seguir\tcirculando\ta fin de evitar congestión vehicular",
+      "b": "seguir\tcirculando\ty advertir\ta\tlas autoridades\tdel\thecho con\tposterioridad\tal evento",
+      "c": "comunicar\tde inmediato\ta\tlas autoridades competentes, efectuando las acciones necesarias para que la(s) víctima(s) reciba(n) una atención adecuada y oportuna",
+      "d": "comunicar de inmediato a los Bomberos, realizando las acciones necesarias para\tevitar\tcongestión vehicular"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 30,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte ¿Cuáles son las consecuencias para prestar el servicio sin contar con",
+    "descripcion": "Permiso?",
+    "alternativas": {
+      "a": "Amonestación verbal",
+      "b": "únicamente multa",
+      "c": "multa\tfijada\tpor la autoridad municipal",
+      "d": "retención\te internamiento del vehículo, siendo liberado previo pago de la multa fijada por autoridad municipal"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 31,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte",
+    "descripcion": "¿Cuál es la categoría del vehículo exigida para prestar el servicio?",
+    "alternativas": {
+      "a": "L3",
+      "b": "L2",
+      "c": "L5",
+      "d": "b y c son correctas"
+    },
+    "respuesta": "c",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 32,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte",
+    "descripcion": "¿Cuál no es exigible para\tprestar el servicio?",
+    "alternativas": {
+      "a": "Parachoque",
+      "b": "láminas retroreflectivas",
+      "c": "protectores laterales",
+      "d": "a y b son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 33,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte Es una obligación\tde un conductor de un vehículo que transporta carga",
+    "descripcion": "",
+    "alternativas": {
+      "a": "que la carga solo se encuentre debidamente acomodada",
+      "b": "que la carga no sobrepase las dimensiones de la carrocería",
+      "c": "que\tla\tcarga\testé adecuadamente acomodada, sujeta y cubierta de forma tal que no ponga en peligro a las personas u otros vehículos usuarios de la vía",
+      "d": "b y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 34,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte Se\tencuentra\tprohibido\tque\tel conductor\tde\tun\tvehículo\tmenor automotor o no motorizado",
+    "descripcion": "",
+    "alternativas": {
+      "a": "se sujete a otro vehículo que transite por la vía pública",
+      "b": "la exhibición de Placa Única de Rodaje",
+      "c": "conducir por las vías locales autorizadas por la autoridad competente",
+      "d": "a y c son correctas"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 35,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte Son obligaciones de un conductor y acompañante de una motocicleta o cualquier otro tipo de ciclomotor o de una bicicleta",
+    "descripcion": "",
+    "alternativas": {
+      "a": "usar casco\tprotector autorizado",
+      "b": "usar anteojos protectores cuando el casco no tenga protector cortaviento o el vehículo carezca de parabrisas",
+      "c": "uso de GPS",
+      "d": "a y b son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 36,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte Cuál\tes\tel\tcarril\ten\tel\tcual\tlos vehículos menores",
+    "descripcion": "",
+    "alternativas": {
+      "a": "carril de la derecha, de manera ordenada y sin hacer maniobras que pongan en riesgo la vida de los ocupantes del vehículo\ty\tde\tla\tde terceros",
+      "b": "Carril central, de manera ordenada y sin hacer maniobras que pongan en riesgo la vida de los ocupantes del vehículo\ty\tde\tla\tde terceros",
+      "c": "Carril izquierdo, de manera ordenada y sin hacer maniobras que pongan en riesgo la vida de los ocupantes del vehículo\ty\tde\tla\tde terceros",
+      "d": "por el carril donde exista menos congestión vehicular, de manera ordenada y sin hacer maniobras que pongan en riesgo la vida de los ocupantes del vehículo y de la de terceros"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 37,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte Los vehículos menores, motorizados o no motorizados, que presten servicio de transporte público especial de pasajeros, pueden circular por las siguientes vías",
+    "descripcion": "",
+    "alternativas": {
+      "a": "las\tque señalen autoridades competentes las",
+      "b": "vías expresas o pasos a desnivel",
+      "c": "la red vial nacional, regional\to departamental",
+      "d": "la red vial nacional, regional\to departamental\tsiempre que\tla\tautoridad competente lo permita"
+    },
+    "respuesta": "a",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 38,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte Los vehículos automotores de la categoría L5 deberán usar alternativamente",
+    "descripcion": "",
+    "alternativas": {
+      "a": "cinturones seguridad para asientos\tde pasajeros de los los",
+      "b": "uno o más soportes fijados a su estructura, que permitan a los pasajeros asirse de ellos\tmientras\tson transportados",
+      "c": "asientos acolchados",
+      "d": "puertas fijadas a su estructura para seguridad de los pasajeros"
+    },
+    "respuesta": "b",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 39,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte Se encuentra permitido que el conductor de un vehículo menor automotor o no motorizado ….",
+    "descripcion": "",
+    "alternativas": {
+      "a": "lleve carga o pasajeros que dificulten su visibilidad, equilibrio y adecuada conducción",
+      "b": "transportar la cantidad de personas que ocupen asientos especialmente acondicionados\tpara tal objeto",
+      "c": "circular por las vías autorizadas por la autoridad competente",
+      "d": "b y c son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  },
+  {
+    "numero": 40,
+    "tipo": "Materias específicas",
+    "categoria": "BIIC",
+    "tema": "Regulación de actividad de transporte Son obligaciones\tde un conductor de un vehículo\tmenor autorizado\tpara transporte carga",
+    "descripcion": "",
+    "alternativas": {
+      "a": "asegurarse\tque\tla carga no sea arrastrada",
+      "b": "asegurarse que la carga no comprometa la estabilidad\ty conducción del vehículo",
+      "c": "asegurarse que la carga no oculte las luces, dispositivos reflectivos o la Placa Única Nacional de Rodaje y no afecte la visibilidad",
+      "d": "Todas son correctas"
+    },
+    "respuesta": "d",
+    "hasImage": false,
+    "imageFile": null,
+    "carpetaImagenes": "BII-C"
+  }
+]
