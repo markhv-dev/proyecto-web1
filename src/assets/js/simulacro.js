@@ -22,7 +22,7 @@ function cargarPreguntas() {
     // Determinar qué archivos JSON cargar según la categoría
     if (categoriaSeleccionada === 'AI') {
         // A-I: 40 preguntas aleatorias de AI.json
-        fetch('../PREGUNTAS_mtc/json/AI.json')
+        fetch('../data/PREGUNTAS_mtc/json/AI.json')
             .then(response => response.json())
             .then(data => {
                 preguntasDelExamen = seleccionarAleatorias(data, 40);
@@ -33,8 +33,8 @@ function cargarPreguntas() {
     else if (categoriaSeleccionada === 'BII-A' || categoriaSeleccionada === 'BII-B') {
         // B-II-A y B-II-B: Mezclar todas las preguntas de ambos
         Promise.all([
-            fetch('../PREGUNTAS_mtc/json/BII-A.json').then(r => r.json()),
-            fetch('../PREGUNTAS_mtc/json/BII-B.json').then(r => r.json())
+            fetch('../data/PREGUNTAS_mtc/json/BII-A.json').then(r => r.json()),
+            fetch('../data/PREGUNTAS_mtc/json/BII-B.json').then(r => r.json())
         ]).then(([dataA, dataB]) => {
             let todasLasPreguntas = [...dataA, ...dataB];
             preguntasDelExamen = seleccionarAleatorias(todasLasPreguntas, 40);
@@ -43,7 +43,7 @@ function cargarPreguntas() {
     }
     else if (categoriaSeleccionada === 'BII-C') {
         // B-II-C: 20 generales + 20 específicas
-        fetch('../PREGUNTAS_mtc/json/BII-C.json')
+        fetch('../data/PREGUNTAS_mtc/json/BII-C.json')
             .then(response => response.json())
             .then(data => {
                 let generales = data.filter(p => p.tipo === 'Materias generales');
@@ -57,7 +57,7 @@ function cargarPreguntas() {
     }
     else {
         // Resto de categorías: 20 generales + 20 específicas
-        fetch(`../PREGUNTAS_mtc/json/${categoriaSeleccionada}.json`)
+        fetch(`../data/PREGUNTAS_mtc/json/${categoriaSeleccionada}.json`)
             .then(response => response.json())
             .then(data => {
                 let generales = data.filter(p => p.tipo === 'Materias generales');
@@ -112,7 +112,7 @@ function mostrarPregunta() {
     // Mostrar imagen si tiene
     if (pregunta.hasImage) {
         document.getElementById('imagen-pregunta').classList.remove('oculto');
-        let rutaImagen = `../PREGUNTAS_mtc/imagenes/${pregunta.carpetaImagenes}/${pregunta.imageFile}`;
+        let rutaImagen = `../data/PREGUNTAS_mtc/imagenes/${pregunta.carpetaImagenes}/${pregunta.imageFile}`;
         document.getElementById('img-pregunta').src = rutaImagen;
     } else {
         document.getElementById('imagen-pregunta').classList.add('oculto');
