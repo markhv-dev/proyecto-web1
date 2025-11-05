@@ -27,16 +27,23 @@
             <p id="mensaje-final">¡Buen trabajo!. A continuación tus resultados.</p>
 
             <div class="detalle-resultados">
-                <p><strong>Puntaje obtenido:</strong> <span id="puntaje">0</span>/20</p>
+                <p><strong>Puntaje obtenido:</strong> <span id="puntaje">0</span>/40</p>
                 <p><strong>Respuestas correctas:</strong> <span id="correctas">0</span></p>
                 <p><strong>Respuestas incorrectas:</strong> <span id="incorrectas">0</span></p>
-                <p><strong>Tiempo total:</strong> <span id="tiempo">00:00</span></p>
+                <p><strong>Estado:</strong> <span id="estado-examen">Pendiente</span></p>
             </div>
 
             <div class="acciones">
+                <button class="boton-inicio" id="btn-ver-detalles">Ver detalles de respuestas</button>
                 <a href="simulacro.html" class="boton-inicio">Reintentar simulacro</a>
-                <a href="../index.html" class="boton-inicio">Volver al inicio</a>
+                <a href="../../public/index.html" class="boton-inicio">Volver al inicio</a>
             </div>
+
+            <!-- Sección de detalles (oculta inicialmente) -->
+            <section id="seccion-detalles" class="oculto">
+                <h3>Detalle de todas las preguntas</h3>
+                <div id="contenedor-detalles"></div>
+            </section>
         </section>
     </main>
 
@@ -45,22 +52,117 @@
     </footer>
 
     <script>
+        // Variables globales
+        let detalleResultados = [];
+
         // Cargar resultados desde localStorage
-        let puntaje = localStorage.getItem('puntaje') || 0;
-        let correctas = localStorage.getItem('correctas') || 0;
-        let incorrectas = localStorage.getItem('incorrectas') || 0;
+        function cargarResultados() {
+            let puntaje = localStorage.getItem('puntaje') || 0;
+            let correctas = localStorage.getItem('correctas') || 0;
+            let incorrectas = localStorage.getItem('incorrectas') || 0;
+            let aprobado = localStorage.getItem('aprobado') === 'true';
 
-        // Mostrar resultados
-        document.getElementById('puntaje').textContent = puntaje;
-        document.getElementById('correctas').textContent = correctas;
-        document.getElementById('incorrectas').textContent = incorrectas;
+            try {
+                detalleResultados = JSON.parse(localStorage.getItem('detalleResultados') || '[]');
+            } catch (e) {
+                detalleResultados = [];
+            }
 
-        // Mensaje según el puntaje
-        if (puntaje >= 35) {
-            document.getElementById('mensaje-final').textContent = '¡Felicitaciones! Has aprobado el examen.';
-        } else {
-            document.getElementById('mensaje-final').textContent = 'No has alcanzado el puntaje mínimo. ¡Sigue practicando!';
+            // Mostrar resultados
+            document.getElementById('puntaje').textContent = puntaje;
+            document.getElementById('correctas').textContent = correctas;
+            document.getElementById('incorrectas').textContent = incorrectas;
+            document.getElementById('estado-examen').textContent = aprobado ? 'APROBADO' : 'DESAPROBADO';
+            document.getElementById('estado-examen').style.color = aprobado ? '#28a745' : '#dc3545';
+            document.getElementById('estado-examen').style.fontWeight = 'bold';
+
+            // Mensaje según el puntaje
+            if (aprobado) {
+                document.getElementById('mensaje-final').textContent = '¡Felicitaciones! Has aprobado el examen. Necesitabas 35 respuestas correctas y obtuviste ' + correctas + '.';
+                document.getElementById('mensaje-final').style.color = '#28a745';
+            } else {
+                document.getElementById('mensaje-final').textContent = 'No has alcanzado el puntaje mínimo. Necesitabas 35 respuestas correctas y obtuviste ' + correctas + '. ¡Sigue practicando!';
+                document.getElementById('mensaje-final').style.color = '#dc3545';
+            }
         }
+
+        // Función para mostrar detalles de todas las preguntas
+        function mostrarDetalles() {
+            const contenedor = document.getElementById('contenedor-detalles');
+            const seccion = document.getElementById('seccion-detalles');
+
+            if (seccion.classList.contains('oculto')) {
+                // Mostrar detalles
+                seccion.classList.remove('oculto');
+                document.getElementById('btn-ver-detalles').textContent = 'Ocultar detalles';
+
+                // Generar HTML para todas las preguntas
+                contenedor.innerHTML = '';
+
+                detalleResultados.forEach((resultado, index) => {
+                    const divPregunta = document.createElement('div');
+                    divPregunta.className = 'detalle-pregunta';
+
+                    let imagenHtml = '';
+                    if (resultado.hasImage) {
+                        imagenHtml = `
+                            <div id="imagen-pregunta">
+                                <img src="../data/PREGUNTAS_mtc/imagenes/${resultado.carpetaImagenes}/${resultado.imageFile}"
+                                     alt="Imagen de la pregunta">
+                            </div>
+                        `;
+                    }
+
+                    // Determinar clases CSS para cada opción
+                    const getClaseOpcion = (letra) => {
+                        if (letra === resultado.respuestaCorrecta) {
+                            return 'opcion-correcta-resultado';
+                        } else if (letra === resultado.respuestaUsuario && letra !== resultado.respuestaCorrecta) {
+                            return 'opcion-incorrecta-resultado';
+                        }
+                        return '';
+                    };
+
+                    divPregunta.innerHTML = `
+                        <div class="pregunta-numero">
+                            Pregunta ${resultado.numero} de 40 | ${resultado.esCorrecta ? '✓ CORRECTA' : '✗ INCORRECTA'}
+                        </div>
+
+                        <div class="pregunta">
+                            <h3>${resultado.pregunta}</h3>
+                            ${imagenHtml}
+                            <ul class="opciones">
+                                <li class="${getClaseOpcion('a')}">a) ${resultado.opciones.a}</li>
+                                <li class="${getClaseOpcion('b')}">b) ${resultado.opciones.b}</li>
+                                <li class="${getClaseOpcion('c')}">c) ${resultado.opciones.c}</li>
+                                <li class="${getClaseOpcion('d')}">d) ${resultado.opciones.d}</li>
+                            </ul>
+                        </div>
+
+                        <div style="text-align: center; margin-top: 15px; font-size: 0.9rem; color: #666;">
+                            <strong>Tu respuesta:</strong> ${resultado.respuestaUsuario ? resultado.respuestaUsuario.toUpperCase() : 'Sin respuesta'} |
+                            <strong>Respuesta correcta:</strong> ${resultado.respuestaCorrecta.toUpperCase()}
+                        </div>
+                    `;
+
+                    contenedor.appendChild(divPregunta);
+                });
+
+                // Scroll hacia los detalles
+                seccion.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                // Ocultar detalles
+                seccion.classList.add('oculto');
+                document.getElementById('btn-ver-detalles').textContent = 'Ver detalles de respuestas';
+            }
+        }
+
+        // Eventos
+        document.addEventListener('DOMContentLoaded', function() {
+            cargarResultados();
+
+            document.getElementById('btn-ver-detalles').addEventListener('click', mostrarDetalles);
+        });
     </script>
 </body>
-</html>
+</html

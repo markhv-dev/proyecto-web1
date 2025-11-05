@@ -2,6 +2,7 @@
 let preguntas = [];
 let indicePreguntaActual = 0;
 let categoriaActual = localStorage.getItem('categoria') || 'AI';
+let preguntaVerificada = false;
 
 // Cargar preguntas desde JSON según categoría
 async function cargarPreguntasDeCategoria(categoria) {
@@ -20,7 +21,8 @@ async function cargarPreguntasDeCategoria(categoria) {
                 `b) ${pregunta.alternativas.b}`,
                 `c) ${pregunta.alternativas.c}`,
                 `d) ${pregunta.alternativas.d}`
-            ]
+            ],
+            respuestaCorrecta: pregunta.respuesta
         }));
 
         indicePreguntaActual = 0;
@@ -37,7 +39,8 @@ async function cargarPreguntasDeCategoria(categoria) {
                     "b) Avanzar con precaución.",
                     "c) Ignorar la señal.",
                     "d) Acelerar para pasar."
-                ]
+                ],
+                respuestaCorrecta: "b"
             }
         ];
         cargarPregunta();
@@ -47,32 +50,112 @@ async function cargarPreguntasDeCategoria(categoria) {
 // Cargar pregunta en la página
 function cargarPregunta() {
     const pregunta = preguntas[indicePreguntaActual];
-    
+
     // Cambiar el texto de la pregunta
     document.getElementById('texto-pregunta').textContent = pregunta.pregunta;
-    
+
     // Cambiar las opciones
     const labels = document.querySelectorAll('.opciones label');
     labels.forEach((label, index) => {
         label.textContent = pregunta.opciones[index];
     });
-    
-    // Limpiar selección
+
+    // Limpiar selección y estilos
     document.querySelectorAll('input[name="respuesta"]').forEach(input => {
         input.checked = false;
     });
+
+    // Limpiar estilos de verificación
+    limpiarEstilosVerificacion();
+
+    // Resetear estado de verificación
+    preguntaVerificada = false;
+
+    // Deshabilitar botón de verificar
+    const btnVerificar = document.getElementById('btn-verificar');
+    if (btnVerificar) {
+        btnVerificar.disabled = true;
+    }
+
+    // Reagregar eventos a los radio buttons
+    agregarEventosRadioButtons();
 }
+
+// Función para limpiar estilos de verificación
+function limpiarEstilosVerificacion() {
+    document.querySelectorAll('.opciones li').forEach(li => {
+        li.classList.remove('opcion-correcta', 'opcion-incorrecta');
+    });
+}
+
+// Función para verificar respuesta
+function verificarRespuesta() {
+    if (preguntaVerificada) return;
+
+    const respuestaSeleccionada = document.querySelector('input[name="respuesta"]:checked');
+    if (!respuestaSeleccionada) return;
+
+    const preguntaActual = preguntas[indicePreguntaActual];
+    const respuestaCorrecta = preguntaActual.respuestaCorrecta;
+    const valorSeleccionado = respuestaSeleccionada.value;
+
+    // Marcar todas las opciones
+    document.querySelectorAll('.opciones li').forEach((li, index) => {
+        const input = li.querySelector('input');
+        const letra = input.value;
+
+        if (letra === respuestaCorrecta) {
+            // Marcar la respuesta correcta
+            li.classList.add('opcion-correcta');
+        } else if (letra === valorSeleccionado && letra !== respuestaCorrecta) {
+            // Marcar la respuesta incorrecta seleccionada
+            li.classList.add('opcion-incorrecta');
+        }
+    });
+
+    preguntaVerificada = true;
+}
+
+// Función para agregar eventos a los radio buttons
+function agregarEventosRadioButtons() {
+    document.querySelectorAll('input[name="respuesta"]').forEach(input => {
+        // Remover eventos anteriores para evitar duplicados
+        input.removeEventListener('change', manejarCambioRespuesta);
+        // Agregar nuevo evento
+        input.addEventListener('change', manejarCambioRespuesta);
+    });
+}
+
+// Función para manejar cambio en respuesta
+function manejarCambioRespuesta() {
+    const btnVerificar = document.getElementById('btn-verificar');
+    if (btnVerificar && !preguntaVerificada) {
+        btnVerificar.disabled = false;
+    }
+}
+
+// Evento para inicializar cuando carga la página
+document.addEventListener('DOMContentLoaded', function() {
+    // Evento del botón verificar
+    const btnVerificar = document.getElementById('btn-verificar');
+    if (btnVerificar) {
+        btnVerificar.addEventListener('click', verificarRespuesta);
+    }
+
+    // Agregar eventos iniciales
+    agregarEventosRadioButtons();
+});
 
 // Evento al hacer clic en "Siguiente pregunta"
 document.getElementById('btn-siguiente').addEventListener('click', function() {
     // Pasar a la siguiente pregunta
     indicePreguntaActual++;
-    
+
     // Si llega al final, volver a la primera
     if (indicePreguntaActual >= preguntas.length) {
         indicePreguntaActual = 0;
     }
-    
+
     cargarPregunta();
 });
 

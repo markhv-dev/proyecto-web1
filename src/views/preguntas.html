@@ -24,19 +24,20 @@
     <main>
         <section>
             <h2>Modo Preguntas Rápidas</h2>
-            <p>Practica con preguntas aleatorias y sin límite de tiempo.</p>
+            <p>Practica con preguntas aleatorias correspondientes a la categoría de licencia que seleccionaste. No hay límite de tiempo, puedes responder a tu ritmo</p>
             <p id="indicador-categoria" style="font-weight: bold; color: #3a1c4a; margin-top: 10px;">Categoría: Cargando...</p>
         </section>
 
         <section>
             <h3 id="texto-pregunta">¿Qué debe hacer si un semáforo está en amarillo intermitente?</h3>
             <ul class="opciones">
-                <li><input type="radio" name="respuesta" id="op1"><label for="op1">a_ Detenerse completamente.</label></li>
-                <li><input type="radio" name="respuesta" id="op2"><label for="op2">b_ Avanzar con precaución.</label></li>
-                <li><input type="radio" name="respuesta" id="op3"><label for="op3">c_ Ignorar la señal.</label></li>
-                <li><input type="radio" name="respuesta" id="op4"><label for="op4">d_ Acelerar para pasar.</label></li>
+                <li><input type="radio" name="respuesta" value="a" id="op1"><label for="op1">a_ Detenerse completamente.</label></li>
+                <li><input type="radio" name="respuesta" value="b" id="op2"><label for="op2">b_ Avanzar con precaución.</label></li>
+                <li><input type="radio" name="respuesta" value="c" id="op3"><label for="op3">c_ Ignorar la señal.</label></li>
+                <li><input type="radio" name="respuesta" value="d" id="op4"><label for="op4">d_ Acelerar para pasar.</label></li>
             </ul>
             <div class="acciones">
+                <button class="boton-inicio" id="btn-verificar" disabled>Verificar</button>
                 <a href="#" class="boton-inicio" id="btn-siguiente">Siguiente pregunta</a>
             </div>
         </section>

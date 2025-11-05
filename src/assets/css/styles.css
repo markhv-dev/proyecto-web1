@@ -80,15 +80,13 @@ header {
   background-color: rgba(184, 250, 255, 0.993); /* Cambiamos el color para un ejor contraste*/
   color: #3a1c4a;
   text-align: center;
-  padding: 25px; /* Aumentar el espacio */
+  padding: 8px 0; /* Reducir padding significativamente */
   border-bottom: 3px solid #b08968;
   box-shadow: 0px 2px 8px rgba(0,0,0,0.1); /* añadimos una sombra para darle relieve */
 }
 
 header h1 {
-  margin: 10px;
-  font-size: 2.2rem; /* Aumentamos el tamaño para destacar el título */
-  letter-spacing: 1.5px;
+  display: none; /* Ocultar completamente el título */
 }
 
 /* NAVEGACIÓN */
@@ -98,19 +96,20 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 20px; /* Más espacio entre elementos */
   background-color: #b08968;
-  padding: 10px 0;
-  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);  /*sombra bajo el menú */
+  padding: 15px 0; /* Más padding vertical */
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  padding: 8px 14px; /* Más espacio */
-  border-radius: 6px;
+  padding: 12px 18px; /* Más espacio en los links */
+  border-radius: 8px; /* Bordes más redondeados */
   transition: background 0.2s;
+  font-size: 1.1rem; /* Texto ligeramente más grande */
 }
 
 nav ul li a:hover {
@@ -125,34 +124,55 @@ nav ul li a.active {
 
 /* CONTENIDO PRINCIPAL */
 main {
-  padding: 25px;
+  padding: 35px 25px; /* Más padding superior */
   text-align: center;
-  background-color: #fdfdfd; /*color de fondo general suave para separar del header */
+  background-color: #fdfdfd;
+  min-height: calc(100vh - 120px); /* Asegurar altura mínima */
 }
 
 main section {
-  margin: 30px auto;
-  max-width: 800px;
+  margin: 35px auto;
+  max-width: 900px; /* Ligeramente más ancho */
   background: #ffffff;
-  padding: 20px; /* más espacio */
-  border-radius: 10px;
-  box-shadow: 2px 2px 8px #bbb; /* sombra más difusa */
-  margin-bottom: 40px;   /*agregar margen inferior adicional entre secciones */
+  padding: 30px; /* Más espacio interno */
+  border-radius: 12px; /* Bordes más redondeados */
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1); /* Sombra más suave */
+  margin-bottom: 45px; /* Más espacio entre secciones */
 }
 
 main h2 {
   color: #5c3c92;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #cdb4db; /* separador decorativo */
+  margin-bottom: 20px; /* Más espacio debajo del título */
+  border-bottom: 2px solid #cdb4db;
   display: inline-block;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
+  font-size: 1.8rem; /* Título más grande */
+}
+
+main h3 {
+  color: #3a1c4a;
+  margin-bottom: 15px;
+  font-size: 1.4rem; /* Subtítulos más grandes */
 }
 
 main p {
-  margin-bottom: 20px;
-  font-style: italic;
+  font-size: 1.1rem; /* Texto más grande */
+  line-height: 1.6; /* Mejor espaciado de líneas */
+  margin-bottom: 18px;
   color: #333;
-  line-height: 1.5; /* mejor legibilidad */
+}
+
+main ul {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+main ul li {
+  margin-bottom: 10px;
+  padding-left: 5px;
 }
 
 /* BOTÓN PRINCIPAL */
@@ -177,6 +197,87 @@ a.boton-inicio:hover, button.boton-inicio:hover {
   border-color: #875642; /* cambio de color en hover */
 }
 
+/* Botón deshabilitado */
+button.boton-inicio:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  border-color: #999999;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+button.boton-inicio:disabled:hover {
+  background-color: #cccccc;
+  border-color: #999999;
+  transform: none;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos para respuestas verificadas */
+.opcion-correcta {
+  background-color: #d4edda !important;
+  border: 2px solid #28a745 !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.opcion-incorrecta {
+  background-color: #f8d7da !important;
+  border: 2px solid #dc3545 !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Estilos para resultados detallados */
+.detalle-pregunta {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+.detalle-pregunta .pregunta-numero {
+  background-color: #e3c4f0;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #3a1c4a;
+  text-align: center;
+}
+
+.detalle-pregunta h3 {
+  color: #3a1c4a;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.detalle-pregunta .opciones {
+  list-style: none;
+  text-align: left;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.detalle-pregunta .opciones li {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.detalle-pregunta .opciones li.opcion-correcta-resultado {
+  background-color: #d4edda;
+  border: 2px solid #28a745;
+  border-radius: 5px;
+}
+
+.detalle-pregunta .opciones li.opcion-incorrecta-resultado {
+  background-color: #f8d7da;
+  border: 2px solid #dc3545;
+  border-radius: 5px;
+}
+
 /* OPCIONES DE PREGUNTAS */
 .opciones {
   list-style: none;
@@ -193,10 +294,20 @@ a.boton-inicio:hover, button.boton-inicio:hover {
 /* BOTONES */
 .acciones {
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
-.acciones a {
-  margin: 0 10px;
+.acciones a,
+.acciones button {
+  margin: 0;
+  min-width: 180px;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 1.1rem;
 }
 
 /* OCULTAR SECCIONES */
@@ -414,67 +525,93 @@ button.boton-empezar:hover {
 
 /*Perfil: Cambiar de categoría*/
 .cambiar-categoria {
-  background-color: #ffffff;
-  border: 2px solid #b08968;
-  border-radius: 12px;
-  padding: 25px;
-  margin-top: 30px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
   text-align: center;
 }
 
-.cambiar-categoria h3 {
-  color: #5c3c92;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #cdb4db;
-  display: inline-block;
-  padding-bottom: 5px;
-}
-
-.cambiar-categoria form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-}
-
-.cambiar-categoria label {
-  font-weight: bold;
-  color: #3a1c4a;
-}
-
-.cambiar-categoria select {
-  padding: 10px;
-  width: 60%;
-  border: 1px solid #cdb4db;
+/* Botón principal para cambiar categoría */
+#btn-cambiar-categoria {
+  background-color: #a2e2e2;
+  color: #2f2f2f;
+  border: 2px solid #3a1c4a;
   border-radius: 8px;
-  background-color: #f8f4fc;
-  text-align: center;
-  transition: all 0.2s ease;
-}
-
-.cambiar-categoria select:focus {
-  outline: none;
-  border-color: #5c3c92;
-  box-shadow: 0 0 5px rgba(92, 60, 146, 0.3);
-}
-
-.cambiar-categoria button {
-  background-color: #b08968;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
+  padding: 12px 20px;
   font-weight: bold;
+  font-size: 1.1rem;
   cursor: pointer;
   transition: all 0.25s ease;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
 }
 
-.cambiar-categoria button:hover {
-  background-color: #875642;
+#btn-cambiar-categoria:hover {
+  background-color: #7ed0d9;
+  border-color: #875642;
+  transform: scale(1.05);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#btn-cambiar-categoria:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Flecha indicadora */
+#flecha {
+  margin-left: 10px;
+  font-size: 0.9rem;
+  transition: transform 0.3s ease;
+}
+
+#btn-cambiar-categoria:hover #flecha {
+  transform: scale(1.1);
+}
+
+/* Panel de categorías mejorado */
+.panel-categorias {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 15px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  animation: slideDown 0.3s ease-out;
+}
+
+.panel-categorias h4 {
+  margin-bottom: 15px;
+  color: #3a1c4a;
+  font-size: 16px;
+}
+
+/* Contenedor de categorías - mantener diseño original */
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+/* Botones de categoría - colores del sistema */
+.btn-categoria {
+  background-color: #cdb4db;
+  color: #3a1c4a;
+  border: 2px solid #b08968;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-categoria:hover {
+  background-color: #b08968;
+  color: white;
   transform: scale(1.05);
 }

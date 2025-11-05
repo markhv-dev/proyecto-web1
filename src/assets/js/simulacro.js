@@ -140,13 +140,15 @@ function mostrarPregunta() {
 document.getElementById('btn-siguiente').addEventListener('click', function(e) {
     e.preventDefault();
 
-    // Guardar respuesta del usuario
+    // Verificar que haya seleccionado una respuesta
     let respuestaSeleccionada = document.querySelector('input[name="respuesta"]:checked');
-    if (respuestaSeleccionada) {
-        respuestasUsuario[preguntaActual] = respuestaSeleccionada.value;
-    } else {
-        respuestasUsuario[preguntaActual] = null; // No respondió
+    if (!respuestaSeleccionada) {
+        alert('Por favor, selecciona una respuesta antes de continuar.');
+        return;
     }
+
+    // Guardar respuesta del usuario
+    respuestasUsuario[preguntaActual] = respuestaSeleccionada.value;
 
     // Pasar a la siguiente pregunta
     preguntaActual++;
@@ -157,13 +159,15 @@ document.getElementById('btn-siguiente').addEventListener('click', function(e) {
 document.getElementById('btn-finalizar').addEventListener('click', function(e) {
     e.preventDefault();
 
-    // Guardar última respuesta
+    // Verificar que haya seleccionado una respuesta en la última pregunta
     let respuestaSeleccionada = document.querySelector('input[name="respuesta"]:checked');
-    if (respuestaSeleccionada) {
-        respuestasUsuario[preguntaActual] = respuestaSeleccionada.value;
-    } else {
-        respuestasUsuario[preguntaActual] = null;
+    if (!respuestaSeleccionada) {
+        alert('Por favor, selecciona una respuesta antes de finalizar.');
+        return;
     }
+
+    // Guardar última respuesta
+    respuestasUsuario[preguntaActual] = respuestaSeleccionada.value;
 
     // Calcular resultados
     calcularResultados();
@@ -192,19 +196,37 @@ function iniciarTemporizador() {
 // Función para calcular resultados
 function calcularResultados() {
     let correctas = 0;
+    let detalleResultados = [];
 
     for (let i = 0; i < preguntasDelExamen.length; i++) {
-        if (respuestasUsuario[i] === preguntasDelExamen[i].respuesta) {
+        let esCorrecta = respuestasUsuario[i] === preguntasDelExamen[i].respuesta;
+        if (esCorrecta) {
             correctas++;
         }
+
+        // Guardar detalle de cada pregunta
+        detalleResultados.push({
+            numero: i + 1,
+            pregunta: preguntasDelExamen[i].descripcion,
+            opciones: preguntasDelExamen[i].alternativas,
+            respuestaCorrecta: preguntasDelExamen[i].respuesta,
+            respuestaUsuario: respuestasUsuario[i],
+            esCorrecta: esCorrecta,
+            hasImage: preguntasDelExamen[i].hasImage || false,
+            carpetaImagenes: preguntasDelExamen[i].carpetaImagenes || '',
+            imageFile: preguntasDelExamen[i].imageFile || ''
+        });
     }
 
     let incorrectas = 40 - correctas;
+    let aprobado = correctas >= 35;
 
     // Guardar resultados en localStorage
     localStorage.setItem('puntaje', correctas);
     localStorage.setItem('correctas', correctas);
     localStorage.setItem('incorrectas', incorrectas);
+    localStorage.setItem('aprobado', aprobado);
+    localStorage.setItem('detalleResultados', JSON.stringify(detalleResultados));
 
     // Redirigir a resultados
     window.location.href = 'resultados.html';
