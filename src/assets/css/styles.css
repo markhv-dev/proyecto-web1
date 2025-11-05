@@ -31,6 +31,42 @@
   font-size: 16px;
 }
 
+/* FORMULARIO DE EDICIÓN */
+.campo-edicion {
+  margin-bottom: 15px;
+}
+
+.campo-edicion label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #3a1c4a;
+}
+
+.input-perfil {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #3a1c4a;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f8f9fa;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.input-perfil:focus {
+  outline: none;
+  border-color: #a2e2e2;
+  background-color: white;
+}
+
+.botones-edicion {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: flex-start;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #eaf7f4; /* Cambiar color de fondo */

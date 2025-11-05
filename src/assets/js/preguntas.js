@@ -6,7 +6,7 @@ let categoriaActual = localStorage.getItem('categoria') || 'AI';
 // Cargar preguntas desde JSON según categoría
 async function cargarPreguntasDeCategoria(categoria) {
     try {
-        const response = await fetch(`../PREGUNTAS_mtc/json/${categoria}.json`);
+        const response = await fetch(`../data/PREGUNTAS_mtc/json/${categoria}.json`);
         if (!response.ok) {
             throw new Error('No se pudo cargar el archivo de preguntas');
         }
