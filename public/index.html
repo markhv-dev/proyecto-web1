@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="../src/assets/css/styles.css">
 </head>
 <body>
+    <nav>
+        <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="../src/views/simulacro.html">Simulacro</a></li>
+                <li><a href="../src/views/preguntas.html">Preguntas rápidas</a></li>
+                <li><a href="../src/views/resultados.html">Resultados</a></li>
+                <li><a href="../src/views/perfil.html">Perfil</a></li>
+            </ul>
+    </nav>
     <header>
         <!-- HERO - Imagen de conducción -->
          <section class="hero">
@@ -38,16 +47,6 @@
         </section>
     </header>
 
-    <nav>
-        <ul>
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="../src/views/simulacro.html">Simulacro</a></li>
-                <li><a href="../src/views/preguntas.html">Preguntas rápidas</a></li>
-                <li><a href="../src/views/resultados.html">Resultados</a></li>
-                <li><a href="../src/views/perfil.html">Perfil</a></li>
-            </ul>
-    </nav>
-
     <main>
         <section>
             <h2>Bienvenido al simulacro del examen MTC</h2>
@@ -68,5 +67,22 @@
     <footer>
         <p>© 2025 Simulacro MTC | Proyecto académico</p>
     </footer>
+
+    <script>
+    // Efecto al hacer scroll: los elementos con clase .scroll-animado se muestran suavemente
+    const animados = document.querySelectorAll('.scroll-animado');
+    const mostrarScroll = () => {
+        const scrollTop = window.scrollY;
+        const alturaVentana = window.innerHeight * 0.85;
+        animados.forEach(el => {
+            const distancia = el.getBoundingClientRect().top;
+            if (distancia < alturaVentana) {
+                el.classList.add('scroll-visible');
+            }
+        });
+    };
+    window.addEventListener('scroll', mostrarScroll);
+    mostrarScroll(); // Ejecuta una vez al cargar
+    </script>
 </body>
 </html>

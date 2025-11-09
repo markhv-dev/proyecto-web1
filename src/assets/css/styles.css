@@ -2,10 +2,10 @@
 :root {
   --color-principal: #1e2a38;       /* azul petróleo oscuro */
   --color-secundario: #2f3e4d;      /* gris azulado (detalles) */
-  --color-acento: #3a86ff;          /* azul brillante para botones o enlaces */
+  --color-acento: #56158b;          /* azul brillante para botones o enlaces */
   --color-fondo: #f4f6f8;           /* gris claro (fondo general) */
   --color-claro: #ffffff;           /* blanco para secciones */
-  --color-hover: #265cc5;           /* azul más oscuro para hover */
+  --color-hover: #0d2e70;           /* azul más oscuro para hover */
   --color-resaltado: #d9e8ff;       /* azul muy claro para fondos suaves */
   --color-hero-overlay: rgba(30, 42, 56, 0.5); /* capa del hero */
 }
@@ -307,4 +307,102 @@ section p {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* FASE 3 - NAVBAR, FOOTER Y ANIMACIONES */
+
+/* NAVEGADOR SUPERIOR */
+nav {
+  background-color: #3f6b87; /* color principal */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 18px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 16px 10px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.05rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #1f2d3a;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 10px;
+  font-size: 0.95rem;
+  margin-top: 60px;
+  position: relative;
+  z-index: 5;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #c7a17a;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+/* BOTONES (mejorados) */
+
+.boton-inicio {
+  background-color: #3f6b87;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.boton-inicio:hover {
+  background-color: #355a73;
+  transform: scale(1.05);
+}
+
+/* EFECTO DE ENTRADA SUAVE (Scroll Reveal) */
+
+.scroll-animado {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.scroll-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
