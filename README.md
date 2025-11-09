@@ -123,8 +123,8 @@ localStorage.setItem('puntaje', '18');
 ## Instalación y Uso
 
 ### Requisitos
-- Navegador web moderno (Chrome, Firefox, Safari, Edge)
-- Servidor web local (opcional para desarrollo)
+- Navegador web moderno 
+- Servidor web local 
 
 ### Ejecución
 1. **Desarrollo local**: Abrir `public/index.html` en el navegador
