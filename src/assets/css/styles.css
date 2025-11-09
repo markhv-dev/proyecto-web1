@@ -152,3 +152,159 @@ nav ul li a.active {
     transform: translateY(0);
   }
 }
+/*FASE 2*/
+/* SECCIÓN GENERAL */
+section {
+  margin: 50px auto;
+  padding: 40px 20px;
+  max-width: 1100px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* TÍTULOS DE SECCIÓN */
+section h2 {
+  color: #1f2d3a;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #c7a17a;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+/* PARRAFOS DE SECCIÓN */
+section p {
+  color: #2e3a47;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+/* TARJETAS (CARDS) */
+
+.contenedor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #d8e3e7;
+  border: 2px solid #c7a17a;
+  border-radius: 14px;
+  width: 300px;
+  padding: 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  background-color: #eaf0f2;
+}
+
+.card h3 {
+  color: #3f6b87;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #1f2d3a;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* FORMULARIO MODERNO */
+
+.formulario {
+  background-color: #ffffff;
+  border: 2px solid #d8e3e7;
+  border-radius: 14px;
+  padding: 35px 30px;
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.formulario h3 {
+  color: #3f6b87;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 6px;
+  color: #1f2d3a;
+  font-weight: bold;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  border: 2px solid #d8e3e7;
+  border-radius: 10px;
+  background-color: #f9fbfc;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.formulario input:focus {
+  outline: none;
+  border-color: #3f6b87;
+  box-shadow: 0 0 6px rgba(63, 107, 135, 0.3);
+}
+
+/* BOTÓN DEL FORMULARIO */
+.formulario button {
+  width: 100%;
+  background-color: #3f6b87;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #355a73;
+  transform: scale(1.03);
+}
+
+/* TRANSICIÓN GENERAL */
+
+.card, .formulario, section {
+  animation: fadeInUp 0.6s ease both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
