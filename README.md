@@ -180,12 +180,8 @@ localStorage.setItem('puntaje', '18');
 
 ### Próximas Mejoras
 - [ ] Sistema de autenticación
-- [ ] Base de datos externa
-- [ ] API REST para preguntas
-- [ ] Modo offline
 - [ ] Estadísticas avanzadas
 - [ ] Exportación de resultados
-
 ---
 
 ## Información del Proyecto
