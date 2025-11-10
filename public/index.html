@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="../src/assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Simulacro MTC</h1>
-    </header>
-
     <nav>
         <ul>
                 <li><a href="index.html" class="active">Inicio</a></li>
@@ -20,26 +16,72 @@
                 <li><a href="../src/views/perfil.html">Perfil</a></li>
             </ul>
     </nav>
-
-    <main>
-        <section>
-            <h2>Bienvenido al simulacro del examen MTC</h2>
-            <p>Practica con preguntas reales y mide tus conocimientos antes de rendir el examen oficial.</p>
-            <a href="../src/views/simulacro.html" class="boton-inicio">Comenzar simulacro</a>
+    
+    <header>
+        <!-- HERO - Imagen de conducción -->
+         <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Simulacro de Examen MTC</h1>
+            </div>
         </section>
 
-        <section>
-            <h3>¿Qué encontrarás aquí?</h3>
-            <ul>
-                <li>Simulacros completos con tiempo y puntaje.</li>
-                <li>Preguntas rápidas para practicar en minutos.</li>
-                <li>Historial de resultados y progreso.</li>
-            </ul>
+        <main>
+             <section>
+                <h2>Bienvenido al simulacro del examen MTC</h2>
+                <p>Practica con preguntas reales y mide tus conocimientos antes de rendir el examen oficial.</p>
+                <a href="../src/views/simulacro.html" class="boton-inicio">Comenzar simulacro</a>
+            </section>
+            <section>
+                <h3>¿Qué encontrarás aquí?</h3>
+                <ul>
+                     <li>Simulacros completos con tiempo y puntaje.</li>
+                     <li>Preguntas rápidas para practicar en minutos.</li>
+                     <li>Historial de resultados y progreso.</li>
+                </ul>
+            </section>
+        </main>
+
+        <section id="info">
+            <h2>¿Por qué usar nuestro simulacro?</h2>
+            <div class="contenedor-cards">
+                <div class="card">
+                    <h3>Preguntas Reales</h3>
+                    <p>Basadas en el banco oficial del MTC, actualizadas constantemente.</p>
+                </div>
+                <div class="card">
+                    <h3>Resultados Detallados</h3>
+                    <p>Visualiza tus aciertos, errores y temas que necesitas reforzar.</p>
+                </div>
+                <div class="card">
+                    <h3>Modo Práctica</h3>
+                    <p>Entrena sin límite de tiempo para perfeccionar tus respuestas.</p>
+                </div>
+            </div>
         </section>
-    </main>
+    
+    </header>
+
 
     <footer>
         <p>© 2025 Simulacro MTC | Proyecto académico</p>
     </footer>
+
+    <script>
+    // Efecto al hacer scroll: los elementos con clase .scroll-animado se muestran suavemente
+    const animados = document.querySelectorAll('.scroll-animado');
+    const mostrarScroll = () => {
+        const scrollTop = window.scrollY;
+        const alturaVentana = window.innerHeight * 0.85;
+        animados.forEach(el => {
+            const distancia = el.getBoundingClientRect().top;
+            if (distancia < alturaVentana) {
+                el.classList.add('scroll-visible');
+            }
+        });
+    };
+    window.addEventListener('scroll', mostrarScroll);
+    mostrarScroll(); // Ejecuta una vez al cargar
+    </script>
 </body>
 </html>

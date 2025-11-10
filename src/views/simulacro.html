@@ -79,5 +79,15 @@
     </footer>
 
     <script src="../assets/js/simulacro.js"></script>
+    <script>
+    // Marca la categoría seleccionada visualmente
+    const botones = document.querySelectorAll('.btn-categoria');
+    botones.forEach(btn => {
+        btn.addEventListener('click', () => {
+            botones.forEach(b => b.classList.remove('seleccionada'));
+            btn.classList.add('seleccionada');
+        });
+        });
+        </script>
 </body>
 </html>
