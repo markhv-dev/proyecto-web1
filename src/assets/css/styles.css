@@ -92,7 +92,7 @@ nav ul li a.active {
               align-items: center;
               justify-content: center;
               text-align: center;
-              color: white;
+              color: rgb(249, 234, 255);
   padding: 0 20px;
   animation: aparecerHero 1.5s ease-out;
 }
@@ -121,7 +121,7 @@ section h2 {
   margin-bottom: 25px;
   font-size: 2rem;
   letter-spacing: 0.5px;
-  border-bottom: 2px solid #c7a17a;
+  border-bottom: 2px solid #35186b;
   display: inline-block;
   padding-bottom: 8px;
 }
@@ -183,8 +183,8 @@ section p {
 }
 
 .card {
-  background-color: #d8e3e7;
-  border: 2px solid #c7a17a;
+  background-color: #271977;
+  border: 2px solid #4c0685;
   border-radius: 14px;
   width: 300px;
   padding: 25px;
@@ -196,17 +196,17 @@ section p {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
-  background-color: #eaf0f2;
+  background-color: #030a64;
 }
 
 .card h3 {
-  color: #3f6b87;
+  color: #ffffff;
   font-size: 1.4rem;
   margin-bottom: 10px;
 }
 
 .card p {
-  color: #1f2d3a;
+  color: #defffd;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -289,6 +289,7 @@ section p {
     transform: translateY(0);
   }
 }
+
 
 /* FASE 3 - NAVBAR, FOOTER Y ANIMACIONES */
 
@@ -824,27 +825,97 @@ button.boton-inicio:disabled {
   box-shadow: 0 5px 14px rgba(85, 45, 130, 0.12);
 }
 
-/* Contenedor general */
+/* === CONTENEDOR PRINCIPAL === */
+main {
+  padding: 40px 20px;
+  background: linear-gradient(180deg, #f7f4ff 0%, #ffffff 100%);
+  min-height: 70vh;
+}
+
+/* === SECCIONES === */
 main section {
-  background: #fafafa;
-  border-radius: 14px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  padding: 30px;
-  margin: 25px auto;
-  max-width: 700px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(60, 34, 105, 0.1);
+  padding: 35px 40px;
+  margin: 30px auto;
+  max-width: 800px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Título y descripción */
+main section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 24px rgba(60, 34, 105, 0.15);
+}
+
+/* === TÍTULOS === */
 main h2 {
-  color: #2c2154;
-  margin-bottom: 10px;
+  color: #3b256e;
+  font-size: 1.9rem;
+  font-weight: 700;
   text-align: center;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
 }
 
-main p {
-  color: #555;
-  line-height: 1.6;
+main h3 {
+  color: #4c3b85;
+  font-size: 1.4rem;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+/* === PÁRRAFOS === */
+main p {
+  color: #2f2f2f;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* === LISTAS === */
+main ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+main ul li {
+  background: #f4f0ff;
+  border-left: 5px solid #a37ff0;
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin: 12px 0;
+  color: #3c2e66;
+  font-size: 1rem;
+  line-height: 1.6;
+  transition: background 0.3s ease;
+}
+
+main ul li:hover {
+  background: #e7dcff;
+}
+
+/* === BOTÓN DE INICIO === */
+.boton-inicio {
+  display: inline-block;
+  background: linear-gradient(135deg, #7b5cf1, #9c7df5);
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.05rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 15px;
+}
+
+.boton-inicio:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(123, 92, 241, 0.3);
 }
 
 /* Texto de la pregunta */
@@ -892,4 +963,185 @@ main p {
   text-align: center;
   margin-top: 12px;
   color: #3a1c4a;
+}
+
+/*FASE 6: MI PERFIL*/
+.perfil-container {
+  max-width: 900px;
+  margin: 60px auto;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 40px 60px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.perfil-container:hover {
+  transform: translateY(-3px);
+}
+
+/* Título principal */
+.perfil-container h2 {
+  text-align: center;
+  color: #3a1c4a;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Datos del usuario */
+.datos-usuario {
+  background: linear-gradient(135deg, #f3e7ff, #e9d5ff);
+  padding: 25px 30px;
+  border-radius: 14px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 35px;
+}
+
+.datos-usuario p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.datos-usuario strong {
+  color: #4b236b;
+}
+
+/* Botones principales */
+.boton-inicio {
+  display: inline-block;
+  background: linear-gradient(135deg, #4b236b, #7c3aed);
+  color: white;
+  font-weight: 600;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.boton-inicio:hover {
+  background: linear-gradient(135deg, #5b2d7d, #9d4edd);
+  transform: translateY(-2px);
+}
+
+/* Panel de categorías */
+.panel-categorias {
+  background: #faf9ff;
+  border: 1px solid #e3d5ff;
+  border-radius: 12px;
+  padding: 20px 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-categoria {
+  background: #ede9fe;
+  color: #3a1c4a;
+  border: 1px solid #c4b5fd;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-categoria:hover {
+  background: #c4b5fd;
+  color: white;
+}
+
+/* Historial */
+.historial {
+  margin-top: 40px;
+}
+
+.historial h3 {
+  text-align: center;
+  color: #4b236b;
+  margin-bottom: 20px;
+}
+
+.tabla-historial {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tabla-historial th {
+  background: #6d28d9;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.tabla-historial td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.tabla-historial tr:nth-child(even) {
+  background: #f9f6ff;
+}
+
+.tabla-historial tr:hover {
+  background: #ede9fe;
+}
+
+/* Panel de edición */
+#panel-editar .campo-edicion {
+  margin-bottom: 15px;
+}
+
+#panel-editar label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #3a1c4a;
+}
+
+.input-perfil {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #d1c4e9;
+  font-size: 1rem;
+  transition: 0.2s;
+}
+
+.input-perfil:focus {
+  outline: none;
+  border-color: #7c3aed;
+  box-shadow: 0 0 5px rgba(124, 58, 237, 0.3);
+}
+
+.botones-edicion {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #4b236b;
+  color: white;
+  padding: 15px;
+  margin-top: 60px;
+  font-size: 0.9rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
