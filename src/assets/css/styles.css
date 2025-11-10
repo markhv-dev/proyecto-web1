@@ -562,6 +562,8 @@ header h1 {
 /*ESTILOS PARA VERIFICACIÓN DE RESPUESTAS */
 /* === ESTILOS DE VERIFICACIÓN DE RESPUESTAS === */
 .opcion-correcta {
+  font-weight: 600;
+  color: #2b1055;
   background-color: #d4edda !important;
   border: 2px solid #28a745 !important;
   border-radius: 5px;
@@ -669,4 +671,225 @@ button.boton-inicio:disabled {
   .opciones li {
     padding: 10px 12px;
   }
+}
+
+
+/* Caja de resumen general */
+.detalle-resultados {
+  background: #fdfcff;
+  border: 2px solid #d4c2e0;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 25px auto;
+  max-width: 550px;
+  text-align: left;
+  box-shadow: 0 4px 16px rgba(58, 28, 74, 0.1);
+}
+
+.detalle-resultados p {
+  font-size: 1rem;
+  color: #3a1c4a;
+  margin: 10px 0;
+}
+
+.detalle-resultados span {
+  font-weight: bold;
+  color: #2e5fa0a4;
+}
+
+/* Mensaje final */
+#mensaje-final {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #3a1c4a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Caja de cada pregunta del detalle */
+.detalle-pregunta {
+  background: #ffffff;
+  border: 1px solid #e1d9ee;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px auto;
+  box-shadow: 0 2px 10px rgba(90, 47, 160, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.detalle-pregunta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(90, 47, 160, 0.15);
+}
+
+/* Título y encabezado de pregunta */
+.detalle-pregunta .pregunta-numero {
+  background-color: #e8d9f3;
+  color: #3a1c4a;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.detalle-pregunta h3 {
+  color: #3a1c4a;
+  margin-bottom: 15px;
+  font-size: 1.15rem;
+  text-align: left;
+}
+
+/* Opciones */
+.detalle-pregunta .opciones {
+  list-style: none;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.detalle-pregunta .opciones li {
+  background: #faf7fc;
+  border: 1px solid #d8c8ea;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 8px 0;
+  transition: all 0.2s ease;
+}
+
+/* Resaltado de respuestas */
+.opcion-correcta-resultado {
+  background-color: #e3f9e8;
+  border: 2px solid #38a169;
+  color: #245f36;
+  font-weight: 600;
+}
+
+.opcion-incorrecta-resultado {
+  background-color: #fbeaea;
+  border: 2px solid #e53e3e;
+  color: #9b2c2c;
+  font-weight: 600;
+}
+
+/* Pie de detalle (Tu respuesta / Correcta) */
+.detalle-pregunta div[style*="text-align: center"] {
+  background: #f7f1fb;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  color: #4b2e6d;
+}
+
+/* === DETALLE DE RESPUESTAS (al final de cada pregunta) === */
+.detalle-respuestas {
+  background: #f6f0fa;
+  border: 1px solid #d5c5eb;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #3a1c4a;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.detalle-respuestas .respuesta-user {
+  color: #7a3eb1;
+  font-weight: 600;
+}
+
+.detalle-respuestas .respuesta-correcta {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.detalle-respuestas .respuesta-incorrecta {
+  color: #c62828;
+  font-weight: 600;
+}
+
+.detalle-respuestas span {
+  font-weight: 500;
+}
+
+/* Efecto visual de sombra y transición */
+.detalle-respuestas {
+  box-shadow: 0 3px 8px rgba(85, 45, 130, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.detalle-respuestas:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(85, 45, 130, 0.12);
+}
+
+/* Contenedor general */
+main section {
+  background: #fafafa;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  margin: 25px auto;
+  max-width: 700px;
+}
+
+/* Título y descripción */
+main h2 {
+  color: #2c2154;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+main p {
+  color: #555;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Texto de la pregunta */
+#texto-pregunta {
+  color: #2c2154;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 25px 0 15px 0;
+}
+
+/* Opciones */
+.opciones {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.opciones li {
+  background: #ffffff;
+  border: 1px solid #d9d9e6;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.15s ease;
+  cursor: pointer;
+}
+
+.opciones li:hover {
+  background: #f4f1fc;
+  transform: translateY(-2px);
+}
+
+.opciones input[type="radio"] {
+  accent-color: #5b3cc4;
+  transform: scale(1.1);
+}
+/* Indicador de categoría */
+#indicador-categoria {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 12px;
+  color: #3a1c4a;
 }
