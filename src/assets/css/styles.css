@@ -1145,3 +1145,63 @@ footer {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
+/* Esto libera el texto para que ocupe todo el espacio que necesite */
+#texto-pregunta {
+    display: block !important;    /* Cambia flex por block para evitar recortes */
+    height: auto !important;      /* Altura automática siempre */
+    min-height: 60px;
+    max-height: none !important;
+    overflow: visible !important; /* Asegura que no se oculte el inicio */
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    text-align: center;
+    width: 95%;
+}
+
+/* CONTEXTO SEGURO PARA PREGUNTAS */
+#contenedor-pregunta {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    min-height: 500px; /* Altura mínima generosa */
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* IMPORTANTE: Alinea al inicio, no al centro */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* FUERZA EL CRECIMIENTO DEL CONTENEDOR */
+#contenedor-pregunta {
+    height: auto !important;
+    min-height: 450px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea arriba para que no se pierda el texto */
+    overflow: visible;
+}
+
+#contenedor-pregunta {
+    display: block !important;    
+    height: auto !important;     
+    min-height: 500px;
+    padding: 40px 20px !important;
+    overflow: visible !important;
+    text-align: center;
+}
+
+#texto-pregunta {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    display: block;
+    height: auto !important;      
+    color: #1e2a38;
+}
