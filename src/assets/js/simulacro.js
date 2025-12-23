@@ -13,61 +13,109 @@ document.querySelectorAll('.btn-categoria').forEach(boton => {
         cargarPreguntas();
     });
 });
-
-// Función para cargar las preguntas según la categoría
 function cargarPreguntas() {
-    // Mostrar mensaje de carga
     document.getElementById('seleccion-categoria').innerHTML = '<h2>Cargando preguntas...</h2>';
 
-    // Determinar qué archivos JSON cargar según la categoría
-    if (categoriaSeleccionada === 'AI') {
-        // A-I: 40 preguntas aleatorias de AI.json
-        fetch('../data/PREGUNTAS_mtc/json/AI.json')
-            .then(response => response.json())
-            .then(data => {
+    // (Sin mezclar AI con BII a menos que tú lo quieras)
+    fetch(`../data/PREGUNTAS_mtc/json/${categoriaSeleccionada}.json`)
+        .then(response => {
+            if (!response.ok) throw new Error('No se encontró el archivo JSON');
+            return response.json();
+        })
+        .then(data => {
+            // SEPARAR POR TIPO (Generales vs Específicas)
+            let generales = data.filter(p => p.tipo === 'Materias generales');
+            let especificas = data.filter(p => p.tipo !== 'Materias generales');
+
+            console.log(`Cargadas: ${generales.length} generales y ${especificas.length} específicas`);
+
+            // LOGICA DE SELECCIÓN SEGURA
+            if (generales.length >= 20 && especificas.length >= 20) {
+                // Si hay suficientes de ambos tipos, sacamos 20 y 20
+                preguntasDelExamen = [
+                    ...seleccionarAleatorias(generales, 20),
+                    ...seleccionarAleatorias(especificas, 20)
+                ];
+            } else {
+                // Si el JSON es pequeño o no tiene tipos, sacamos 40 de lo que haya
+                console.warn("No hay suficientes preguntas por tipo, cargando aleatorias generales.");
                 preguntasDelExamen = seleccionarAleatorias(data, 40);
-                iniciarExamen();
-            });
-   // corregir esta seccion que combina 2 categorias - mark
-    }
-    else if (categoriaSeleccionada === 'BII-A' || categoriaSeleccionada === 'BII-B') {
-        // B-II-A y B-II-B: Mezclar todas las preguntas de ambos
-        Promise.all([
-            fetch('../data/PREGUNTAS_mtc/json/BII-A.json').then(r => r.json()),
-            fetch('../data/PREGUNTAS_mtc/json/BII-B.json').then(r => r.json())
-        ]).then(([dataA, dataB]) => {
-            let todasLasPreguntas = [...dataA, ...dataB];
-            preguntasDelExamen = seleccionarAleatorias(todasLasPreguntas, 40);
+            }
+
+            // Mezclar el orden final para que no salgan todas las generales juntas
+            mezclarArray(preguntasDelExamen);
             iniciarExamen();
+        })
+        .catch(error => {
+            console.error(error);
+            alert("Error al cargar las preguntas de " + categoriaSeleccionada);
         });
+}
+
+function mostrarPregunta() {
+    let pregunta = preguntasDelExamen[preguntaActual];
+    
+    // VALIDACIÓN: Si por algún motivo la pregunta no existe, detenerse
+    if (!pregunta) {
+        console.error("Pregunta no encontrada en el índice: " + preguntaActual);
+        return;
     }
-    else if (categoriaSeleccionada === 'BII-C') {
-        // B-II-C: 20 generales + 20 específicas
-        fetch('../data/PREGUNTAS_mtc/json/BII-C.json')
-            .then(response => response.json())
-            .then(data => {
-                let generales = data.filter(p => p.tipo === 'Materias generales');
-                let especificas = data.filter(p => p.tipo !== 'Materias generales');
-                let generalesSeleccionadas = seleccionarAleatorias(generales, 20);
-                let especificasSeleccionadas = seleccionarAleatorias(especificas, 20);
-                preguntasDelExamen = [...generalesSeleccionadas, ...especificasSeleccionadas];
-                mezclarArray(preguntasDelExamen); // Mezclar el orden
-                iniciarExamen();
-            });
+
+    // 1. Actualizar número de pregunta y descripción
+    document.getElementById('numero-actual').textContent = preguntaActual + 1;
+    document.getElementById('texto-pregunta').textContent = pregunta.descripcion || "Pregunta sin descripción";
+
+    // 2. Manejo de la Imagen Principal de la pregunta
+    const contenedorImagen = document.getElementById('imagen-pregunta');
+    const imgElemento = document.getElementById('img-pregunta');
+    let carpeta = pregunta.carpetaImagenes || categoriaSeleccionada;
+
+    if (pregunta.hasImage && pregunta.imageFile) {
+        contenedorImagen.classList.remove('oculto');
+        imgElemento.src = `../data/PREGUNTAS_mtc/imagenes/${carpeta}/${pregunta.imageFile}`;
+    } else {
+        contenedorImagen.classList.add('oculto');
+        imgElemento.src = "";
     }
-    else {
-        // Resto de categorías: 20 generales + 20 específicas
-        fetch(`../data/PREGUNTAS_mtc/json/${categoriaSeleccionada}.json`)
-            .then(response => response.json())
-            .then(data => {
-                let generales = data.filter(p => p.tipo === 'Materias generales');
-                let especificas = data.filter(p => p.tipo !== 'Materias generales');
-                let generalesSeleccionadas = seleccionarAleatorias(generales, 20);
-                let especificasSeleccionadas = seleccionarAleatorias(especificas, 20);
-                preguntasDelExamen = [...generalesSeleccionadas, ...especificasSeleccionadas];
-                mezclarArray(preguntasDelExamen); // Mezclar el orden
-                iniciarExamen();
-            });
+
+    // 3. Manejo de Opciones (Texto o Imagen)
+    const opciones = ['a', 'b', 'c', 'd'];
+
+    opciones.forEach(letra => {
+        const contenido = pregunta.alternativas[letra];
+        const labelObj = document.getElementById(`label-${letra}`);
+        const imgObj = document.getElementById(`img-${letra}`);
+
+        // Verificamos si el contenido de la opción es una ruta de imagen
+        const esImagen = contenido && (
+            contenido.toLowerCase().endsWith('.png') || 
+            contenido.toLowerCase().endsWith('.jpg') || 
+            contenido.toLowerCase().endsWith('.jpeg')
+        );
+
+        if (esImagen) {
+            // SI ES IMAGEN: Mostramos la letra en el label y cargamos la imagen en el <img>
+            labelObj.textContent = letra + ") "; 
+            imgObj.src = `../data/PREGUNTAS_mtc/imagenes/${carpeta}/${contenido}`;
+            imgObj.classList.remove('oculto');
+        } else {
+            // SI ES TEXTO: Mostramos el texto normal y ocultamos el <img> de la opción
+            labelObj.textContent = letra + ") " + (contenido || "---");
+            imgObj.classList.add('oculto');
+            imgObj.src = "";
+        }
+    });
+
+    // 4. Limpiar selección de radio buttons
+    document.querySelectorAll('input[name="respuesta"]').forEach(input => input.checked = false);
+
+    // 5. Botones de navegación (Siguiente vs Finalizar)
+    if (preguntaActual === preguntasDelExamen.length - 1) {
+        document.getElementById('btn-siguiente').style.display = 'none';
+        document.getElementById('btn-finalizar').style.display = 'inline-block';
+    } else {
+        document.getElementById('btn-siguiente').style.display = 'inline-block';
+        document.getElementById('btn-finalizar').style.display = 'none';
     }
 }
 
@@ -97,43 +145,6 @@ function iniciarExamen() {
 
     // Mostrar primera pregunta
     mostrarPregunta();
-}
-
-// Función para mostrar una pregunta
-function mostrarPregunta() {
-    let pregunta = preguntasDelExamen[preguntaActual];
-
-    // Actualizar número de pregunta
-    document.getElementById('numero-actual').textContent = preguntaActual + 1;
-
-    // Mostrar texto de la pregunta
-    document.getElementById('texto-pregunta').textContent = pregunta.descripcion;
-
-    // Mostrar imagen si tiene
-    if (pregunta.hasImage) {
-        document.getElementById('imagen-pregunta').classList.remove('oculto');
-        let rutaImagen = `../data/PREGUNTAS_mtc/imagenes/${pregunta.carpetaImagenes}/${pregunta.imageFile}`;
-        document.getElementById('img-pregunta').src = rutaImagen;
-    } else {
-        document.getElementById('imagen-pregunta').classList.add('oculto');
-    }
-
-    // Mostrar opciones
-    document.getElementById('label-a').textContent = 'a) ' + pregunta.alternativas.a;
-    document.getElementById('label-b').textContent = 'b) ' + pregunta.alternativas.b;
-    document.getElementById('label-c').textContent = 'c) ' + pregunta.alternativas.c;
-    document.getElementById('label-d').textContent = 'd) ' + pregunta.alternativas.d;
-
-    // Limpiar selección anterior
-    document.querySelectorAll('input[name="respuesta"]').forEach(input => {
-        input.checked = false;
-    });
-
-    // Mostrar botón finalizar en la última pregunta
-    if (preguntaActual === 39) {
-        document.getElementById('btn-siguiente').style.display = 'none';
-        document.getElementById('btn-finalizar').style.display = 'inline-block';
-    }
 }
 
 // Botón siguiente
