@@ -22,7 +22,7 @@ function cargarPreguntas() {
     // Determinar qué archivos JSON cargar según la categoría
     if (categoriaSeleccionada === 'AI') {
         // A-I: 40 preguntas aleatorias de AI.json
-        fetch('../data/PREGUNTAS_mtc/json/AI.json')
+        fetch('/static/data/PREGUNTAS_mtc/json/AI.json')
             .then(response => response.json())
             .then(data => {
                 preguntasDelExamen = seleccionarAleatorias(data, 40);
@@ -33,8 +33,8 @@ function cargarPreguntas() {
     else if (categoriaSeleccionada === 'BII-A' || categoriaSeleccionada === 'BII-B') {
         // B-II-A y B-II-B: Mezclar todas las preguntas de ambos
         Promise.all([
-            fetch('../data/PREGUNTAS_mtc/json/BII-A.json').then(r => r.json()),
-            fetch('../data/PREGUNTAS_mtc/json/BII-B.json').then(r => r.json())
+            fetch('/static/data/PREGUNTAS_mtc/json/BII-A.json').then(r => r.json()),
+            fetch('/static/data/PREGUNTAS_mtc/json/BII-B.json').then(r => r.json())
         ]).then(([dataA, dataB]) => {
             let todasLasPreguntas = [...dataA, ...dataB];
             preguntasDelExamen = seleccionarAleatorias(todasLasPreguntas, 40);
@@ -43,7 +43,7 @@ function cargarPreguntas() {
     }
     else if (categoriaSeleccionada === 'BII-C') {
         // B-II-C: 20 generales + 20 específicas
-        fetch('../data/PREGUNTAS_mtc/json/BII-C.json')
+        fetch('/static/data/PREGUNTAS_mtc/json/BII-C.json')
             .then(response => response.json())
             .then(data => {
                 let generales = data.filter(p => p.tipo === 'Materias generales');
@@ -57,7 +57,7 @@ function cargarPreguntas() {
     }
     else {
         // Resto de categorías: 20 generales + 20 específicas
-        fetch(`../data/PREGUNTAS_mtc/json/${categoriaSeleccionada}.json`)
+        fetch(`/static/data/PREGUNTAS_mtc/json/${categoriaSeleccionada}.json`)
             .then(response => response.json())
             .then(data => {
                 let generales = data.filter(p => p.tipo === 'Materias generales');
@@ -112,7 +112,7 @@ function mostrarPregunta() {
     // Mostrar imagen si tiene
     if (pregunta.hasImage) {
         document.getElementById('imagen-pregunta').classList.remove('oculto');
-        let rutaImagen = `../data/PREGUNTAS_mtc/imagenes/${pregunta.carpetaImagenes}/${pregunta.imageFile}`;
+        let rutaImagen = `/static/data/PREGUNTAS_mtc/imagenes/${pregunta.carpetaImagenes}/${pregunta.imageFile}`;
         document.getElementById('img-pregunta').src = rutaImagen;
     } else {
         document.getElementById('imagen-pregunta').classList.add('oculto');
@@ -228,6 +228,32 @@ function calcularResultados() {
     localStorage.setItem('aprobado', aprobado);
     localStorage.setItem('detalleResultados', JSON.stringify(detalleResultados));
 
-    // Redirigir a resultados
-    window.location.href = 'resultados.html';
+    // Guardar resultados en la base de datos
+    fetch('/api/guardar-resultado', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            categoria: categoriaSeleccionada,
+            puntaje: correctas,
+            correctas: correctas,
+            incorrectas: incorrectas
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            console.log('Resultados guardados en la base de datos');
+        } else {
+            console.error('Error al guardar resultados:', data.error);
+        }
+    })
+    .catch(error => {
+        console.error('Error en la petición:', error);
+    })
+    .finally(() => {
+        // Redirigir a resultados (usar ruta Flask)
+        window.location.href = '/resultados';
+    });
 }

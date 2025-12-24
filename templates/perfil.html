@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - MTC</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Simulacro MTC</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Inicio</a></li>
+                <li><a href="{{ url_for('simulacro') }}">Simulacro</a></li>
+                <li><a href="{{ url_for('preguntas') }}">Preguntas rápidas</a></li>
+                <li><a href="{{ url_for('resultados') }}">Resultados</a></li>
+                <li><a href="{{ url_for('perfil') }}" class="active">Perfil</a></li>
+                <li><a href="{{ url_for('logout') }}">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="perfil-container">
+        <section>
+            <h2>Mi Perfil</h2>
+
+            <div class="datos-usuario">
+                <p><strong>Nombre:</strong> <span id="nombre-usuario">{{ session.nombre }}</span></p>
+                <p><strong>Correo:</strong> <span id="correo-usuario">{{ session.email }}</span></p>
+                <p><strong>Rol:</strong> <span>{{ session.rol }}</span></p>
+                <p><strong>Último puntaje:</strong> <span id="ultimo-puntaje">{% if ultimo_puntaje %}{{ ultimo_puntaje }}/40{% else %}--{% endif %}</span></p>
+            </div>
+
+            <section class="historial">
+                <h3>Historial de simulacros</h3>
+                {% if simulacros %}
+                <table class="tabla-historial">
+                    <thead>
+                        <tr>
+                            <th>N°</th>
+                            <th>Fecha</th>
+                            <th>Categoría</th>
+                            <th>Correctas</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista-intentos">
+                        {% for simulacro in simulacros %}
+                        <tr>
+                            <td>{{ loop.index }}</td>
+                            <td>{{ simulacro.fecha_formateada }}</td>
+                            <td>{{ simulacro.categoria }}</td>
+                            <td>{{ simulacro.correctas }}/40</td>
+                            <td>{% if simulacro.aprobado %}<span style="color: green;">✅ Aprobado</span>{% else %}<span style="color: red;">❌ Desaprobado</span>{% endif %}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {% else %}
+                <p style="text-align: center; color: #64748b; padding: 20px;">
+                    No has realizado ningún simulacro todavía. ¡Comienza ahora!
+                </p>
+                {% endif %}
+            </section>
+
+            <div class="acciones">
+                <a href="{{ url_for('simulacro') }}" class="boton-inicio">Hacer Simulacro</a>
+                <a href="{{ url_for('logout') }}" class="boton-inicio">Cerrar Sesión</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Simulacro MTC | Proyecto académico</p>
+    </footer>
+</body>
+</html>

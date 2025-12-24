@@ -1,0 +1,41 @@
+# Entorno virtual de Python
+venv/
+env/
+ENV/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de Git
+.git/
+.gitignore
+.github/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de documentación temporal
+ROADMAP_PROYECTO.html
+COMO_PROBAR.md
+INSTALL.md
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Archivos de base de datos locales
+*.db
+*.sqlite
+*.sqlite3

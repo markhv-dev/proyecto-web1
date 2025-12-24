@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntas rápidas - MTC</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/styles.css') }}">
 </head>
 <body>
     <header>
         <h1>Simulacro MTC</h1>
-    </header>
-
-    <nav>
-        <ul>
-                <li><a href="../../public/index.html">Inicio</a></li>
-                <li><a href="simulacro.html">Simulacro</a></li>
-                <li><a href="preguntas.html" class="active">Preguntas rápidas</a></li>
-                <li><a href="resultados.html">Resultados</a></li>
-                <li><a href="perfil.html">Perfil</a></li>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Inicio</a></li>
+                <li><a href="{{ url_for('simulacro') }}">Simulacro</a></li>
+                <li><a href="{{ url_for('preguntas') }}" class="active">Preguntas rápidas</a></li>
+                <li><a href="{{ url_for('resultados') }}">Resultados</a></li>
+                <li><a href="{{ url_for('perfil') }}">Perfil</a></li>
+                <li><a href="{{ url_for('logout') }}">Cerrar Sesión</a></li>
             </ul>
-    </nav>
+        </nav>
+    </header>
 
     <main>
         <section>
@@ -47,6 +47,6 @@
         <p>© 2025 Simulacro MTC | Proyecto académico</p>
     </footer>
 
-    <script src="../assets/js/preguntas.js"></script>
+    <script src="{{ url_for('static', filename='assets/js/preguntas.js') }}"></script>
 </body>
 </html>

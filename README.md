@@ -1,196 +1,304 @@
-# Sistema de Simulacro MTC
+# Simulacro de Examen MTC
 
-Un sistema web para practicar y simular exámenes del Ministerio de Transportes y Comunicaciones (MTC) del Perú.
+Sistema web para practicar y simular exámenes del Ministerio de Transportes y Comunicaciones (MTC) de Perú, diseñado para ayudar a postulantes a obtener su licencia de conducir.
 
-## Arquitectura del Proyecto
+## Descripción
 
-```
-proyecto-web1/
-├── public/                         # Archivos públicos accesibles
-│   └── index.html                  # Página principal de entrada
-│
-├── src/                            # Código fuente del proyecto
-│   ├── views/                      # Páginas HTML de la aplicación
-│   │   ├── perfil.html            # Gestión de perfil de usuario
-│   │   ├── preguntas.html         # Modo preguntas rápidas
-│   │   ├── simulacro.html         # Simulacro completo de examen
-│   │   └── resultados.html        # Visualización de resultados
-│   │
-│   ├── assets/                     # Recursos estáticos
-│   │   ├── css/                   # Hojas de estilo
-│   │   │   └── styles.css         # Estilos principales del sistema
-│   │   └── js/                    # Scripts de JavaScript
-│   │       ├── preguntas.js       # Lógica de preguntas rápidas
-│   │       └── simulacro.js       # Lógica del simulacro
-│   │
-│   ├── data/                       # Datos del sistema
-│   │   └── PREGUNTAS_mtc/         # Base de datos de preguntas
-│   │       ├── json/              # Preguntas por categoría (JSON)
-│   │       │   ├── AI.json        # Categoría A-I
-│   │       │   ├── AII-A.json     # Categoría A-II-A
-│   │       │   ├── AII-B.json     # Categoría A-II-B
-│   │       │   ├── AIII-A.json    # Categoría A-III-A
-│   │       │   ├── AIII-B.json    # Categoría A-III-B
-│   │       │   ├── AIII-C.json    # Categoría A-III-C
-│   │       │   ├── BII-A.json     # Categoría B-II-A
-│   │       │   ├── BII-B.json     # Categoría B-II-B
-│   │       │   └── BII-C.json     # Categoría B-II-C
-│   │       └── imagenes/          # Imágenes de preguntas
-│   │
-│   └── components/                 # Componentes reutilizables (futuro)
-│
-├── docs/                           # Documentación del proyecto
-├── .vscode/                        # Configuración de VS Code
-├── .git/                           # Control de versiones Git
-└── README.md                       # Este archivo
-```
-
-## Funcionalidades
-
-### Página Principal (`public/index.html`)
-- Punto de entrada al sistema
-- Navegación a todas las secciones
-- Diseño responsivo y accesible
-
-### Gestión de Perfil (`src/views/perfil.html`)
-- Visualización de datos del usuario
-- Edición de nombre y correo electrónico
-- Selección de categoría de licencia
-- Historial de simulacros realizados
-- Persistencia local con localStorage
-
-### Preguntas Rápidas (`src/views/preguntas.html`)
-- Práctica sin límite de tiempo
-- Preguntas filtradas por categoría seleccionada
-- Carga dinámica desde archivos JSON
-- Indicador visual de categoría activa
-
-### Simulacro Completo (`src/views/simulacro.html`)
-- Examen cronometrado
-- Preguntas aleatorias según categoría
-- Evaluación automática
-- Guardado de resultados
-
-### Resultados (`src/views/resultados.html`)
-- Visualización de puntajes obtenidos
-- Estadísticas de rendimiento
-- Historial de intentos
-
-## Sistema de Diseño
-
-### Colores Principales
-- **Fondo**: `#eaf7f4` (Verde agua claro)
-- **Header**: `#cdb4db` (Lila suave)
-- **Botones**: `#a2e2e2` (Verde agua)
-- **Texto principal**: `#3a1c4a` (Morado oscuro)
-- **Texto secundario**: `#2f2f2f` (Gris oscuro)
-
-### Componentes UI
-- **Botones**: Esquinas redondeadas, bordes definidos, efectos hover
-- **Paneles**: Expansibles/colapsables con animaciones suaves
-- **Formularios**: Inputs consistentes con validación
-- **Navegación**: Barra horizontal responsive
-
-## Gestión de Datos
-
-### Almacenamiento Local (localStorage)
-```javascript
-// Datos del usuario
-localStorage.setItem('nombreUsuario', 'Nombre');
-localStorage.setItem('correoUsuario', 'email@ejemplo.com');
-localStorage.setItem('categoria', 'AI');
-localStorage.setItem('puntaje', '18');
-```
-
-### Estructura de Preguntas (JSON)
-```json
-{
-  "numero": 1,
-  "tipo": "Materias generales",
-  "categoria": "AI",
-  "tema": "Reglamento de Tránsito",
-  "descripcion": "¿Cuál es la velocidad máxima en zona urbana?",
-  "alternativas": {
-    "a": "40 km/h",
-    "b": "50 km/h",
-    "c": "60 km/h",
-    "d": "80 km/h"
-  },
-  "respuesta_correcta": "b"
-}
-```
-
-## Instalación y Uso
-
-### Requisitos
-- Navegador web moderno (Chrome, Firefox, Safari, Edge)
-- Servidor web local (opcional para desarrollo)
-
-### Ejecución
-1. **Desarrollo local**: Abrir `public/index.html` en el navegador
-2. **Servidor local**:
-   ```bash
-   # Con Python
-   python -m http.server 8000
-
-   # Con Node.js
-   npx serve .
-
-   # Con PHP
-   php -S localhost:8000
-   ```
-
-### Navegación del Sistema
-1. **Inicio**: `public/index.html` → Página principal
-2. **Configurar perfil**: Seleccionar categoría de licencia
-3. **Practicar**: Usar "Preguntas rápidas" para estudio
-4. **Evaluar**: Realizar "Simulacro" completo
-5. **Revisar**: Ver "Resultados" y progreso
+Aplicación web completa que permite a los usuarios:
+- Registrarse y autenticarse en el sistema
+- Realizar simulacros cronometrados de 40 preguntas (40 minutos)
+- Practicar con preguntas rápidas sin límite de tiempo
+- Visualizar resultados detallados con respuestas correctas e incorrectas
+- Consultar historial de simulacros realizados en el perfil
+- Acceder a más de 1000 preguntas organizadas en 9 categorías oficiales del MTC
 
 ## Tecnologías Utilizadas
 
-- **Frontend**: HTML5, CSS3, JavaScript ES6+
-- **Almacenamiento**: localStorage (navegador)
-- **Datos**: JSON estático
-- **Estilo**: CSS personalizado con sistema de diseño propio
-- **Control de versiones**: Git
+### Backend
+- **Python 3.12+**
+- **Flask** - Framework web
+- **MySQL 8.0** / **MariaDB** - Base de datos
+- **bcrypt** - Hash de contraseñas
 
-## Características Responsive
+### Frontend
+- **HTML5** - Estructura
+- **CSS3** - Estilos (diseño responsivo con Flexbox/Grid)
+- **JavaScript ES6+** - Interactividad (Vanilla JS, sin frameworks)
 
-- Diseño adaptable a móviles, tablets y desktop
-- Navegación optimizada para touch
-- Tipografía escalable
-- Componentes flexibles
+### DevOps
+- **Docker** - Contenerización
+- **Docker Compose** - Orquestación de servicios
 
-## Flujo de Usuario
+## Estructura del Proyecto
 
-1. **Entrada** → Página principal
-2. **Configuración** → Seleccionar categoría en perfil
-3. **Práctica** → Preguntas rápidas por categoría
-4. **Evaluación** → Simulacro cronometrado
-5. **Revisión** → Resultados y estadísticas
+```
+proyecto-web1/
+├── app.py                      # Aplicación Flask principal
+├── requirements.txt            # Dependencias Python
+├── init_db.sql                 # Script de inicialización de BD
+├── Dockerfile                  # Imagen Docker de la aplicación
+├── docker-compose.yml          # Orquestación de servicios
+├── README.md                   # Este archivo
+│
+├── static/                     # Archivos estáticos
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── styles.css     # Estilos principales
+│   │   ├── js/
+│   │   │   ├── simulacro.js   # Lógica del simulacro
+│   │   │   └── preguntas.js   # Lógica de preguntas rápidas
+│   │   └── images/
+│   │       └── conducir1.jpg  # Imagen hero
+│   └── data/
+│       └── PREGUNTAS_mtc/     # Base de preguntas
+│           ├── json/           # Preguntas por categoría (9 archivos JSON)
+│           └── imagenes/       # Imágenes de señales de tránsito
+│
+├── templates/                  # Plantillas HTML (Jinja2)
+│   ├── index.html             # Página principal
+│   ├── login.html             # Inicio de sesión
+│   ├── register.html          # Registro de usuarios
+│   ├── simulacro.html         # Simulacro completo
+│   ├── preguntas.html         # Preguntas rápidas
+│   ├── resultados.html        # Visualización de resultados
+│   └── perfil.html            # Perfil y historial
+│
+└── docs/                       # Documentación
+    ├── Documentacion_Simulacro_MTC.docx
+    └── requisitos.pdf
+```
 
-## Notas de Desarrollo
+## Instalación y Ejecución
 
-### Patrones Implementados
-- **Separación de responsabilidades**: HTML (estructura), CSS (presentación), JS (comportamiento)
-- **Modularidad**: Archivos organizados por tipo y función
-- **Reutilización**: Estilos y componentes consistentes
-- **Persistencia**: Estado del usuario mantenido entre sesiones
+### Opción 1: Con Docker (Recomendado)
 
-### Próximas Mejoras
-- [ ] Sistema de autenticación
-- [ ] Estadísticas avanzadas
-- [ ] Exportación de resultados
+#### Requisitos
+- Docker 20.10+
+- Docker Compose 2.0+
+
+#### Pasos
+
+1. **Clonar el repositorio**
+```bash
+git clone <URL_DEL_REPOSITORIO>
+cd proyecto-web1
+```
+
+2. **Construir y ejecutar los contenedores**
+```bash
+docker-compose up --build
+```
+
+3. **Acceder a la aplicación**
+```
+Abrir navegador en: http://localhost:5000
+```
+
+4. **Detener los contenedores**
+```bash
+# Presionar Ctrl+C en la terminal
+docker-compose down
+```
+
+#### Notas sobre Docker
+- El servicio `db` (MySQL) se inicializa automáticamente con el esquema definido en `init_db.sql`
+- Los datos de la base de datos se persisten en un volumen Docker
+- La aplicación Flask espera a que MySQL esté completamente inicializado (healthcheck)
+- Puerto 5000: Aplicación web
+- Puerto 3306: MySQL (solo para desarrollo)
+
 ---
 
-## Información del Proyecto
+### Opción 2: Sin Docker (Manual)
 
-**Tipo**: Proyecto académico - Desarrollo Web I
-**Objetivo**: Sistema de simulacro para exámenes MTC
-**Estado**: Funcional y desplegable
-**Licencia**: Proyecto educativo
+#### Requisitos
+- Python 3.12 o superior
+- MySQL 8.0+ o MariaDB 10+
+- pip (gestor de paquetes Python)
+
+#### Pasos
+
+1. **Clonar el repositorio**
+```bash
+git clone <URL_DEL_REPOSITORIO>
+cd proyecto-web1
+```
+
+2. **Configurar MySQL/MariaDB**
+```bash
+# Iniciar el servicio
+sudo systemctl start mariadb  # o mysql
+
+# Crear la base de datos
+sudo mysql < init_db.sql
+```
+
+3. **Crear entorno virtual de Python**
+```bash
+python -m venv venv
+source venv/bin/activate  # En Linux/Mac
+# venv\Scripts\activate   # En Windows
+```
+
+4. **Instalar dependencias**
+```bash
+pip install -r requirements.txt
+```
+
+5. **Configurar variables de entorno (opcional)**
+```bash
+export MYSQL_HOST=localhost
+export MYSQL_USER=simulacro
+export MYSQL_PASSWORD=password
+export MYSQL_DB=simulacro_mtc
+```
+
+6. **Ejecutar la aplicación**
+```bash
+python app.py
+```
+
+7. **Acceder a la aplicación**
+```
+Abrir navegador en: http://localhost:5000
+```
 
 ---
 
-Última actualización: Noviembre 2025
+## Uso del Sistema
+
+### 1. Registro de Usuario
+- Acceder a la página principal
+- Clic en "Registrarse"
+- Completar formulario (nombre, email, contraseña)
+- El sistema redirige automáticamente al login
+
+### 2. Iniciar Sesión
+- Ingresar email y contraseña
+- La página principal se personaliza con el nombre del usuario
+
+### 3. Realizar un Simulacro
+- Menú → "Simulacro"
+- Seleccionar categoría de licencia (A-I, A-II-A, B-II-A, etc.)
+- Responder 40 preguntas en 40 minutos
+- Al finalizar, el sistema calcula automáticamente el puntaje
+- **Aprobado**: 35 o más respuestas correctas de 40
+
+### 4. Preguntas Rápidas (Práctica)
+- Menú → "Preguntas rápidas"
+- Practicar sin límite de tiempo
+- Verificar respuestas inmediatamente
+- No se guarda registro (modo práctica)
+
+### 5. Ver Perfil e Historial
+- Menú → "Perfil"
+- Visualizar datos personales
+- Consultar último puntaje
+- Revisar historial completo de simulacros
+
+---
+
+## Categorías de Licencia Disponibles
+
+| Categoría | Descripción |
+|-----------|-------------|
+| **A-I** | Motocicletas y similares |
+| **A-II-A** | Automóviles y camionetas |
+| **A-II-B** | Taxis y remises |
+| **A-III-A** | Vehículos de transporte de personal |
+| **A-III-B** | Buses y omnibuses |
+| **A-III-C** | Vehículos de transporte escolar |
+| **B-II-A** | Camiones ligeros |
+| **B-II-B** | Camiones pesados |
+| **B-II-C** | Tractores y maquinaria |
+
+---
+
+## Características Técnicas
+
+### Backend (Flask)
+- **Autenticación**: Sistema de login con sesiones
+- **Control de acceso**: Rutas protegidas con decorador `@login_required`
+- **Roles**: Usuario normal y administrador
+- **Seguridad**: Contraseñas hasheadas con bcrypt
+- **API REST**: Endpoint para guardar resultados
+
+### Frontend
+- **Diseño responsivo**: Adaptable a móviles, tablets y desktop
+- **Validación de formularios**: Cliente y servidor
+- **Temporizador**: Cuenta regresiva de 40 minutos en simulacros
+- **Carga dinámica**: Fetch API para obtener preguntas desde JSON
+- **Persistencia**: localStorage para resultados temporales
+
+### Base de Datos
+- **Tablas**:
+  - `usuarios`: Información de usuarios registrados
+  - `simulacros`: Historial de simulacros realizados
+- **Operaciones CRUD**: Crear, leer, actualizar (preparado), eliminar (preparado)
+- **Relaciones**: Foreign keys entre usuarios y simulacros
+
+---
+
+## Variables de Entorno
+
+| Variable | Descripción | Valor por defecto |
+|----------|-------------|-------------------|
+| `MYSQL_HOST` | Host de MySQL | `localhost` (manual) / `db` (Docker) |
+| `MYSQL_USER` | Usuario de BD | `simulacro` |
+| `MYSQL_PASSWORD` | Contraseña de BD | `password` |
+| `MYSQL_DB` | Nombre de la BD | `simulacro_mtc` |
+
+---
+
+## Solución de Problemas
+
+### Error: "Can't connect to MySQL server"
+**Solución**: Asegurarse de que MySQL/MariaDB esté ejecutándose
+```bash
+sudo systemctl start mariadb
+sudo systemctl status mariadb
+```
+
+### Error: "ModuleNotFoundError: No module named 'flask'"
+**Solución**: Activar el entorno virtual e instalar dependencias
+```bash
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Docker: "port is already allocated"
+**Solución**: Detener el servicio que use el puerto 5000 o 3306
+```bash
+sudo lsof -ti:5000 | xargs sudo kill -9
+sudo systemctl stop mariadb
+```
+
+---
+
+## Contribuidores
+
+**Equipo de Desarrollo**
+- [Nombres de los integrantes del equipo]
+
+**Proyecto Académico**
+- Curso: Desarrollo Web I
+- Universidad: [Nombre de la universidad]
+- Año: 2025
+
+---
+
+## Licencia
+
+Este proyecto es de carácter académico y educativo.
+
+---
+
+## Contacto y Soporte
+
+Para reportar errores o sugerencias:
+- Repositorio: [URL del repositorio GitHub]
+- Email: [Email de contacto]
+
+---
+
+**Última actualización**: Diciembre 2025

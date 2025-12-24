@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulacro MTC - Inicio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/styles.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            {% if session.user_id %}
+                <li><a href="{{ url_for('index') }}" class="active">Inicio</a></li>
+                <li><a href="{{ url_for('simulacro') }}">Simulacro</a></li>
+                <li><a href="{{ url_for('preguntas') }}">Preguntas rápidas</a></li>
+                <li><a href="{{ url_for('resultados') }}">Resultados</a></li>
+                <li><a href="{{ url_for('perfil') }}">Perfil</a></li>
+                <li><a href="{{ url_for('logout') }}">Cerrar Sesión</a></li>
+            {% else %}
+                <li><a href="{{ url_for('index') }}" class="active">Inicio</a></li>
+                <li><a href="{{ url_for('login') }}">Iniciar Sesión</a></li>
+                <li><a href="{{ url_for('register') }}">Registrarse</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+
+    <!-- HERO - Imagen de conducción -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            {% if session.user_id %}
+                <h1>Bienvenido/a {{ session.nombre }}</h1>
+                <p>Estás listo para practicar. Comienza un simulacro ahora.</p>
+                <a href="{{ url_for('simulacro') }}" class="boton-hero">Comenzar simulacro</a>
+            {% else %}
+                <h1>Simulacro de Examen MTC</h1>
+                <p>Practica con preguntas reales del examen oficial</p>
+                <a href="{{ url_for('login') }}" class="boton-hero">Iniciar Sesión</a>
+            {% endif %}
+        </div>
+    </section>
+
+    <main>
+        <section>
+            <h3>¿Qué encontrarás aquí?</h3>
+            <ul>
+                <li>Simulacros completos con tiempo y puntaje.</li>
+                <li>Preguntas rápidas para practicar en minutos.</li>
+                <li>Historial de resultados y progreso.</li>
+            </ul>
+        </section>
+    </main>
+
+    <section id="info">
+        <h2>¿Por qué usar nuestro simulacro?</h2>
+        <div class="contenedor-cards">
+            <div class="card">
+                <h3>Preguntas Reales</h3>
+                <p>Basadas en el banco oficial del MTC, actualizadas constantemente.</p>
+            </div>
+            <div class="card">
+                <h3>Resultados Detallados</h3>
+                <p>Visualiza tus aciertos, errores y temas que necesitas reforzar.</p>
+            </div>
+            <div class="card">
+                <h3>Modo Práctica</h3>
+                <p>Entrena sin límite de tiempo para perfeccionar tus respuestas.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2025 Simulacro MTC | Proyecto académico</p>
+    </footer>
+
+    <script>
+    // Efecto al hacer scroll: los elementos con clase .scroll-animado se muestran suavemente
+    const animados = document.querySelectorAll('.scroll-animado');
+    const mostrarScroll = () => {
+        const scrollTop = window.scrollY;
+        const alturaVentana = window.innerHeight * 0.85;
+        animados.forEach(el => {
+            const distancia = el.getBoundingClientRect().top;
+            if (distancia < alturaVentana) {
+                el.classList.add('scroll-visible');
+            }
+        });
+    };
+    window.addEventListener('scroll', mostrarScroll);
+    mostrarScroll(); // Ejecuta una vez al cargar
+    </script>
+</body>
+</html>

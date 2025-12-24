@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados - MTC</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/styles.css') }}">
 </head>
 <body>
     <header>
         <h1>Simulacro MTC</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Inicio</a></li>
+                <li><a href="{{ url_for('simulacro') }}">Simulacro</a></li>
+                <li><a href="{{ url_for('preguntas') }}">Preguntas rápidas</a></li>
+                <li><a href="{{ url_for('resultados') }}" class="active">Resultados</a></li>
+                <li><a href="{{ url_for('perfil') }}">Perfil</a></li>
+                <li><a href="{{ url_for('logout') }}">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="../../public/index.html">Inicio</a></li>
-            <li><a href="simulacro.html">Simulacro</a></li>
-            <li><a href="preguntas.html">Preguntas rápidas</a></li>
-            <li><a href="resultados.html" class="active">Resultados</a></li>
-            <li><a href="perfil.html">Perfil</a></li>
-        </ul>
-    </nav>
 
     <main>
         <section>
@@ -35,8 +35,8 @@
 
             <div class="acciones">
                 <button class="boton-inicio" id="btn-ver-detalles">Ver detalles de respuestas</button>
-                <a href="simulacro.html" class="boton-inicio">Reintentar simulacro</a>
-                <a href="../../public/index.html" class="boton-inicio">Volver al inicio</a>
+                <a href="{{ url_for('simulacro') }}" class="boton-inicio">Reintentar simulacro</a>
+                <a href="{{ url_for('index') }}" class="boton-inicio">Volver al inicio</a>
             </div>
 
             <!-- Sección de detalles (oculta inicialmente) -->

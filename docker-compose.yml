@@ -1,0 +1,68 @@
+services:
+  # ============================================
+  # SERVICIO 1: Base de Datos MySQL
+  # ============================================
+  db:
+    image: mysql:8.0
+    container_name: simulacro_mysql
+    restart: always
+    environment:
+      # Credenciales de la base de datos
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: simulacro_mtc
+      MYSQL_USER: simulacro
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      # Persistir datos de MySQL en un volumen
+      - mysql_data:/var/lib/mysql
+      # Ejecutar el script de inicialización automáticamente
+      - ./init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
+    networks:
+      - simulacro_network
+    healthcheck:
+      # Verificar que MySQL esté listo antes de iniciar Flask
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpassword"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # ============================================
+  # SERVICIO 2: Aplicación Flask
+  # ============================================
+  web:
+    build: .
+    container_name: simulacro_flask
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      # Variables de entorno para conectar a MySQL
+      MYSQL_HOST: db
+      MYSQL_USER: simulacro
+      MYSQL_PASSWORD: password
+      MYSQL_DB: simulacro_mtc
+      FLASK_ENV: production
+    volumes:
+      # Montar el código para desarrollo (opcional, comentar en producción)
+      - .:/app
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - simulacro_network
+
+# ============================================
+# VOLÚMENES
+# ============================================
+volumes:
+  mysql_data:
+    driver: local
+
+# ============================================
+# REDES
+# ============================================
+networks:
+  simulacro_network:
+    driver: bridge
