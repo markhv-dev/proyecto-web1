@@ -14,25 +14,34 @@ import json
 app = Flask(__name__)
 app.secret_key = 'tu-clave-secreta-super-segura-cambiala-en-produccion'  # CAMBIAR en producción
 
+
 # ============================================
 # CONFIGURACIÓN DE BASE DE DATOS
+# ============================================
+# CONFIGURACIÓN DE BASE DE DATOS (GRUPAL)
+# ============================================
+# CONFIGURACIÓN DE BASE DE DATOS (AIVEN)
 # ============================================
 DB_CONFIG = {
     'host': os.getenv('MYSQL_HOST'),
     'user': os.getenv('MYSQL_USER'),
     'password': os.getenv('MYSQL_PASSWORD'),
     'database': os.getenv('MYSQL_DB'),
-    'port': int(os.getenv('MYSQL_PORT', 3306))  
+    'port': int(os.getenv('MYSQL_PORT', 27925)), # Puerto de Aiven
+    'ssl_ca': 'ca.pem',              # Nombre del archivo del certificado
+    'ssl_verify_cert': True          # Para asegurar conexión cifrada
 }
 
 def get_db_connection():
-    """Crea y retorna una conexión a la base de datos MySQL"""
+    """Crea y retorna una conexión a la base de datos MySQL con SSL"""
     try:
+        # Aiven requiere SSL, pasamos los argumentos de DB_CONFIG
         conn = mysql.connector.connect(**DB_CONFIG)
         return conn
     except mysql.connector.Error as err:
         print(f"Error de conexión a BD: {err}")
         return None
+
 
 # ============================================
 # DECORADORES DE AUTENTICACIÓN
