@@ -14,6 +14,7 @@ import json
 app = Flask(__name__)
 app.secret_key = 'tu-clave-secreta-super-segura-cambiala-en-produccion'  # CAMBIAR en producción
 
+
 # ============================================
 # CONFIGURACIÓN DE BASE DE DATOS
 # ============================================
