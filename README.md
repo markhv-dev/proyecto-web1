@@ -12,6 +12,19 @@ Aplicación web completa que permite a los usuarios:
 - Consultar historial de simulacros realizados en el perfil
 - Acceder a más de 1000 preguntas organizadas en 9 categorías oficiales del MTC
 
+
+## Contribuidores
+
+## Equipo de Desarrollo y Calificación
+
+| Integrante                         | Rol    | Calificación |
+|-----------------------------------|--------|--------------|
+| Ana Pamela Miranda Lopinta        | Líder  | 19           |
+| Mark Harry Hancco Vargas          | Miembro| 20           |
+| Aleyda Luz Quispe Hacha            | Miembro| 19           |
+
+
+
 ## Tecnologías Utilizadas
 
 ### Backend
@@ -275,14 +288,9 @@ sudo systemctl stop mariadb
 
 ---
 
-## Contribuidores
-
-**Equipo de Desarrollo**
-- [Nombres de los integrantes del equipo]
-
 **Proyecto Académico**
 - Curso: Desarrollo Web I
-- Universidad: [Nombre de la universidad]
+- Universidad: Universidad Nacional de San Agustin de Arequipa
 - Año: 2025
 
 ---
@@ -293,12 +301,5 @@ Este proyecto es de carácter académico y educativo.
 
 ---
 
-## Contacto y Soporte
-
-Para reportar errores o sugerencias:
-- Repositorio: [URL del repositorio GitHub]
-- Email: [Email de contacto]
-
----
 
 **Última actualización**: Diciembre 2025
