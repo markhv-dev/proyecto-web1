@@ -18,10 +18,11 @@ app.secret_key = 'tu-clave-secreta-super-segura-cambiala-en-produccion'  # CAMBI
 # CONFIGURACIÓN DE BASE DE DATOS
 # ============================================
 DB_CONFIG = {
-    'host': os.getenv('MYSQL_HOST', 'localhost'),
-    'user': os.getenv('MYSQL_USER', 'simulacro'),
-    'password': os.getenv('MYSQL_PASSWORD', 'password'),
-    'database': os.getenv('MYSQL_DB', 'simulacro_mtc')
+    'host': os.getenv('MYSQL_HOST'),
+    'user': os.getenv('MYSQL_USER'),
+    'password': os.getenv('MYSQL_PASSWORD'),
+    'database': os.getenv('MYSQL_DB'),
+    'port': int(os.getenv('MYSQL_PORT', 3306))  
 }
 
 def get_db_connection():
